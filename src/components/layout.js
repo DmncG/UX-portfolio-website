@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
+import { motion } from 'framer-motion'
 
 const GET_TITLE = graphql`
   query{
@@ -25,8 +26,20 @@ const Layout = ({ pageTitle, children }) => {
           <li><Link to="/blog">Blog</Link></li>
         </ul>
       </nav>
-      <h1>{pageTitle}</h1>
-      {children}
+      <motion.main
+          initial={{ opacity: 0, x: -200 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: 200 }}
+          transition={{
+            type: "spring",
+            mass: 0.35,
+            stiffness: 75,
+            duration: 0.3
+          }}
+        >
+        <h1>{pageTitle}</h1>
+        {children}
+      </motion.main>
     </main>
   )
 }
