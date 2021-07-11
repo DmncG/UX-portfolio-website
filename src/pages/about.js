@@ -2,8 +2,8 @@ import React from 'react';
 import Layout from '../components/layout';
 
 const About = () => (
-  <Layout pageTitle="About Me">
-    
+  <Layout pageTitle="About">
+    About Me
   </Layout>
 )
 
