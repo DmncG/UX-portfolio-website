@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from '../components/layout'
-import Profile from '../components/home/profile'
+import ParticleCanvas from '../components/home/particleCanvas'
+import Home from '../components/home/home'
 import { StaticImage } from "gatsby-plugin-image"
 
 // markup
@@ -12,8 +13,9 @@ const IndexPage = () => {
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
         src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
       /> */}
-      <div className="w-screen">
-      <Profile />
+      <div>
+      <ParticleCanvas />
+      <Home />
       </div>
     </Layout>
   )

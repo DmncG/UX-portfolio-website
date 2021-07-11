@@ -41,6 +41,7 @@ module.exports = {
       emerald: colors.emerald,
       rose: colors.rose,
       purple: colors.purple,
+      white: colors.white,
     },
     fontFamily: {
       display: [
@@ -93,7 +94,12 @@ module.exports = {
       ],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'home-experience': "url('../../src/images/buyout_strandexterior3.jpg')",
+        'home-about': "url('../../src/images/profile.jpg')",
+      })
+    },
   },
   variants: {
     extend: {},

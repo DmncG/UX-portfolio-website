@@ -17,15 +17,15 @@ const Layout = ({ pageTitle, children }) => {
 
   return (
     <main>
-      <title>{pageTitle} | {data?.site?.siteMetadata?.title}</title>
-      <p>{data?.site?.siteMetadata?.title}</p>
-      <nav>
+      {/* <title>{pageTitle} | {data?.site?.siteMetadata?.title}</title>
+      <p>{data?.site?.siteMetadata?.title}</p> */}
+      {/* <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/blog">Blog</Link></li>
         </ul>
-      </nav>
+      </nav> */}
       <motion.main
           initial={{ opacity: 0, x: -200 }}
           animate={{ opacity: 1, x: 0 }}
@@ -37,7 +37,6 @@ const Layout = ({ pageTitle, children }) => {
             duration: 0.3
           }}
         >
-        <h1>{pageTitle}</h1>
         {children}
       </motion.main>
     </main>

@@ -2,7 +2,7 @@ import React from 'react'
 import Particles from 'react-tsparticles'
 // import JSONData from '../../../content/particle-config.json'
 
-const Profile = () => {
+const ParticleCanvas = () => {
   const particlesInit = (main) => {
   }
 
@@ -25,12 +25,12 @@ const Profile = () => {
         },
         "fullScreen":{
         "enable":true,
-        "zIndex":1
+        "zIndex":-1
         },
         "interactivity":{
         "events":{
         "onClick":{
-        "enable":true,
+        "enable":false,
         "mode":"push"
         },
         "onHover":{
@@ -119,4 +119,4 @@ const Profile = () => {
   )
 }
 
-export default Profile;
+export default ParticleCanvas;
