@@ -29,7 +29,7 @@ module.exports = {
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "dominicrossgarcia.gatsbyjs.io",
+        // cookieDomain: "auto",
         // defaults to false
         enableWebVitalsTracking: true,
       },
