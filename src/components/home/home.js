@@ -51,13 +51,13 @@ const Home = () => {
             Projects
           </div>
 
-          <div className="w-full h-96 md:h-screen bg-home-experience md:scroll-snap-align-start">
+          <div className="w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat md:scroll-snap-align-start">
             <div className="w-full h-96 md:h-screen bg-peachOrange mix-blend-hard-light">
               Experience
             </div>
           </div>
 
-          <div className="w-full h-96 md:h-screen bg-home-about md:scroll-snap-align-start">
+          <div className="w-full h-96 md:h-screen bg-home-about md:scroll-snap-align-start bg-cover bg-no-repeat">
             <div className="w-full h-96 md:h-screen bg-terracota mix-blend-hard-light">
               About
             </div>
