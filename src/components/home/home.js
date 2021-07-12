@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <main className="md:grid md:grid-cols-2 md:relative">
-        <section className="md:sticky md:top-0 md:h-screen">
+        <section className="md:sticky md:top-0 h-screen">
 
           <div className="flex flex-col justify-center">
             <div className="rounded-full bg-gunPowder h-48 lg:h-80 w-48 lg:w-80 flex items-center justify-center mx-auto my-4">
