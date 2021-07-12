@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image'
+import Button from '../button/Button'
 import pdfCV from '../../downloads/CV_Dominic_Garcia_4_05_2021.pdf'
 
 
@@ -37,7 +38,7 @@ const Home = () => {
               <Link className="hover:text-terracota" to="/about">About</Link>
             </div>
 
-            <div className="rounded-md w-72 lg:w-96 mx-auto my-8 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
+            <div className="shadow-md hover:shadow-xl rounded-md w-72 lg:w-96 mx-auto my-8 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
               <a className="py-3 text-lg lg:text-2xl font-semibold font-display" download="CV_Dominic_Ross_Garcia.pdf" href={pdfCV}>
                 Download CV
               </a>
@@ -50,22 +51,37 @@ const Home = () => {
           <div className="w-full h-96 md:h-screen bg-gunPowder md:scroll-snap-align-start overflow-hidden">
             <StaticImage className="p-1 my-4 mx-auto relative" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
             <StaticImage className="p-1 relative -top-28 left-20" src="../../images/Clay Dark.png" alt="mobile mockup" />
-            <Link to="/projects" className="hover:bg-color-terracota-light">
-              <div className="rounded-full w-48 h-48 flex justify-center items-center bg-terracota m-2">
-                <p className="">Projects.</p>
-              </div>
-            </Link>
+            <Button
+              label="Projects."
+              link="/projects"
+              type="link"
+              size="lg"
+              shape="circle"
+            />
           </div>
 
           <div className="w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat md:scroll-snap-align-start">
             <div className="w-full h-96 md:h-screen bg-peachOrange mix-blend-hard-light">
-              Experience
+              <Button
+                label="Experience."
+                link="/experience"
+                type="link"
+                size="lg"
+                shape="circle"
+                alt
+              />
             </div>
           </div>
 
           <div className="w-full h-96 md:h-screen bg-home-about md:scroll-snap-align-start bg-cover bg-no-repeat">
             <div className="w-full h-96 md:h-screen bg-terracota mix-blend-hard-light">
-              About
+              <Button
+                label="About."
+                link="/about"
+                type="link"
+                size="lg"
+                shape="circle"
+              />
             </div>
           </div>
         </section>
