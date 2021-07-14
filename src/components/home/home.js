@@ -60,8 +60,7 @@ const Home = () => {
             />
           </div>
 
-          <div className="w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat md:scroll-snap-align-start">
-            <div className="w-full h-96 md:h-screen bg-peachOrange mix-blend-hard-light">
+          <div className="w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat md:scroll-snap-align-start bg-blend-soft-light">
               <Button
                 label="Experience."
                 link="/experience"
@@ -70,11 +69,9 @@ const Home = () => {
                 shape="circle"
                 alt
               />
-            </div>
           </div>
 
-          <div className="w-full h-96 md:h-screen bg-home-about md:scroll-snap-align-start bg-cover bg-no-repeat">
-            <div className="w-full h-96 md:h-screen bg-terracota mix-blend-hard-light">
+          <div className="w-full h-96 md:h-screen bg-home-about md:scroll-snap-align-start bg-cover bg-no-repeat bg-blend-soft-light">
               <Button
                 label="About."
                 link="/about"
@@ -82,7 +79,6 @@ const Home = () => {
                 size="lg"
                 shape="circle"
               />
-            </div>
           </div>
         </section>
       </main>
