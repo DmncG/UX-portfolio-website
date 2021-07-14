@@ -96,8 +96,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: theme => ({
-        'home-experience': "linear-gradient(to right bottom, rgba(43, 108, 176, 0.9), rgba(43, 108, 176, 0.9)), url('../../src/images/buyout_strandexterior3.jpg')",
-        'home-about': "linear-gradient(to right bottom, rgba(43, 108, 176, 1), rgba(43, 108, 176, 1)), url('../../src/images/profile.jpg')",
+        'home-experience': "linear-gradient(to right bottom, rgba(242, 204, 143, 1), rgba(242, 204, 143, 1)), url('../../src/images/buyout_strandexterior3.jpg')",
+        'home-about': "linear-gradient(to right bottom, rgba(224, 122, 95, 1), rgba(224, 122, 95, 1)), url('../../src/images/profile.jpg')",
       })
     },
   },

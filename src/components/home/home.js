@@ -60,24 +60,24 @@ const Home = () => {
             />
           </div>
 
-          <div className="w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat md:scroll-snap-align-start bg-blend-soft-light">
+          <div className="w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat md:scroll-snap-align-start bg-blend-hard-light">
               <Button
                 label="Experience."
                 link="/experience"
                 type="link"
                 size="lg"
                 shape="circle"
-                alt
               />
           </div>
 
-          <div className="w-full h-96 md:h-screen bg-home-about md:scroll-snap-align-start bg-cover bg-no-repeat bg-blend-soft-light">
+          <div className="w-full h-96 md:h-screen bg-home-about md:scroll-snap-align-start bg-cover bg-no-repeat bg-blend-hard-light">
               <Button
                 label="About."
                 link="/about"
                 type="link"
                 size="lg"
                 shape="circle"
+                alt
               />
           </div>
         </section>
