@@ -57,7 +57,7 @@ const Home = () => {
                 link="/projects"
                 type="link"
                 size="lg"
-                shape="circle"
+                color="terracota"
               />
             </div>
           </div>
@@ -70,6 +70,7 @@ const Home = () => {
                 type="link"
                 size="lg"
                 shape="circle"
+                color='padua'
               />
             </div>
           </div>
@@ -82,7 +83,7 @@ const Home = () => {
                 type="link"
                 size="lg"
                 shape="circle"
-                alt
+                color='gunPowder'
               />
             </div>
           </div>
