@@ -5,9 +5,10 @@ import { StaticImage } from 'gatsby-plugin-image'
 const About = () => (
   <Layout pageTitle="About">
     <div className="w-screen h-screen bg-gunPowder p-4">
-      <div className="overflow-hidden rounded-full w-60 h-60 flex justify-center mx-auto border-4 border-terracota">
-        <StaticImage src="../images/profile.jpg" alt="profile" />
+      <div className="flex justify-center">
+        <StaticImage className="rounded-full w-60 h-60 border-4 border-terracota" src="../images/profile.jpg" alt="profile" />
       </div>
+      
       <div>
         <h1 className="font-display text-4xl my-4 font-semibold text-rice">About</h1>
         <div>
@@ -18,6 +19,7 @@ const About = () => (
             I'm a UX Designer/Fullstack Engineer based in New York City.
             <br />
             <br />
+            
             {/* Currently, I'm working on a building a Shopify-based ecommerce website that sells a wide variety of wood products */}
           </p>
         </div>
