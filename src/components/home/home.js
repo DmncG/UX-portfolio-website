@@ -83,7 +83,7 @@ const Home = () => {
                 type="link"
                 size="lg"
                 shape="circle"
-                color="padua"
+                color="gunPowder"
               />
             </div>
           </div>
