@@ -6,7 +6,7 @@ const About = () => (
   <Layout pageTitle="About">
     <div className="w-screen h-screen bg-gunPowder p-4">
       <div className="flex justify-center">
-        <StaticImage className="rounded-full w-60 h-60 border-4 border-terracota" src="../images/profile.jpg" alt="profile" />
+        <StaticImage className="overflow-hidden rounded-full w-60 h-60 border-4 border-terracota" src="../images/profile.jpg" alt="profile" />
       </div>
       
       <div>
