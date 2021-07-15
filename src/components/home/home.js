@@ -70,7 +70,7 @@ const Home = () => {
                 type="link"
                 size="lg"
                 shape="circle"
-                color='padua'
+                color="padua"
               />
             </div>
           </div>
@@ -83,7 +83,7 @@ const Home = () => {
                 type="link"
                 size="lg"
                 shape="circle"
-                color='gunPowder'
+                color="gunPowder"
               />
             </div>
           </div>

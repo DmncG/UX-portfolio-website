@@ -22,15 +22,15 @@ module.exports = {
         DEFAULT: '#3D405B',
         dark: '#1F202E',
       },
-      padua: {
-        light: '#C0D8CC',
-        DEFAULT: '#81B29A',
-        dark: '#3A5F4D',
-      },
       peachOrange: {
         light: '#F8E5C6',
         DEFAULT: '#F2CC8F',
         dark: '#AB7114',
+      },
+      padua: {
+        light: '#C0D8CC',
+        DEFAULT: '#81B29A',
+        dark: '#3A5F4D',
       },
       gray: colors.gray,
       coolGray: colors.coolGray,
