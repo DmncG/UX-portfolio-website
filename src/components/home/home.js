@@ -48,19 +48,22 @@ const Home = () => {
         </section>
 
         <section className="md:scroll-snap-y-mandatory">
-          <div className="w-full h-96 md:h-screen bg-gunPowder md:scroll-snap-align-start overflow-hidden">
-            <StaticImage className="p-1 my-4 mx-auto relative" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
-            <StaticImage className="p-1 relative -top-28 left-20" src="../../images/Clay Dark.png" alt="mobile mockup" />
-            <Button
-              label="Projects."
-              link="/projects"
-              type="link"
-              size="lg"
-              shape="circle"
-            />
+          <div className=" relative w-full h-96 md:h-screen bg-gunPowder md:scroll-snap-align-start overflow-hidden">
+            <StaticImage className="p-1 my-4 mx-auto relative mix-blend-soft-light" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
+            <StaticImage className="p-1 relative -top-28 left-20 mix-blend-soft-light" src="../../images/Clay Dark.png" alt="mobile mockup" />
+            <div className="absolute bottom-2 md:bottom-8 left-2 md:left-8">
+              <Button
+                label="Projects."
+                link="/projects"
+                type="link"
+                size="lg"
+                shape="circle"
+              />
+            </div>
           </div>
 
-          <div className="w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat md:scroll-snap-align-start bg-blend-hard-light">
+          <div className="relative w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat md:scroll-snap-align-start bg-blend-hard-light">
+            <div className="absolute bottom-2 md:bottom-8 right-2 md:right-8">
               <Button
                 label="Experience."
                 link="/experience"
@@ -68,9 +71,11 @@ const Home = () => {
                 size="lg"
                 shape="circle"
               />
+            </div>
           </div>
 
-          <div className="w-full h-96 md:h-screen bg-home-about md:scroll-snap-align-start bg-cover bg-no-repeat bg-blend-hard-light">
+          <div className="relative w-full h-96 md:h-screen bg-home-about md:scroll-snap-align-start bg-cover bg-no-repeat bg-blend-hard-light">
+            <div className="absolute bottom-2 md:bottom-8 left-2 md:left-8">
               <Button
                 label="About."
                 link="/about"
@@ -79,6 +84,7 @@ const Home = () => {
                 shape="circle"
                 alt
               />
+            </div>
           </div>
         </section>
       </main>
