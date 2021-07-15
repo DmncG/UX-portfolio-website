@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
+import Footer from './footer/Footer'
 import { motion } from 'framer-motion'
 
 const GET_TITLE = graphql`
@@ -38,6 +39,7 @@ const Layout = ({ pageTitle, children }) => {
           }}
         >
         {children}
+        <Footer />
       </motion.main>
     </main>
   )
