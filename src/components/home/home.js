@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../button/Button'
-import logo from '../../images/portfolio_logo_white.png'
+import logo from '../../images/portfolio_logo_rice.png'
 import pdfCV from '../../downloads/CV_Dominic_Garcia_4_05_2021.pdf'
 
 
