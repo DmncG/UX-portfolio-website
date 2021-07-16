@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../button/Button'
+import logo from '../../images/portfolio_logo_white.png'
 import pdfCV from '../../downloads/CV_Dominic_Garcia_4_05_2021.pdf'
 
 
@@ -13,7 +14,8 @@ const Home = () => {
 
           <div className="flex flex-col justify-center">
             <div className="rounded-full bg-gunPowder h-48 lg:h-80 w-48 lg:w-80 flex items-center justify-center mx-auto my-4">
-              <h1 className="font-display font-semibold text-center text-7xl lg:text-9xl text-white">drg</h1>
+              <img src={logo} alt="drg" />
+              {/* <h1 className="font-display font-semibold text-center text-7xl lg:text-9xl text-white">drg</h1> */}
             </div>
 
             <div className="flex flex-col justify-center p-2 m-2">
@@ -49,7 +51,7 @@ const Home = () => {
 
         <section className="md:scroll-snap-y-mandatory">
           <div className=" relative w-full h-96 md:h-screen bg-gunPowder md:scroll-snap-align-start overflow-hidden">
-            <StaticImage className="p-1 my-4 mx-auto relative mix-blend-soft-light" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
+            <StaticImage className="p-1 relative mix-blend-soft-light" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
             <StaticImage className="p-1 relative -top-28 lg:-top-36 xl:-top-60 left-20 lg:left-36 xl:left-60 mix-blend-soft-light" src="../../images/Clay Dark.png" alt="mobile mockup" />
             <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8">
               <Button
