@@ -51,8 +51,8 @@ const Home = () => {
 
         <section className="md:scroll-snap-y-mandatory">
           <div className=" relative w-full h-96 md:h-screen bg-gunPowder md:scroll-snap-align-start overflow-hidden">
-            <StaticImage className="p-1 relative mix-blend-soft-light" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
-            <StaticImage className="p-1 relative -top-28 lg:-top-36 xl:-top-60 left-20 lg:left-36 xl:left-60 mix-blend-soft-light" src="../../images/Clay Dark.png" alt="mobile mockup" />
+            <StaticImage className="p-1 relative 2xl:top-28 2xl:left-72 mix-blend-soft-light" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
+            <StaticImage className="p-1 relative -top-28 lg:-top-36 xl:-top-60 2xl:top-60 left-20 lg:left-36 xl:left-60 2xl:-left-16 mix-blend-soft-light" src="../../images/Clay Dark.png" alt="mobile mockup" />
             <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8">
               <Button
                 label="Projects."
