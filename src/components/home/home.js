@@ -10,7 +10,7 @@ import pdfCV from '../../downloads/CV_Dominic_Garcia_4_05_2021.pdf'
 const Home = () => {
   return (
     <div>
-      <main className="md:grid md:grid-cols-2 md:relative">
+      <main className="md:grid md:grid-cols-2 md:relative scroll-behavior-smooth">
         <section className="md:sticky md:top-0 h-screen">
 
           <div className="flex flex-col justify-center">
@@ -46,7 +46,7 @@ const Home = () => {
                 Download CV
               </a>
             </div>
-            <div className="md:hidden my-1 text-padua opacity-1/2 flex justify-center items-center animate-bounce">
+            <div className="md:hidden my-1 text-terracota-dark opacity-1/2 flex justify-center items-center animate-bounce">
               <a href="#projects">
                 <ArrowDropDownCircleOutlinedIcon fontSize="large" />
               </a>
