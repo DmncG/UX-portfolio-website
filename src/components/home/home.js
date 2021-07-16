@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image'
+import ArrowDropDownCircleOutlinedIcon from '@material-ui/icons/ArrowDropDownCircleOutlined';
 import Button from '../button/Button'
 import logo from '../../images/portfolio_logo_rice.png'
 import pdfCV from '../../downloads/CV_Dominic_Garcia_4_05_2021.pdf'
@@ -43,6 +44,11 @@ const Home = () => {
             <div className="shadow-md hover:shadow-xl rounded-md w-72 lg:w-96 mx-auto my-8 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
               <a className="py-3 text-lg lg:text-2xl font-semibold font-display" download="CV_Dominic_Ross_Garcia.pdf" href={pdfCV}>
                 Download CV
+              </a>
+            </div>
+            <div className="md:hidden my-1 text-padua opacity-1/2 flex justify-center items-center animate-bounce">
+              <a href="#projects">
+                <ArrowDropDownCircleOutlinedIcon fontSize="large" />
               </a>
             </div>
           </div>
