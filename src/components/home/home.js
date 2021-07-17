@@ -55,8 +55,8 @@ const Home = () => {
 
         </section>
 
-        <section className="md:scroll-snap-y-mandatory" id="projects">
-          <div className=" relative w-full h-96 md:h-screen bg-gunPowder md:scroll-snap-align-start overflow-hidden">
+        <section id="projects">
+          <div className=" relative w-full h-96 md:h-screen bg-gunPowder overflow-hidden">
             <StaticImage className="p-1 relative 2xl:top-28 2xl:left-72 mix-blend-soft-light" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
             <StaticImage className="p-1 relative -top-28 lg:-top-36 xl:-top-60 2xl:top-60 left-20 lg:left-36 xl:left-60 2xl:-left-16 mix-blend-soft-light" src="../../images/Clay Dark.png" alt="mobile mockup" />
             <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8">
@@ -70,7 +70,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="relative w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat md:scroll-snap-align-start bg-blend-hard-light">
+          <div className="relative w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat bg-blend-hard-light">
             <div className="absolute bottom-3 md:bottom-8 right-3 md:right-8">
               <Button
                 label="Experience."
@@ -83,7 +83,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="relative w-full h-96 md:h-screen bg-home-about md:scroll-snap-align-start bg-cover bg-no-repeat bg-blend-hard-light">
+          <div className="relative w-full h-96 md:h-screen bg-home-about bg-cover bg-no-repeat bg-blend-hard-light">
             <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8">
               <Button
                 label="About."
