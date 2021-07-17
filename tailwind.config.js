@@ -2,23 +2,6 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
-  safeList: [
-    'bg-padua',
-    'bg-padua-dark',
-    'bg-padua-light',
-    'bg-terracota',
-    'bg-terracota-dark',
-    'bg-terracota-light',
-    'bg-rice',
-    'bg-rice-dark',
-    'bg-rice-light',
-    'bg-peachOrange',
-    'bg-peachOrange-dark',
-    'bg-peachOrange-light',
-    'bg-gunPowder',
-    'bg-gunPowder-dark',
-    'bg-gunPowder-light',
-  ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     colors: {
