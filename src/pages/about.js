@@ -19,7 +19,7 @@ const About = () => (
             I'm a UX Designer/Fullstack Engineer based in New York City.
             <br />
             <br />
-            
+            You can reach me at +1 929-346-2591 or micksdev@gmail.com.
             {/* Currently, I'm working on a building a Shopify-based ecommerce website that sells a wide variety of wood products */}
           </p>
         </div>
