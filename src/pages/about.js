@@ -2,8 +2,8 @@ import React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 
-const About = () => (
-  <Layout pageTitle="About">
+const About = ({ location }) => (
+  <Layout pageTitle="About" location={location}>
     <div className="w-screen h-screen bg-gunPowder p-4">
       <div className="flex justify-center">
         <StaticImage placeholder="blurred" imgStyle={{ borderRadius: '50%' }} className="overflow-hidden rounded-full w-60 h-60 border-4 border-terracota" src="../images/profile.jpg" alt="profile" />

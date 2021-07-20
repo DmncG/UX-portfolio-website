@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import Footer from './footer/Footer'
+import Navbar from './navBar/Navbar'
 import { motion } from 'framer-motion'
 
 const GET_TITLE = graphql`
@@ -13,11 +14,11 @@ const GET_TITLE = graphql`
   }
 `;
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ pageTitle, children, location }) => {
   const data = useStaticQuery(GET_TITLE);
-
   return (
     <main>
+      <Navbar location={location} />
       {/* <title>{pageTitle} | {data?.site?.siteMetadata?.title}</title>
       <p>{data?.site?.siteMetadata?.title}</p> */}
       {/* <nav>
