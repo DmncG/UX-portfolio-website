@@ -11,14 +11,14 @@ import IconButton from '@material-ui/core/IconButton'
 import NavDrawer from '../navDrawer/NavDrawer'
 
 function HideOnScroll(props) {
-  const { children, window } = props;
+  const { children, window, location } = props;
   // Note that you normally won't need to set the window ref as useScrollTrigger
   // will default to window.
   // This is only being set here because the demo is in an iframe.
   const trigger = useScrollTrigger({ target: window ? window() : undefined });
 
   return (
-    <Slide appear={false} direction="down" in={!trigger}>
+    <Slide appear={false} direction="down" in={location.pathname === '/' ? false : !trigger}>
       {children}
     </Slide>
   );
@@ -26,11 +26,11 @@ function HideOnScroll(props) {
 
 
 const Navbar = (props) => {
+  console.log(props);
 
   const useStyles = makeStyles({
     rootAppBar: {
       backgroundColor: '#3d405b',
-      display: props?.location?.pathname === '/' ? 'none' : 'flex',
       // backgroundColor: '#1f202e',
       // backgroundColor: '#87311a',
     },
