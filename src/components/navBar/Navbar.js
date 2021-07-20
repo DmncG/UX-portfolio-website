@@ -18,7 +18,7 @@ function HideOnScroll(props) {
   const trigger = useScrollTrigger({ target: window ? window() : undefined });
 
   return (
-    <Slide appear={false} direction="down" in={location.pathname === '/' ? false : !trigger}>
+    <Slide appear={false} direction="down" in={!trigger}>
       {children}
     </Slide>
   );
@@ -26,7 +26,6 @@ function HideOnScroll(props) {
 
 
 const Navbar = (props) => {
-  console.log(props);
 
   const useStyles = makeStyles({
     rootAppBar: {

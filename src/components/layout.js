@@ -18,7 +18,10 @@ const Layout = ({ pageTitle, children, location }) => {
   const data = useStaticQuery(GET_TITLE);
   return (
     <main>
-      <Navbar location={location} />
+      {
+        location?.pathname !== '/'
+          && <Navbar location={location} />
+      }
       {/* <title>{pageTitle} | {data?.site?.siteMetadata?.title}</title>
       <p>{data?.site?.siteMetadata?.title}</p> */}
       {/* <nav>
