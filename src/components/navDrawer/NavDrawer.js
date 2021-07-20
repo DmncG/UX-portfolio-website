@@ -26,14 +26,18 @@ const NavDrawer = ({ open, onClose }) => {
 
   return (
     <Drawer PaperProps={{ classes: { root: classes.rootDrawer } }} open={open} onClose={onClose}>
-      <div className="w-52">
-        <IconButton classes={{ root: classes.rootIconButton }} onClick={onClose} aria-label="close-icon">
-          <CloseRoundedIcon classes={{ root: classes.rootIcon }}/>
-        </IconButton>
+      <div className="w-60">
+        <div className="flex justify-end">
+          <IconButton className="" classes={{ root: classes.rootIconButton }} onClick={onClose} aria-label="close-icon">
+            <CloseRoundedIcon classes={{ root: classes.rootIcon }}/>
+          </IconButton>
+        </div>
 
-        <Link to="/">
-          <StaticImage className="w-28 block mx-auto my-2" src="../../images/portfolio_logo_rice.png" alt="drg logo" />
-        </Link>
+        <div className="flex justify-center">
+          <Link to="/">
+            <StaticImage className="w-28 block mx-auto" src="../../images/portfolio_logo_rice.png" alt="drg logo" />
+          </Link>
+        </div>
 
         <div className="flex flex-col justify-center text-rice text-center text-lg font-display">
           <Link to="/projects" className="p-2 my-1 hover:text-terracota">
