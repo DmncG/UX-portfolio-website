@@ -98,12 +98,22 @@ module.exports = {
       backgroundImage: theme => ({
         'home-experience': "linear-gradient(to right bottom, rgba(242, 204, 143, 1), rgba(242, 204, 143, 1)), url('../../src/images/buyout_strandexterior3.jpg')",
         'home-about': "linear-gradient(to right bottom, rgba(224, 122, 95, 1), rgba(224, 122, 95, 1)), url('../../src/images/profile.jpg')",
-      })
+      }),
+      keyframes: {
+        'line-extend': {
+          '0%': { width: '0px', opacity: 0, height: '2px', position: 'absolute', 'background-color': '#E07A5F' },
+          '100%': { width: '16px', opacity: 1 },
+        },
+      },
+      animation: {
+        'line-extend': 'line-extend 1s ease'
+      }
     },
   },
   variants: {
     extend: {
-      animation: ['hover, focus, active']
+      animation: ['hover', 'focus', 'active'],
+      display: ['hover', 'focus'],
     },
   },
   plugins: [],

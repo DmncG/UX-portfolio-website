@@ -36,7 +36,7 @@ const Home = () => {
             <div className="flex flex-row justify-center items-center p-1 m-1 font-body">
               <Link className="hover:text-terracota" to="/projects">Projects</Link>
               <p className="m-0.5">|</p>
-              <Link className="hover:text-terracota" to="/experience">Experience</Link>
+              <Link className="hover:text-terracota" to="/skills">Skills</Link>
               <p className="m-0.5">|</p>
               <Link className="hover:text-terracota" to="/about">About</Link>
             </div>
@@ -73,8 +73,8 @@ const Home = () => {
           <div className="relative w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat bg-blend-hard-light">
             <div className="absolute bottom-3 md:bottom-8 right-3 md:right-8">
               <Button
-                label="Experience."
-                link="/experience"
+                label="Skills."
+                link="/skills"
                 type="link"
                 size="lg"
                 shape="circle"

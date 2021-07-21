@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { makeStyles } from '@material-ui/core/styles'
+import { useMediaQuery } from '@material-ui/core'
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Slide from '@material-ui/core/Slide';
 import AppBar from '@material-ui/core/AppBar'
@@ -46,6 +47,7 @@ function HideOnScroll(props) {
 
 
 const Navbar = (props) => {
+  const match768 = useMediaQuery('(min-width: 768px)')
 
   const classes = useStyles()
 
@@ -63,15 +65,48 @@ const Navbar = (props) => {
 
             <div>
               <Link to="/">
-                <StaticImage className="w-16" src="../../images/portfolio_logo_rice.png" alt="drg logo" />
+                <StaticImage className="w-16 lg:w-20" src="../../images/portfolio_logo_rice.png" alt="drg logo" />
               </Link>
             </div>
 
-            <div>
-              <IconButton onClick={handleDrawer} aria-label="menu" classes={{ root: classes.rootIconButton }}>
-                <MenuRoundedIcon classes={{ root: classes.rootIcon }} />
-              </IconButton>
-            </div>
+            {
+              match768
+                ? (
+                  <div className="flex flex-row justify-center items-center">
+                    <div className="mx-4 p-1">
+                      <Link to="/projects" className="text-rice hover:text-terracota font-display text-md lg:text-lg text-normal">
+                        Projects
+                      </Link>
+                    </div>
+
+                    <div className="mx-4 p-1">
+                      <Link to="/skills" className="text-rice hover:text-terracota font-display text-md lg:text-lg text-normal">
+                        Skills
+                      </Link>
+                    </div>
+
+                    <div className="mx-4 p-1 relative">
+                      <Link to="/about" className="text-rice hover:text-terracota font-display text-md lg:text-lg text-normal">
+                        About
+                      </Link>
+                    </div>
+
+                    <div className="mx-4 p-1">
+                      <Link to="/contact" className="text-rice hover:text-terracota font-display text-md lg:text-lg text-normal">
+                        Contact
+                      </Link>
+                    </div>
+                    
+                  </div>
+                )
+                : (
+                  <div>
+                    <IconButton onClick={handleDrawer} aria-label="menu" classes={{ root: classes.rootIconButton }}>
+                      <MenuRoundedIcon classes={{ root: classes.rootIcon }} />
+                    </IconButton>
+                  </div>
+                )
+            }
 
           </Toolbar>
         </AppBar>
