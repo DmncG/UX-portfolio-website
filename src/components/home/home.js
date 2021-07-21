@@ -35,9 +35,9 @@ const Home = () => {
 
             <div className="flex flex-row justify-center items-center p-1 m-1 font-body">
               <Link className="hover:text-terracota" to="/projects">Projects</Link>
-              <p className="m-0.5">|</p>
+              <p className="m-2">|</p>
               <Link className="hover:text-terracota" to="/skills">Skills</Link>
-              <p className="m-0.5">|</p>
+              <p className="m-2">|</p>
               <Link className="hover:text-terracota" to="/about">About</Link>
             </div>
 
