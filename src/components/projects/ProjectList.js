@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const ProjectList = () => {
   return (
-    <main className="md:max-w-screen-sm lg:max-w-screen-lg md:mx-auto overflow-hidden">
+    <main className="md:max-w-screen-sm lg:max-w-screen-lg md:mx-auto lg:px-8 overflow-hidden">
       <div className="my-8 p-4">
         <h1 className="font-display font-semibold text-4xl md:text-6xl">Projects</h1>
         <div className="h-1 bg-terracota w-16 my-4 ml-1"/>
