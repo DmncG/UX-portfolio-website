@@ -59,7 +59,7 @@ const Home = () => {
           <div className=" relative w-full h-96 md:h-screen bg-gunPowder overflow-hidden">
             <StaticImage className="p-1 relative 2xl:top-28 2xl:left-72 mix-blend-soft-light" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
             <StaticImage className="p-1 relative -top-28 lg:-top-36 xl:-top-60 2xl:top-60 left-20 lg:left-36 xl:left-60 2xl:-left-16 mix-blend-soft-light" src="../../images/Clay Dark.png" alt="mobile mockup" />
-            <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8">
+            <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8 z-10">
               <Button
                 label="Projects."
                 link="/projects"
@@ -68,6 +68,7 @@ const Home = () => {
                 color="terracota"
               />
             </div>
+            <p className="absolute text-9xl font-bold text-rice lg:bottom-24 -right-16 lg:right-16 z-0 mix-blend-soft-light">Projects</p>
           </div>
 
           <div className="relative w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat bg-blend-hard-light">
