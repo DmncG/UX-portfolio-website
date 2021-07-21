@@ -1,6 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import moreArtDesktop from '../../images/Device - Macbook Pro.png'
+import moreArtMobile from '../../images/Clay Dark.png'
+import dolDesktop from '../../images/dol-macbook-pro.png'
+import dolMobile from '../../images/dol-mobile.png'
+import strandDesktop from '../../images/strand_macbook.png'
+import strandMobile from '../../images/strand_mobile.png'
 
 const ProjectList = () => {
   return (
@@ -12,8 +18,8 @@ const ProjectList = () => {
       
       <section className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 mb-8 relative">
         <div className="flex flex-col justify-center relative">
-          <StaticImage className="p-1 w-72 md:w-96 relative z-0 mx-auto" src="../../images/Device - Macbook Pro.png" alt="moreart macbook mockup" />
-          <StaticImage className="p-1 w-44 md:w-56 relative z-10 -top-28 -right-16 mx-auto" src="../../images/Clay Dark.png" alt="moreart mobile mockup" />
+          <StaticImage className="p-1 w-72 md:w-96 relative z-0 mx-auto" src={moreArtDesktop} alt="moreart macbook mockup" />
+          <StaticImage className="p-1 w-44 md:w-56 relative z-10 -top-28 -right-16 mx-auto" src={moreArtMobile} alt="moreart mobile mockup" />
         </div>
 
         <div className="p-1 my-1 mx-auto relative">
@@ -29,8 +35,8 @@ const ProjectList = () => {
 
       <section className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 mb-8 relative">
         <div className="flex flex-col justify-center">
-          <StaticImage className="p-1 w-72 md:w-96 relative z-0 mx-auto" src="../../images/dol-macbook-pro.png" alt="dol macbook mockup" />
-          <StaticImage className="p-1 w-24 md:w-36 relative z-10 -top-36 -right-24 md:-right-32 mx-auto" src="../../images/dol-mobile.png" alt="dol mobile mockup" />
+          <StaticImage className="p-1 w-72 md:w-96 relative z-0 mx-auto" src={dolDesktop} alt="dol macbook mockup" />
+          <StaticImage className="p-1 w-24 md:w-36 relative z-10 -top-36 -right-24 md:-right-32 mx-auto" src={dolMobile} alt="dol mobile mockup" />
         </div>
 
         <div>
@@ -60,6 +66,11 @@ const ProjectList = () => {
       </section> */}
 
       <section className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 relative">
+        <div className="flex flex-col justify-center">
+          <StaticImage className="p-1 w-72 md:w-96 relative z-0 mx-auto" src={strandDesktop} alt="strand macbook mockup" />
+          <StaticImage className="p-1 w-24 md:w-36 relative z-10 -top-36 -right-24 md:-right-32 mx-auto" src={strandMobile} alt="strand mobile mockup" />
+        </div>
+        
         <div>
           <h1 className="font-display font-semibold text-2xl md:text-4xl my-2">Bookstore Website</h1>
           <div className="h-1 bg-terracota w-16 my-4"/>
@@ -68,6 +79,7 @@ const ProjectList = () => {
             View this project
           </Link>
         </div>
+        <div className="rounded-full h-48 md:h-60 w-48 md:w-60 bg-gunPowder-light opacity-30 absolute z-0 bottom-16 md:bottom-4 lg:bottom-44 right-4 lg:left-auto lg:right-4" />
       </section>
     </main>
   )
