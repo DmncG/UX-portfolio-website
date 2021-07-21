@@ -1,12 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-import moreArtDesktop from '../../images/Device - Macbook Pro.png'
-import moreArtMobile from '../../images/Clay Dark.png'
-import dolDesktop from '../../images/dol-macbook-pro.png'
-import dolMobile from '../../images/dol-mobile.png'
-import strandDesktop from '../../images/strand_macbook.png'
-import strandMobile from '../../images/strand_mobile.png'
 
 const ProjectList = () => {
   return (
