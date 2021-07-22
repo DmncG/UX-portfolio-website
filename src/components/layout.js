@@ -43,8 +43,8 @@ const Layout = ({ pageTitle, children, location }) => {
           }}
         >
         {children}
-        <Footer />
       </motion.main>
+      <Footer />
     </main>
   )
 }
