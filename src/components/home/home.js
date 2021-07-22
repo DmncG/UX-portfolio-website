@@ -68,7 +68,7 @@ const Home = () => {
                 color="terracota"
               />
             </div>
-            <p className="absolute text-9xl font-bold text-rice lg:bottom-24 -right-16 lg:right-16 z-0 mix-blend-soft-light">Projects</p>
+            <p className="opacity-0 md:opacity-100 absolute text-9xl font-bold text-rice bottom-36 lg:bottom-44 xl:bottom-56 2xl:bottom-24 left-8 2xl:left-auto 2xl:right-8 z-0 mix-blend-soft-light">Projects.</p>
           </div>
 
           <div className="relative w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat bg-blend-hard-light">
