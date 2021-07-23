@@ -6,7 +6,7 @@ const ProjectList = () => {
   return (
     <div className="md:max-w-screen-sm lg:max-w-screen-lg md:mx-auto lg:px-8 overflow-hidden">
       <div className="my-8 p-4">
-        <h1 className="font-display font-semibold text-4xl md:text-6xl">Projects</h1>
+        <h1 className="font-display font-semibold text-4xl md:text-7xl">Projects</h1>
         <div className="h-1 bg-terracota w-16 my-4 ml-1"/>
       </div>
       
@@ -19,8 +19,8 @@ const ProjectList = () => {
         <div className="p-1 my-1 mx-auto relative">
           <h1 className="font-display font-semibold text-2xl md:text-4xl my-2">Non Profit Organization for the Arts</h1>
           <div className="h-1 bg-terracota w-16 my-4"/>
-          <h2 className="font-display font-normal text-xl mb-2">Redesigning <strong>MoreArt</strong>, an organization that supports collaboration between artists and communities to create public art</h2>
-          <Link to="/" className="font-body text-md text-terracota-dark hover:text-terracota my-1">
+          <h2 className="font-display font-normal text-lg mb-2">Redesigning <strong>MoreArt</strong>, an organization that supports collaboration between artists and communities to create public art</h2>
+          <Link to="/" className="font-body text-lg text-terracota-dark hover:text-terracota my-1">
             View this project
           </Link>
         </div>
@@ -36,8 +36,8 @@ const ProjectList = () => {
         <div>
           <h1 className="font-display font-semibold text-2xl md:text-4xl my-2">Government Agency Website</h1>
           <div className="h-1 bg-terracota w-16 my-4"/>
-          <h2 className="font-display font-normal text-xl mb-2"><strong>Department of Labor</strong> website redesign</h2>
-          <Link to="/" className="font-body text-md text-terracota-dark hover:text-terracota my-1">
+          <h2 className="font-display font-normal text-lg mb-2"><strong>Department of Labor</strong> website redesign</h2>
+          <Link to="/" className="font-body text-lg text-terracota-dark hover:text-terracota my-1">
             View this project
           </Link>
         </div>
@@ -68,8 +68,8 @@ const ProjectList = () => {
         <div>
           <h1 className="font-display font-semibold text-2xl md:text-4xl my-2">Bookstore Website</h1>
           <div className="h-1 bg-terracota w-16 my-4"/>
-          <h2 className="font-display font-normal text-xl mb-2">Development and implementation of the e-commerce platform of <strong>Strand Book Store</strong>, an independent bookstore based in New York City</h2>
-          <Link to="/" className="font-body text-md text-terracota-dark hover:text-terracota">
+          <h2 className="font-display font-normal text-lg mb-2">Development and implementation of the e-commerce platform of <strong>Strand Book Store</strong>, an independent bookstore based in New York City</h2>
+          <Link to="/" className="font-body text-lg text-terracota-dark hover:text-terracota">
             View this project
           </Link>
         </div>
