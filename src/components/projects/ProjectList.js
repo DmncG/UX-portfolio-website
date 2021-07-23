@@ -17,9 +17,9 @@ const ProjectList = () => {
         </div>
 
         <div className="p-1 my-1 mx-auto relative">
-          <h1 className="font-display font-semibold text-2xl md:text-4xl my-2">Non Profit Organization for the Arts</h1>
+          <h2 className="font-display font-semibold text-2xl md:text-4xl my-2">Non Profit Organization for the Arts</h2>
           <div className="h-1 bg-terracota w-16 my-4"/>
-          <h2 className="font-display font-normal text-lg mb-2">Redesigning <strong>MoreArt</strong>, an organization that supports collaboration between artists and communities to create public art</h2>
+          <h3 className="font-display font-normal text-lg mb-2">Redesigning <strong>MoreArt</strong>, an organization that supports collaboration between artists and communities to create public art</h3>
           <Link to="/" className="font-body text-lg text-terracota-dark hover:text-terracota my-1">
             View this project
           </Link>
@@ -34,9 +34,9 @@ const ProjectList = () => {
         </div>
 
         <div>
-          <h1 className="font-display font-semibold text-2xl md:text-4xl my-2">Government Agency Website</h1>
+          <h2 className="font-display font-semibold text-2xl md:text-4xl my-2">Government Agency Website</h2>
           <div className="h-1 bg-terracota w-16 my-4"/>
-          <h2 className="font-display font-normal text-lg mb-2"><strong>Department of Labor</strong> website redesign</h2>
+          <h3 className="font-display font-normal text-lg mb-2"><strong>Department of Labor</strong> website redesign</h3>
           <Link to="/" className="font-body text-lg text-terracota-dark hover:text-terracota my-1">
             View this project
           </Link>
@@ -66,9 +66,9 @@ const ProjectList = () => {
         </div>
         
         <div>
-          <h1 className="font-display font-semibold text-2xl md:text-4xl my-2">Bookstore Website</h1>
+          <h2 className="font-display font-semibold text-2xl md:text-4xl my-2">Bookstore Website</h2>
           <div className="h-1 bg-terracota w-16 my-4"/>
-          <h2 className="font-display font-normal text-lg mb-2">Development and implementation of the e-commerce platform of <strong>Strand Book Store</strong>, an independent bookstore based in New York City</h2>
+          <h3 className="font-display font-normal text-lg mb-2">Development and implementation of the e-commerce platform of <strong>Strand Book Store</strong>, an independent bookstore based in New York City</h3>
           <Link to="/" className="font-body text-lg text-terracota-dark hover:text-terracota">
             View this project
           </Link>
