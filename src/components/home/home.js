@@ -38,6 +38,8 @@ const Home = () => {
             <Link className="hover:text-terracota" to="/skills">Skills</Link>
             <p className="m-2">|</p>
             <Link className="hover:text-terracota" to="/about">About</Link>
+            <p className="m-2">|</p>
+            <Link className="hover:text-terracota" to="/contact">Contact</Link>
           </div>
 
           <div className="shadow-md hover:shadow-xl rounded-md w-72 lg:w-96 mx-auto my-8 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
@@ -81,10 +83,11 @@ const Home = () => {
               color="padua"
             />
           </div>
+          <p className="opacity-0 md:opacity-100 absolute text-9xl font-bold text-rice bottom-36 lg:bottom-44 xl:bottom-56 2xl:bottom-24 left-8 2xl:left-auto 2xl:right-8 z-0 mix-blend-soft-light">Skills.</p>
         </div>
 
         <div className="relative w-full h-96 md:h-screen bg-home-about bg-cover bg-no-repeat bg-blend-hard-light">
-          <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8">
+          <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8 z-10">
             <Button
               label="About."
               link="/about"
@@ -94,6 +97,7 @@ const Home = () => {
               color="gunPowder"
             />
           </div>
+          <p className="opacity-0 md:opacity-100 absolute text-9xl font-bold text-rice bottom-36 lg:bottom-44 xl:bottom-56 2xl:bottom-24 left-8 2xl:left-auto 2xl:right-8 z-0 mix-blend-soft-light">About.</p>
         </div>
       </section>
     </div>
