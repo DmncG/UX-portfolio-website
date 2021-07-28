@@ -52,9 +52,6 @@ const NavDrawer = ({ open, onClose }) => {
             <p>About</p>
           </Link>
 
-          <Link to="/contact" className="p-2 my-1 hover:text-terracota">
-            <p>Contact</p>
-          </Link>
         </div>
       </div>
     </Drawer>

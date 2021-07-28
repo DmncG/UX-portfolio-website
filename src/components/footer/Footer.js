@@ -9,8 +9,6 @@ const Footer = () => {
       <Link className="hover:text-terracota font-body font-normal text-sm text-rice" to="/skills">Skills</Link>
       <p className="my-2 mx-2 font-body font-normal text-sm text-rice">|</p>
       <Link className="hover:text-terracota font-body font-normal text-sm text-rice" to="/about">About</Link>
-      <p className="my-2 mx-2 font-body font-normal text-sm text-rice">|</p>
-      <Link className="hover:text-terracota font-body font-normal text-sm text-rice" to="/about">Contact</Link>
     </div>
   )
 }

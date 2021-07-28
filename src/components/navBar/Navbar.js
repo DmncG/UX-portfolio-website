@@ -90,12 +90,6 @@ const Navbar = (props) => {
                         About
                       </Link>
                     </div>
-
-                    <div className="mx-4 p-1">
-                      <Link to="/contact" className="text-rice hover:text-terracota font-display text-md lg:text-lg text-normal">
-                        Contact
-                      </Link>
-                    </div>
                     
                   </div>
                 )

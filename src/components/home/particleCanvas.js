@@ -24,8 +24,8 @@ const ParticleCanvas = () => {
         "size":"cover"
         },
         "fullScreen":{
-        "enable":true,
-        "zIndex":-1
+        "enable": true,
+        "zIndex": "-1",
         },
         "interactivity":{
         "events":{
