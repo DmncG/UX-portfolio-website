@@ -2,8 +2,32 @@ import React from 'react'
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image'
 import ArrowDropDownCircleOutlinedIcon from '@material-ui/icons/ArrowDropDownCircleOutlined';
+import { motion } from 'framer-motion'
 import Button from '../button/Button'
 import pdfCV from '../../downloads/CV_Dominic_Garcia_4_05_2021.pdf'
+
+const sentence = {
+  hidden: { opacity: 1 },
+  visible: {
+    opacity: 1, 
+    transition: {
+      delay: 0.3,
+      staggerChildren: 0.05,
+    },
+  },
+}
+
+const letter = {
+  hidden: { opacity: 0, y:50 },
+  visible: {
+    opacity: 1,
+    y: 0,
+  },
+}
+
+const line1 = 'Hi.'
+const line2 = 'My name is Dom.'
+const line3 = 'I design user-centered experiences grounded in collaboration, communication, and simplicity'
 
 
 const Home = () => {
@@ -15,13 +39,27 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col justify-center relative top-28">
-          <h1 className="font-display font-semibold text-5xl text-center">
-            <span className="text-9xl">Hi.</span> My name is Dom.
-          </h1>
+          <motion.h1 variants={sentence} initial="hidden" animate="visible" className="font-display font-normal text-5xl text-center">
+            {
+              line1.split('').map((char, i) => (
+                <motion.span className="text-8xl font-semibold" key={`${char}-${i}`} variants={letter}>{char}</motion.span>
+              ))
+            }
+            &nbsp;
+            {
+              line2.split('').map((char, i) => (
+                <motion.span key={`${char}-${i}`} variants={letter}>{char}</motion.span>
+              ))
+            }
+          </motion.h1>
 
-          <h2 className="font-body font-normal text-2xl my-4 text-center">
-            I design user-centered experiences with simplicity, creativity, and thoughfulness
-          </h2>
+          <motion.h2 variants={sentence} initial="hidden" animate="visible" className="font-body font-thin text-2xl my-4 text-center leading-relaxed">
+          {
+              line3.split('').map((char, i) => (
+                <motion.span key={`${char}-${i}`} variants={letter}>{char}</motion.span>
+              ))
+            }
+          </motion.h2>
           {/* <StaticImage className="relative" src="../../images/portfolio_logo_revised.png" alt="drg logo" /> */}
 
           <div className="flex flex-col justify-center p-2 m-2">
