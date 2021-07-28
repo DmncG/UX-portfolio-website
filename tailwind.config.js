@@ -8,27 +8,27 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       rice: {
-        light: '#F9F8EE',
+        light: '#F6F4E5',
         DEFAULT: '#F4F1DE',
         dark: '#AE9F3A',
       },
       terracota: {
-        light: '#F0BEB0',
+        light: '#E89D88',
         DEFAULT: '#E07A5F',
         dark: '#87311A',
       },
       gunPowder: {
-        light: '#9497B8',
+        light: '#616691',
         DEFAULT: '#3D405B',
         dark: '#1F202E',
       },
       peachOrange: {
-        light: '#F8E5C6',
+        light: '#F5D8A9',
         DEFAULT: '#F2CC8F',
         dark: '#AB7114',
       },
       padua: {
-        light: '#C0D8CC',
+        light: '#A0C5B3',
         DEFAULT: '#81B29A',
         dark: '#3A5F4D',
       },
