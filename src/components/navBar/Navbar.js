@@ -65,7 +65,7 @@ const Navbar = (props) => {
 
             <div>
               <Link to="/">
-                <StaticImage className="w-16 lg:w-20" src="../../images/portfolio_logo_rice.png" alt="drg logo" />
+                <StaticImage className="w-12 m-2" src="../../images/portfolio_logo_revised.png" alt="drg logo" />
               </Link>
             </div>
 

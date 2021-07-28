@@ -35,7 +35,7 @@ const NavDrawer = ({ open, onClose }) => {
 
         <div className="flex justify-center">
           <Link to="/">
-            <StaticImage className="w-28 block mx-auto" src="../../images/portfolio_logo_rice.png" alt="drg logo" />
+            <StaticImage className="w-16 block mx-auto" src="../../images/portfolio_logo_revised.png" alt="drg logo" />
           </Link>
         </div>
 

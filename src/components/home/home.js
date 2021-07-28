@@ -9,16 +9,23 @@ import pdfCV from '../../downloads/CV_Dominic_Garcia_4_05_2021.pdf'
 const Home = () => {
   return (
     <div className="md:grid md:grid-cols-2 md:relative scroll-behavior-smooth">
-      <section className="md:sticky md:top-0 h-screen">
+      <section className="md:sticky md:top-0 h-screen relative">
+        <div className="absolute left-2 top-0 rounded-full bg-gunPowder p-3 h-16 w-16 flex items-center justify-center mx-auto my-4">
+          <StaticImage className="w-full" src="../../images/portfolio_logo_revised.png" alt="drg logo" />
+        </div>
 
-        <div className="flex flex-col justify-center">
-          <div className="rounded-full bg-gunPowder h-48 lg:h-80 w-48 lg:w-80 flex items-center justify-center mx-auto my-4">
-            <StaticImage src="../../images/portfolio_logo_revised.png" alt="drg logo" />
-            {/* <h1 className="font-display font-semibold text-center text-7xl lg:text-9xl text-white">drg</h1> */}
-          </div>
+        <div className="flex flex-col justify-center relative top-28">
+          <h1 className="font-display font-semibold text-5xl text-center">
+            <span className="text-9xl">Hi.</span> My name is Dom.
+          </h1>
+
+          <h2 className="font-body font-normal text-2xl my-4 text-center">
+            I design user-centered experiences with simplicity, creativity, and thoughfulness
+          </h2>
+          {/* <StaticImage className="relative" src="../../images/portfolio_logo_revised.png" alt="drg logo" /> */}
 
           <div className="flex flex-col justify-center p-2 m-2">
-            <h2 className="font-display font-normal text-2xl lg:text-5xl text-center">Dominic Ross Garcia</h2>
+            {/* <h2 className="font-display font-normal text-2xl lg:text-5xl text-center">Dominic Ross Garcia</h2> */}
             <h3 className="font-body font-normal text-md lg:text-2xl text-center">UX Designer | Fullstack Engineer</h3>
           </div>
 
@@ -39,7 +46,7 @@ const Home = () => {
             <Link className="hover:text-terracota" to="/about">About</Link>
           </div>
 
-          <div className="shadow-md hover:shadow-xl rounded-md w-72 lg:w-96 mx-auto my-8 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
+          <div className="shadow-md hover:shadow-xl rounded-md w-56 lg:w-72 mx-auto my-8 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
             <a className="py-3 text-lg lg:text-2xl font-semibold font-display" download="CV_Dominic_Ross_Garcia.pdf" href={pdfCV}>
               Download CV
             </a>
@@ -55,8 +62,8 @@ const Home = () => {
 
       <section id="projects">
         <div className="relative w-full h-96 md:h-screen bg-gunPowder overflow-hidden">
-          <StaticImage className="p-1 relative 2xl:top-28 2xl:left-72 mix-blend-soft-light" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
-          <StaticImage className="p-1 relative -top-28 lg:-top-36 xl:-top-60 2xl:top-60 left-20 lg:left-36 xl:left-60 2xl:-left-16 mix-blend-soft-light" src="../../images/Clay Dark.png" alt="mobile mockup" />
+          <StaticImage className="p-1 m-8 relative 2xl:top-28 2xl:left-72" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
+          <StaticImage className="p-1 m-4 relative -top-28 lg:-top-36 xl:-top-60 2xl:top-60 left-20 lg:left-36 xl:left-60 2xl:-left-16" src="../../images/Clay Dark.png" alt="mobile mockup" />
           <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8 z-10">
             <Button
               label="Projects."
