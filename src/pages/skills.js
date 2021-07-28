@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const Skills = ({ location }) => (
   <Layout pageTitle="Skills" location={location}>
-    <div className="w-screen h-screen bg-gunPowder p-4">
+    <div className="w-screen h-screen bg-padua p-4">
       <p>This is the Skills page</p>
     </div>
   </Layout>
