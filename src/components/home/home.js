@@ -11,14 +11,14 @@ const sentence = {
   visible: {
     opacity: 1, 
     transition: {
-      delay: 0.3,
-      staggerChildren: 0.05,
+      delay: 0.4,
+      staggerChildren: 0.08,
     },
   },
 }
 
 const letter = {
-  hidden: { opacity: 0, y:50 },
+  hidden: { opacity: 0, y: 50 },
   visible: {
     opacity: 1,
     y: 0,
