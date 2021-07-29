@@ -34,9 +34,8 @@ const Home = () => {
   return (
     <div className="md:grid md:grid-cols-2 md:relative scroll-behavior-smooth">
       <section className="md:sticky md:top-0 h-screen relative">
-        <div className="absolute left-2 top-0 rounded-full bg-gunPowder p-3 h-16 w-16 flex items-center justify-center mx-auto my-4">
-          <StaticImage className="w-full" src="../../images/portfolio_logo_revised.png" alt="drg logo" />
-        </div>
+        
+          <StaticImage className="w-12 absolute left-2 top-0 my-4" src="../../images/portfolio-logo-revised-gunpowder.png" alt="drg logo" />
 
         <div className="flex flex-col justify-center relative top-28">
           <motion.h1 variants={sentence} initial="hidden" animate="visible" className="font-display font-normal text-4xl text-center m-2">
