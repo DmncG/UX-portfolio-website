@@ -33,11 +33,11 @@ const line3 = 'I design user-centered experiences grounded in collaboration, com
 const Home = () => {
   return (
     <div className="md:grid md:grid-cols-2 md:relative scroll-behavior-smooth">
-      <section className="md:sticky md:top-0 h-screen relative">
+      <section className="md:sticky md:top-0 xs:h-screen relative">
         
-          <StaticImage className="w-12 absolute left-2 top-0 my-4" src="../../images/portfolio-logo-revised-gunpowder.png" alt="drg logo" />
+          <StaticImage className="w-12 absolute left-2 top-0 my-2" src="../../images/portfolio-logo-revised-gunpowder.png" alt="drg logo" />
 
-        <div className="flex flex-col justify-center relative top-8">
+        <div className="flex flex-col justify-center relative top-4">
           <motion.h1 variants={sentence} initial="hidden" animate="visible" className="font-display font-normal text-4xl text-center m-2">
             {
               line1.split('').map((char, i) => (
@@ -52,13 +52,16 @@ const Home = () => {
             }
           </motion.h1>
 
-          <motion.h2 variants={sentence} initial="hidden" animate="visible" className="font-body font-light text-xl  my-4 text-center leading-relaxed">
+          {/* <motion.h2 variants={sentence} initial="hidden" animate="visible" className="font-body font-light text-xl  my-4 text-center leading-relaxed">
           {
               line3.split('').map((char, i) => (
                 <motion.span key={`${char}-${i}`} variants={letter}>{char}</motion.span>
               ))
             }
-          </motion.h2>
+          </motion.h2> */}
+          <h2 className="animate-fade font-body font-light text-xl  my-4 text-center leading-relaxed">
+            I design user-centered experiences grounded in collaboration, communication, and simplicity.
+          </h2>
           {/* <StaticImage className="relative" src="../../images/portfolio_logo_revised.png" alt="drg logo" /> */}
 
           
@@ -80,12 +83,12 @@ const Home = () => {
             <Link className="hover:text-terracota" to="/about">About</Link>
           </div>
 
-          <div className="shadow-md hover:shadow-xl rounded-md w-56 lg:w-72 mx-auto my-8 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
+          <div className="shadow-md hover:shadow-xl rounded-md w-56 lg:w-72 mx-auto my-2 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
             <a className="py-3 text-lg lg:text-2xl font-semibold font-display" download="CV_Dominic_Ross_Garcia.pdf" href={pdfCV}>
               Download CV
             </a>
           </div>
-          <div className="md:hidden my-1 text-terracota-dark opacity-1/2 flex justify-center items-center animate-bounce">
+          <div className="md:hidden my-8 text-terracota-dark opacity-1/2 flex justify-center items-center animate-bounce">
             <a href="#projects">
               <ArrowDropDownCircleOutlinedIcon fontSize="large" />
             </a>

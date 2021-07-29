@@ -1,9 +1,14 @@
 const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
+    screens: {
+      'xs': '375px',
+      ...defaultTheme.screens,
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -104,10 +109,15 @@ module.exports = {
           '0%': { width: '0px', opacity: 0, height: '2px', position: 'absolute', 'background-color': '#E07A5F' },
           '100%': { width: '16px', opacity: 1 },
         },
+        'fade': {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1},
+        },
       },
       animation: {
-        'line-extend': 'line-extend 1s ease'
-      }
+        'line-extend': 'line-extend 1s ease',
+        'fade': 'fade 4s ease',
+      },
     },
   },
   variants: {
