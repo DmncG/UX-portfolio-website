@@ -37,7 +37,7 @@ const Home = () => {
         
           <StaticImage className="w-12 absolute left-2 top-0 my-4" src="../../images/portfolio-logo-revised-gunpowder.png" alt="drg logo" />
 
-        <div className="flex flex-col justify-center relative top-28">
+        <div className="flex flex-col justify-center relative top-8">
           <motion.h1 variants={sentence} initial="hidden" animate="visible" className="font-display font-normal text-4xl text-center m-2">
             {
               line1.split('').map((char, i) => (
