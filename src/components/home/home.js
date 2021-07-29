@@ -32,13 +32,13 @@ const line3 = 'I design user-centered experiences grounded in collaboration, com
 
 const Home = () => {
   return (
-    <div className="md:grid md:grid-cols-2 md:relative scroll-behavior-smooth">
+    <div className="md:grid md:grid-cols-2 md:relative scroll-behavior-smooth bg-rice">
       <section className="md:sticky md:top-0 xs:h-screen relative">
         
           <StaticImage className="w-12 absolute left-2 top-0 my-2" src="../../images/portfolio-logo-revised-gunpowder.png" alt="drg logo" />
 
         <div className="flex flex-col justify-center relative top-4 md:top-32 xl:top-1/4 xl:max-w-screen-md xl:m-auto">
-          <motion.h1 variants={sentence} initial="hidden" animate="visible" className="font-display font-normal text-4xl text-center m-2">
+          <motion.h1 variants={sentence} initial="hidden" animate="visible" className="font-display font-normal text-4xl text-center mx-4 my-2">
             {
               line1.split('').map((char, i) => (
                 <motion.span className="text-8xl font-semibold" key={`${char}-${i}`} variants={letter}>{char}</motion.span>
@@ -59,7 +59,7 @@ const Home = () => {
               ))
             }
           </motion.h2> */}
-          <h2 className="animate-fade font-body font-light text-xl  my-4 text-center leading-relaxed">
+          <h2 className="animate-fade font-body font-light text-lg m-4 text-center leading-relaxed">
             I design user-centered experiences grounded in collaboration, communication, and simplicity.
           </h2>
           {/* <StaticImage className="relative" src="../../images/portfolio_logo_revised.png" alt="drg logo" /> */}
@@ -114,7 +114,7 @@ const Home = () => {
         </div>
 
         <div className="relative w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden">
-          <div className="absolute bottom-3 md:bottom-8 right-3 md:right-8">
+          <div className="absolute bottom-3 md:bottom-8 right-3 md:right-8 z-10">
             <Button
               label="Skills."
               link="/skills"
