@@ -17,7 +17,7 @@ const GET_TITLE = graphql`
 const Layout = ({ pageTitle, children, location }) => {
   const data = useStaticQuery(GET_TITLE);
   return (
-    <main>
+    <>
       {
         location?.pathname !== '/'
           && <Navbar location={location} />
@@ -45,7 +45,7 @@ const Layout = ({ pageTitle, children, location }) => {
         {children}
       </motion.main>
       <Footer />
-    </main>
+    </>
   )
 }
 export default Layout
