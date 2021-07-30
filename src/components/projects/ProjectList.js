@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import { motion, useViewportScroll } from 'framer-motion'
 
 const ProjectList = () => {
+  const { scrollYProgress } = useViewportScroll()
   return (
     <div className="md:max-w-screen-sm lg:max-w-screen-lg md:mx-auto lg:px-8 overflow-hidden">
       <div className="my-8 p-4">
