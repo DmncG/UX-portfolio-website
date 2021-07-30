@@ -11,7 +11,7 @@ const ProjectList = () => {
       </div>
       
       <section className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 mb-8 relative">
-        <div className="flex flex-col justify-center relative">
+        <div className="flex flex-col justify-center relative -top-5">
           <StaticImage className="p-1 w-72 md:w-96 relative z-0 mx-auto" src="../../images/Device - Macbook Pro.png" alt="moreart macbook mockup" />
           <StaticImage className="p-1 w-44 md:w-52 relative z-10 -top-28 -right-16 mx-auto" src="../../images/Clay Dark.png" alt="moreart mobile mockup" />
         </div>
@@ -30,7 +30,7 @@ const ProjectList = () => {
       </section>
 
       <section className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 mb-8 relative">
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center relative top-9">
           <StaticImage className="p-1 w-72 md:w-96 relative z-0 mx-auto" src="../../images/dol-macbook-pro.png" alt="dol macbook mockup" />
           <StaticImage className="p-1 w-24 md:w-32 relative z-10 -top-36 -right-24 md:-right-32 mx-auto" src="../../images/dol-mobile.png" alt="dol mobile mockup" />
         </div>
@@ -65,7 +65,7 @@ const ProjectList = () => {
       </section> */}
 
       <section className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 relative">
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center relative -top-4">
           <StaticImage className="p-1 w-72 md:w-96 relative z-0 mx-auto" src="../../images/strand_macbook.png" alt="strand macbook mockup" />
           <StaticImage className="p-1 w-28 md:w-40 relative z-10 -top-36 -right-24 md:-right-32 mx-auto" src="../../images/strand_mobile.png" alt="strand mobile mockup" />
         </div>
