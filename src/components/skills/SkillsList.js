@@ -13,6 +13,7 @@ import ArtTrackRoundedIcon from '@material-ui/icons/ArtTrackRounded'
 const SkillsList = () => {
   return (
     <div>
+      <h1>Skills</h1>
       <div>
         <section>
           <div>
@@ -20,7 +21,24 @@ const SkillsList = () => {
               <LocalPhoneRoundedIcon />
               <ArtTrackRoundedIcon />
             </div>
-            <h1>Research</h1>
+            <h2>Research</h2>
+            <div>
+              <div>
+                <h3>Zoom</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+              <div>
+                <h3>Otter.ai</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+              <div>
+                <h3>Google Forms</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+            </div>
+
           </div>
         </section>
 
@@ -29,7 +47,18 @@ const SkillsList = () => {
             <div>
               <WbIncandescentRoundedIcon />
             </div>
-            <h1>Ideation</h1>
+            <h2>Ideation</h2>
+            <div>
+              <div>
+                <h3>Miro</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+              <div>
+                <h3>InVision</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -40,7 +69,18 @@ const SkillsList = () => {
               <PhoneIphoneRoundedIcon />
               <TabletRoundedIcon />
             </div>
-            <h1>Mockups & Prototyping</h1>
+            <h2>Mockups & Prototyping</h2>
+            <div>
+              <div>
+                <h3>Figma</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+              <div>
+                <h3>Adobe XD</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -50,7 +90,54 @@ const SkillsList = () => {
               <SettingsRoundedIcon />
               <BuildRoundedIcon />
             </div>
-            <h1>Development</h1>
+            <h2>Development</h2>
+            <div>
+              <div>
+                <h3>ReactJS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+              <div>
+                <h3>Material UI</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+              <div>
+                <h3>GraphQL + Apollo</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+              <div>
+                <h3>Jest + React Testing Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+              <div>
+                <h3>WAVE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+              <div>
+                <h3>GatsbyJS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+              <div>
+                <h3>Tailwind CSS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+              <div>
+                <h3>Google Analytics</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+              <div>
+                <h3>Visual Studio Code</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+              </div>
+
+            </div>
           </div>
         </section>
       </div>
