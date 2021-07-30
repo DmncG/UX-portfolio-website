@@ -1,7 +1,6 @@
 import React from 'react'
 import ExpandLessRoundedIcon from '@material-ui/icons/ExpandLessRounded'
 import ExpandMoreRoundedIcon from '@material-ui/icons/ExpandMoreRounded'
-import FactCheckRoundedIcon from '@material-ui/icons/FactCheckRounded'
 import LaptopRoundedIcon from '@material-ui/icons/LaptopRounded'
 import LocalPhoneRoundedIcon from '@material-ui/icons/LocalPhoneRounded'
 import PhoneIphoneRoundedIcon from '@material-ui/icons/PhoneIphoneRounded'
@@ -18,7 +17,6 @@ const SkillsList = () => {
         <section>
           <div>
             <div>
-              <FactCheckRoundedIcon />
               <LocalPhoneRoundedIcon />
               <ArtTrackRoundedIcon />
             </div>
