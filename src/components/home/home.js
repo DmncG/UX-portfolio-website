@@ -27,7 +27,19 @@ const letter = {
 
 const line1 = 'Hi.'
 const line2 = 'My name is Dom.'
-const line3 = 'I design user-centered experiences grounded in collaboration, communication, and simplicity.'
+
+const h2Variant = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      duration: 3,
+      delay: 1,
+    },
+  },
+}
 
 
 const Home = () => {
@@ -59,9 +71,14 @@ const Home = () => {
               ))
             }
           </motion.h2> */}
-          <h2 className="animate-fade font-body font-light text-lg m-4 text-center leading-relaxed">
+          <motion.h2
+            className="font-body font-light text-lg m-4 text-center leading-relaxed"
+            variants={h2Variant}
+            initial="hidden"
+            animate="visible"
+          >
             I design user-centered experiences grounded in collaboration, communication, and simplicity.
-          </h2>
+          </motion.h2>
           {/* <StaticImage className="relative" src="../../images/portfolio_logo_revised.png" alt="drg logo" /> */}
 
           

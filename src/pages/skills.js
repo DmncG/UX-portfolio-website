@@ -4,7 +4,7 @@ import SkillsList from '../components/skills/SkillsList'
 
 const Skills = ({ location }) => (
   <Layout pageTitle="Skills" location={location}>
-    <div className="w-screen h-screen bg-padua p-4">
+    <div className="bg-padua p-4">
       <SkillsList />
     </div>
   </Layout>
