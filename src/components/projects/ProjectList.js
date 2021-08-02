@@ -100,7 +100,7 @@ const ProjectList = () => {
       },
     },
     scale: {
-      scale: 1.2,
+      scale: 1.1,
       transition: {
         duration: 0.5
       }
