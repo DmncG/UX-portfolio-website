@@ -41,6 +41,27 @@ const h2Variant = {
   },
 }
 
+const divVariant = {
+  hidden: {
+    opacity: 1,
+  },
+  visible: {
+    opacity: 1,
+  },
+}
+
+const navLinkVariant = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+    }
+  },
+}
+
 
 const Home = () => {
   return (
@@ -82,12 +103,45 @@ const Home = () => {
             </a>
           </div>
 
-          <div className="flex flex-row justify-center items-center p-1 m-1 font-body">
-            <Link className="hover:text-terracota" to="/projects">Projects</Link>
+          <div className="flex flex-row justify-center items-center p-1 m-1 font-body relative">
+            <motion.div
+              variants={divVariant}
+              initial="hidden"
+              whileHover="visible"
+              className="relative"
+            >
+              <Link className="hover:text-terracota" to="/projects">Projects</Link>
+              <motion.div
+                className="h-1 w-8 bg-terracota absolute inset-x-1/4"
+                variants={navLinkVariant}
+              />
+            </motion.div>
             <p className="m-2">|</p>
-            <Link className="hover:text-terracota" to="/skills">Skills</Link>
+            <motion.div
+              variants={divVariant}
+              initial="hidden"
+              whileHover="visible"
+              className="relative"
+            >
+              <Link className="hover:text-terracota" to="/skills">Skills</Link>
+              <motion.div
+                className="h-1 w-8 bg-terracota absolute inset-x-1/4"
+                variants={navLinkVariant}
+              />
+            </motion.div>
             <p className="m-2">|</p>
-            <Link className="hover:text-terracota" to="/about">About</Link>
+            <motion.div
+              variants={divVariant}
+              initial="hidden"
+              whileHover="visible"
+              className="relative"
+            >
+              <Link className="hover:text-terracota" to="/about">About</Link>
+              <motion.div
+                className="h-1 w-8 bg-terracota absolute inset-x-1/4"
+                variants={navLinkVariant}
+              />
+            </motion.div>
           </div>
 
           <div className="shadow-md hover:shadow-xl rounded-md w-56 lg:w-72 mx-auto my-2 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
