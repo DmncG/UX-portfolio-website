@@ -3,8 +3,9 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { makeStyles } from '@material-ui/core/styles'
 import { useMediaQuery } from '@material-ui/core'
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Slide from '@material-ui/core/Slide';
+import useScrollTrigger from '@material-ui/core/useScrollTrigger'
+import { motion } from 'framer-motion'
+import Slide from '@material-ui/core/Slide'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded'
@@ -30,6 +31,31 @@ const useStyles = makeStyles({
     justifyContent: 'space-between',
   },
 });
+
+const divVariant = {
+  hidden: {
+    opacity: 1,
+    x: 0,
+  },
+  visible: {
+    opacity: 1,
+    x: 0,
+  },
+}
+
+const navLinkVariant = {
+  hidden: {
+    opacity: 0,
+    x: -5
+  },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 1,
+    }
+  },
+}
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -73,23 +99,50 @@ const Navbar = (props) => {
               match768
                 ? (
                   <div className="flex flex-row justify-center items-center">
-                    <div className="mx-4 p-1">
+                    <motion.div
+                      className="mx-4 p-1 relative"
+                      variants={divVariant}
+                      initial="hidden"
+                      whileHover="visible"
+                    >
                       <Link to="/projects" className="text-rice hover:text-terracota font-display text-md lg:text-lg text-normal">
                         Projects
                       </Link>
-                    </div>
+                      <motion.div
+                        className="h-1 w-6 bg-terracota absolute -bottom-1"
+                        variants={navLinkVariant}
+                      />
+                    </motion.div>
 
-                    <div className="mx-4 p-1">
+                    <motion.div
+                      className="mx-4 p-1 relative"
+                      variants={divVariant}
+                      initial="hidden"
+                      whileHover="visible"
+                    >
                       <Link to="/skills" className="text-rice hover:text-terracota font-display text-md lg:text-lg text-normal">
                         Skills
                       </Link>
-                    </div>
+                      <motion.div
+                        className="h-1 w-6 bg-terracota absolute -bottom-1"
+                        variants={navLinkVariant}
+                      />
+                    </motion.div>
 
-                    <div className="mx-4 p-1 relative">
+                    <motion.div
+                      className="mx-4 p-1 relative"
+                      variants={divVariant}
+                      initial="hidden"
+                      whileHover="visible"
+                    >
                       <Link to="/about" className="text-rice hover:text-terracota font-display text-md lg:text-lg text-normal">
                         About
                       </Link>
-                    </div>
+                      <motion.div
+                        className="h-1 w-6 bg-terracota absolute -bottom-1"
+                        variants={navLinkVariant}
+                      />
+                    </motion.div>
                     
                   </div>
                 )
