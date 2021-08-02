@@ -89,12 +89,6 @@ const Navbar = (props) => {
         <AppBar classes={{ root: classes.rootAppBar }} position="sticky">
           <Toolbar classes={{ root: classes.rootToolbar }}>
 
-            <div>
-              <Link to="/">
-                <StaticImage className="w-12 m-2" src="../../images/portfolio_logo_revised.png" alt="drg logo" />
-              </Link>
-            </div>
-
             {
               match768
                 ? (
@@ -154,6 +148,12 @@ const Navbar = (props) => {
                   </div>
                 )
             }
+
+            <div>
+              <Link to="/">
+                <StaticImage className="w-12 m-2" src="../../images/portfolio_logo_revised.png" alt="drg logo" />
+              </Link>
+            </div>
 
           </Toolbar>
         </AppBar>
