@@ -27,14 +27,17 @@ const ProjectList = () => {
       opacity: 1,
       transition: {
         staggerChildren: 0.5
-      }
+      },
     },
     visibleMobile: {
       opacity: 1,
       transition: {
         staggerChildren: 0.5
       }
-    }
+    },
+    scale: {
+      scale: 1,
+    },
   }
 
   const projectImageVariants = {
@@ -61,18 +64,21 @@ const ProjectList = () => {
         delay: 0.5,
         duration: 1,
       },
-    }
+    },
+    scale: {
+      scale: 1,
+    },
   }
 
   const circleVariant = {
     hidden: {
       opacity: 0,
-      scale: 0.5,
+      scale: 1,
       y: 20,
     },
     hiddenMobile: {
       opacity: 0,
-      scale: 0.5,
+      scale: 1,
       y: 20,
     },
     visible: {
@@ -92,6 +98,12 @@ const ProjectList = () => {
         delay: 0.5,
         duration: 1,
       },
+    },
+    scale: {
+      scale: 1.2,
+      transition: {
+        duration: 0.5
+      }
     },
   }
 
@@ -116,6 +128,9 @@ const ProjectList = () => {
       delay: 0.5,
       duration: 2,
     },
+    scale: {
+      scale: 1,
+    },
   }
 
   const sentenceVariant = {
@@ -135,6 +150,9 @@ const ProjectList = () => {
         staggerChildren: 0.03,
       },
     },
+    scale: {
+      scale: 1,
+    },
   }
   
   const letterVariant = {
@@ -147,6 +165,9 @@ const ProjectList = () => {
     visibleMobile: {
       opacity: 1,
       y: 0,
+    },
+    scale: {
+      scale: 1,
     },
   }
 
@@ -170,6 +191,36 @@ const ProjectList = () => {
         duration: 3,
         delay: 1,
       },
+    },
+    scale: {
+      scale: 1,
+    },
+  }
+
+  const navLinkVariant = {
+    hidden: {
+      opacity: 0,
+      x: -5
+    },
+    hiddenMobile: {
+      opacity: 0,
+      x: -5
+    },
+    visible: {
+      opacity: 0,
+      x: -5,
+    },
+    visibleMobile: {
+      opacity: 0,
+      x: -5,
+    },
+    scale: {
+      scale: 1,
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 0.5,
+      }
     },
   }
 
@@ -218,6 +269,7 @@ const ProjectList = () => {
         variants={sectionVariant}
         initial={match1024 ? 'hidden' : 'hiddenMobile'}
         animate={controlsSection1}
+        whileHover="scale"
         ref={refSection1}
       >
         <motion.div
@@ -262,6 +314,10 @@ const ProjectList = () => {
           <Link to="/" className="font-body text-lg text-terracota-dark hover:text-terracota my-1">
             View this project
           </Link>
+          <motion.div
+            className="h-1 w-8 bg-terracota absolute -bottom-1"
+            variants={navLinkVariant}
+          />
         </motion.div>
       </motion.section>
 
@@ -270,6 +326,7 @@ const ProjectList = () => {
         variants={sectionVariant}
         initial={match1024 ? 'hidden' : 'hiddenMobile'}
         animate={controlsSection2}
+        whileHover="scale"
         ref={refSection2}
       >
         <motion.div
@@ -310,6 +367,10 @@ const ProjectList = () => {
           <Link to="/" className="font-body text-lg text-terracota-dark hover:text-terracota my-1">
             View this project
           </Link>
+          <motion.div
+            className="h-1 w-8 bg-terracota absolute -bottom-1"
+            variants={navLinkVariant}
+          />
         </motion.div>
       </motion.section>
 
@@ -333,6 +394,7 @@ const ProjectList = () => {
         variants={sectionVariant}
         initial={match1024 ? 'hidden' : 'hiddenMobile'}
         animate={controlsSection3}
+        whileHover="scale"
         ref={refSection3}
       >
         <motion.div
@@ -373,6 +435,10 @@ const ProjectList = () => {
           <Link to="/" className="font-body text-lg text-terracota-dark hover:text-terracota">
             View this project
           </Link>
+          <motion.div
+            className="h-1 w-8 bg-terracota absolute -bottom-1"
+            variants={navLinkVariant}
+          />
         </motion.div>
       </motion.section>
     </div>
