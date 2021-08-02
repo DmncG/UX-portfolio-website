@@ -14,11 +14,14 @@ const ProjectList = () => {
   const { ref: refSection2, inView: inViewSection2 } = useInView()
   const { ref: refSection3, inView: inViewSection3 } = useInView()
 
-  const match767 = useMediaQuery('(min-width: 767px)')
+  const match1024 = useMediaQuery('(min-width: 1024px)')
 
   const sectionVariant = {
     hidden: {
       opacity: 0,
+    },
+    hiddenMobile: {
+      opacity: 1,
     },
     visible: {
       opacity: 1,
@@ -26,15 +29,22 @@ const ProjectList = () => {
         staggerChildren: 0.5
       }
     },
+    visibleMobile: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.5
+      }
+    }
   }
 
   const projectImageVariants = {
-    closer: {
-      y: 20,
-    },
     hidden: {
       opacity: 0,
       y: 100,
+    },
+    hiddenMobile: {
+      opacity: 0,
+      y: 0,
     },
     visible: {
       opacity: 1,
@@ -44,6 +54,14 @@ const ProjectList = () => {
         duration: 1,
       },
     },
+    visibleMobile: {
+      opacity: 1,
+      y: 50,
+      transition: {
+        delay: 0.5,
+        duration: 1,
+      },
+    }
   }
 
   const circleVariant = {
@@ -52,7 +70,21 @@ const ProjectList = () => {
       scale: 0.5,
       y: 20,
     },
+    hiddenMobile: {
+      opacity: 0,
+      scale: 0.5,
+      y: 20,
+    },
     visible: {
+      opacity: 0.3,
+      scale: 1,
+      y: 0,
+      transition: {
+        delay: 0.5,
+        duration: 1,
+      },
+    },
+    visibleMobile: {
       opacity: 0.3,
       scale: 1,
       y: 0,
@@ -68,7 +100,15 @@ const ProjectList = () => {
       x: -20,
       opacity: 0,
     },
+    hiddenMobile: {
+      x: -20,
+      opacity: 0,
+    },
     visible: {
+      x: 0,
+      opacity: 1,
+    },
+    visibleMobile: {
       x: 0,
       opacity: 1,
     },
@@ -78,15 +118,17 @@ const ProjectList = () => {
     },
   }
 
-  const projectHeaderVariants = {
-    closer: {
-      y: -20,
-    },
-  }
-
   const sentenceVariant = {
     hidden: { opacity: 1 },
+    hiddenMobile: { opacity: 1 },
     visible: {
+      opacity: 1, 
+      transition: {
+        delay: 0,
+        staggerChildren: 0.03,
+      },
+    },
+    visibleMobile: {
       opacity: 1, 
       transition: {
         delay: 0,
@@ -97,7 +139,12 @@ const ProjectList = () => {
   
   const letterVariant = {
     hidden: { opacity: 0, y: 50 },
+    hiddenMobile: { opacity: 0, y: 50 },
     visible: {
+      opacity: 1,
+      y: 0,
+    },
+    visibleMobile: {
       opacity: 1,
       y: 0,
     },
@@ -107,7 +154,17 @@ const ProjectList = () => {
     hidden: {
       opacity: 0,
     },
+    hiddenMobile: {
+      opacity: 0,
+    },
     visible: {
+      opacity: 1,
+      transition: {
+        duration: 3,
+        delay: 1,
+      },
+    },
+    visibleMobile: {
       opacity: 1,
       transition: {
         duration: 3,
@@ -133,19 +190,19 @@ const ProjectList = () => {
 
   useEffect(() => {
     if (inViewSection1) {
-      controlsSection1.start('visible');
+      match1024 ? controlsSection1.start('visible') : controlsSection1.start('visibleMobile');
     }
   }, [controlsSection1, inViewSection1])
 
   useEffect(() => {
     if (inViewSection2) {
-      controlsSection2.start('visible');
+      match1024 ? controlsSection2.start('visible') : controlsSection2.start('visibleMobile');
     }
   }, [controlsSection2, inViewSection2])
 
   useEffect(() => {
     if (inViewSection3) {
-      controlsSection3.start('visible');
+      match1024 ? controlsSection3.start('visible') : controlsSection3.start('visibleMobile');
     }
   }, [controlsSection3, inViewSection3])
 
@@ -159,7 +216,7 @@ const ProjectList = () => {
       <motion.section
         className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 mb-8 relative"
         variants={sectionVariant}
-        initial="hidden"
+        initial={match1024 ? 'hidden' : 'hiddenMobile'}
         animate={controlsSection1}
         ref={refSection1}
       >
@@ -173,7 +230,6 @@ const ProjectList = () => {
 
         <motion.div
           className="p-1 my-1 mx-auto relative"
-          variants={projectHeaderVariants}
         >
           <div className="relative">
             <motion.h2
@@ -212,7 +268,7 @@ const ProjectList = () => {
       <motion.section
         className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 mb-8 relative"
         variants={sectionVariant}
-        initial="hidden"
+        initial={match1024 ? 'hidden' : 'hiddenMobile'}
         animate={controlsSection2}
         ref={refSection2}
       >
@@ -226,7 +282,6 @@ const ProjectList = () => {
 
         <motion.div
           className="p-1 my-1 mx-auto relative"
-          variants={projectHeaderVariants}
         >
           <div className="relative">
             <motion.h2
@@ -276,7 +331,7 @@ const ProjectList = () => {
       <motion.section
         className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 relative"
         variants={sectionVariant}
-        initial="hidden"
+        initial={match1024 ? 'hidden' : 'hiddenMobile'}
         animate={controlsSection3}
         ref={refSection3}
       >
@@ -290,7 +345,6 @@ const ProjectList = () => {
         
         <motion.div
           className="p-1 my-1 mx-auto relative"
-          variants={projectHeaderVariants}
         >
           <div className="relative">
             <motion.h2
