@@ -64,13 +64,6 @@ const Home = () => {
             }
           </motion.h1>
 
-          {/* <motion.h2 variants={sentence} initial="hidden" animate="visible" className="font-body font-light text-xl  my-4 text-center leading-relaxed">
-          {
-              line3.split('').map((char, i) => (
-                <motion.span key={`${char}-${i}`} variants={letter}>{char}</motion.span>
-              ))
-            }
-          </motion.h2> */}
           <motion.h2
             className="font-body font-light text-lg m-4 text-center leading-relaxed"
             variants={h2Variant}
@@ -78,10 +71,7 @@ const Home = () => {
             animate="visible"
           >
             I design user-centered experiences grounded in collaboration, communication, and simplicity.
-          </motion.h2>
-          {/* <StaticImage className="relative" src="../../images/portfolio_logo_revised.png" alt="drg logo" /> */}
-
-          
+          </motion.h2>   
 
           <div className="flex flex-row justify-center p-1 m-1">
             <a href="https://github.com/DmncG/" target="_blank" rel="noreferrer nofollow">
@@ -117,7 +107,7 @@ const Home = () => {
       <section id="projects">
         <div className="relative w-full h-96 md:h-screen bg-gunPowder overflow-hidden">
           <StaticImage className="p-1 m-8 relative 2xl:top-28 2xl:left-72" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
-          <StaticImage className="p-1 m-4 relative -top-28 lg:-top-36 xl:-top-60 2xl:top-60 left-20 lg:left-36 xl:left-60 2xl:-left-16" src="../../images/Clay Dark.png" alt="mobile mockup" />
+          <StaticImage className="p-1 m-4 relative -top-28 lg:-top-36 xl:-top-60 left-20 lg:left-36 xl:left-60 2xl:left-96" src="../../images/Clay Dark.png" alt="mobile mockup" />
           <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8 z-10">
             <Button
               label="Projects."
@@ -127,7 +117,7 @@ const Home = () => {
               color="terracota"
             />
           </div>
-          <p className="opacity-0 md:opacity-100 absolute text-9xl font-bold text-rice bottom-36 lg:bottom-44 xl:bottom-56 2xl:bottom-24 left-8 2xl:left-auto 2xl:right-8 z-0 mix-blend-soft-light">Projects.</p>
+          <p className="opacity-0 md:opacity-100 absolute text-9xl font-bold text-rice bottom-36 lg:bottom-44 xl:bottom-56 2xl:bottom-24 left-8 2xl:left-auto 2xl:right-8 z-0 mix-blend-soft-light">Projects</p>
         </div>
 
         <div className="relative w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden">
@@ -141,7 +131,7 @@ const Home = () => {
               color="padua"
             />
           </div>
-          <p className="opacity-0 md:opacity-100 absolute text-9xl font-bold text-rice bottom-36 lg:bottom-44 xl:bottom-56 2xl:bottom-24 left-8 2xl:left-auto 2xl:right-8 z-0 mix-blend-soft-light">Skills.</p>
+          <p className="opacity-0 md:opacity-100 absolute text-9xl font-bold text-rice bottom-36 lg:bottom-44 xl:bottom-56 2xl:bottom-24 left-8 2xl:left-32 z-0 mix-blend-soft-light">Skills</p>
         </div>
 
         <div className="relative w-full h-96 md:h-screen bg-home-about bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden">
@@ -155,7 +145,7 @@ const Home = () => {
               color="gunPowder"
             />
           </div>
-          <p className="opacity-0 md:opacity-100 absolute text-9xl font-bold text-rice bottom-36 lg:bottom-44 xl:bottom-56 2xl:bottom-24 left-8 2xl:left-auto 2xl:right-8 z-0 mix-blend-soft-light">About.</p>
+          <p className="opacity-0 md:opacity-100 absolute text-9xl font-bold text-rice bottom-36 lg:bottom-44 xl:bottom-56 2xl:bottom-24 left-8 2xl:left-auto 2xl:right-8 z-0 mix-blend-soft-light">About</p>
         </div>
       </section>
     </div>
