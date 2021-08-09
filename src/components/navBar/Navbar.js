@@ -35,7 +35,8 @@ const useStyles = makeStyles({
   },
   rootBackdrop: {
     zIndex: 1200,
-  }
+    overflowY: 'hidden',
+  },
 });
 
 const divVariant = {
@@ -219,9 +220,9 @@ const Navbar = (props) => {
                 custom={height}
                 ref={containerRef}
               >
-                <motion.div className="absolute top-0 left-0 bottom-0 w-60 bg-gunPowder z-1300" variants={sidebar} />
+                <motion.div className="fixed top-0 left-0 bottom-0 w-60 bg-gunPowder z-1300" variants={sidebar} />
                 <Backdrop className={classes.rootBackdrop} open={isOpen} onClick={handleToggle} />
-                <motion.div className="absolute z-1400 top-32 left-20" variants={linksVariants}>
+                <motion.div className="fixed z-1400 top-32 left-20" variants={linksVariants}>
 
                 <motion.div variants={itemVariants} className="flex justify-center">
                   <Link to="/">
