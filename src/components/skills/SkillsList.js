@@ -25,17 +25,17 @@ const SkillsList = () => {
             <div>
               <div>
                 <h3>Zoom</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>Pretty reliable and a lot of users have it installed in their computers so there's no need for installation/on-boarding. It produces space-efficient video recordings, too, which is a plus.</p>
               </div>
 
               <div>
                 <h3>Otter.ai</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>I really love Otter for its simplicity. it starts transcribing with a click of a button. Although the transcription needs editing to make it truly accurate, it still does a remarkable job capturing every word in an interview. Having it turned on with Zoom is a boon for any UX designer.</p>
               </div>
 
               <div>
                 <h3>Google Forms</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>Google Forms is my survey builder of choice simply because it lives within Google's ecosystem. Using it just makes my workflow more streamlined.</p>
               </div>
             </div>
 
@@ -51,12 +51,12 @@ const SkillsList = () => {
             <div>
               <div>
                 <h3>Miro</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>I haven't found a better collaboration tool than Miro. It feels so satisfying to see your team buzzing around, placing post-its in an infinite board. It's also great for generating user personas, graphs, and frameworks. Overall, Miro is just an excellent tool.</p>
               </div>
 
               <div>
                 <h3>InVision</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>I like creating moodboards with InVision but I hardly use it for anything else. Still a decent tool for organizing your ideas.</p>
               </div>
             </div>
           </div>
@@ -73,12 +73,12 @@ const SkillsList = () => {
             <div>
               <div>
                 <h3>Figma</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>I find it so easy to create mockups and do fast prototyping with Figma. The ability to use wirekits and plugins created by a passionate community of designers, Figma's just hard to beat. I love using this tool.</p>
               </div>
 
               <div>
                 <h3>Adobe XD</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>Fell in love with its smart animate feature. Although I mainly use Figma, AdobeXD also does its job very well. Prototyping is very intuitive when using this app.</p>
               </div>
             </div>
           </div>
@@ -94,47 +94,47 @@ const SkillsList = () => {
             <div>
               <div>
                 <h3>ReactJS</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>My Javascript framework of choice. Everything just... made sense when I started using this framework. Component building has never been easier.</p>
               </div>
 
               <div>
                 <h3>Material UI</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>I've been using this since the beginning. Back then, you had to add inline style properties paired with the 'important' rule to apply your own styles. A lot has changed since then and I'll choose Material UI over Bootstrap any day. Bonus: your components automatically follow material design guidelines</p>
               </div>
 
               <div>
                 <h3>GraphQL + Apollo</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>Being able to just call the data that you need is one of the hallmark features of GraphQL. </p>
               </div>
 
               <div>
                 <h3>Jest + React Testing Library</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>Jest is a testing framework that comes out-of-the-box from Create React App. It's pretty easy to create mocks with it. Alongside React Testing Library, I've found everything I need to do unit tests with these two.</p>
               </div>
 
               <div>
                 <h3>WAVE</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>This is my preferred extension to check the accessibility of my app. With a click of a button, you get to see the accessibility issues of your app and how you can address it.</p>
               </div>
 
               <div>
                 <h3>GatsbyJS</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>Let's just say I wish I learned this React-based framework when it first came out. It's a remarkable solution for frontend developers. Not only is it React-based, but it also has hosting, scaling, and data querying solutions that just makes my life easier. Fun fact: this portfolio website was made with GatsbyJS!</p>
               </div>
 
               <div>
                 <h3>Tailwind CSS</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>Another one of those "I wish I learned this sooner" type of frameworks. Some people would say it's jsut Bootstrap but what separates it from the rest is its utility-first approach. There is a learning curve to use TailwindCSS but it feels so good once I got accustomed to its concepts. It makes my styles reusable, development is faster, AND it allows me to have little to no CSS files in my projects.</p>
               </div>
 
               <div>
                 <h3>Google Analytics</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>Qualitative metrics is important in creating a complete picture of a product. Google Analytics jsut makes it easier to capture KPIs for a product.</p>
               </div>
 
               <div>
                 <h3>Visual Studio Code</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nibh dapibus est aliquet posuere. Duis quis sollicitudin velit, vel sodales turpis. Etiam semper eu urna eget elementum. Sed ac venenatis libero, id vehicula odio. In hac habitasse platea dictumst.</p>
+                <p>My IDE of choice. I have everything I need in Visual Studio Code.</p>
               </div>
 
             </div>
