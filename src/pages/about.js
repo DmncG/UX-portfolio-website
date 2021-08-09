@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const About = ({ location }) => (
   <Layout pageTitle="About" location={location}>
     <div className="w-screen h-screen bg-gunPowder p-4">
-      <div className="flex justify-center">
+      <div className="flex justify-center p-2 mt-8">
         <StaticImage placeholder="blurred" imgStyle={{ borderRadius: '50%' }} className="overflow-hidden rounded-full w-60 h-60 border-4 border-terracota" src="../images/profile.jpg" alt="profile" />
       </div>
       
