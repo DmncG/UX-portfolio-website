@@ -17,7 +17,7 @@ const ParticleCanvas = () => {
       options={{
         "background":{
         "color":{
-        "value":"#f4f1de"
+        "value":"#3D405B"
         },
         "position":"50% 50%",
         "repeat":"no-repeat",
