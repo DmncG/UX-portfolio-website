@@ -13,9 +13,10 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const SkillsList = () => {
   return (
-    <div>
-      <h1>Skills</h1>
-      <div>
+    <div className="my-8">
+      <h1 className="font-display font-semibold text-4xl md:text-7xl">Skills</h1>
+      <div className="h-1 bg-terracota w-16 my-4 ml-1"/>
+      <div className="my-8">
         <section>
           <div>
             <div>
