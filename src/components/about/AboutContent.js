@@ -39,11 +39,12 @@ const AboutContent = () => (
             I've barely scratched the surface of UX Design and I'm looking forward to discovering and creating better and more functional solutions for the people around me.
             <br />
             <br />
-            <br />
-            <br />
             When I'm not in front of my computer, you can find me writing stories or playing Beat Saber in my VR headset.
             <br /><br />
-            For inquiries, you can reach me at +1 929-346-2591 or micksdev@gmail.com.
+            For inquiries, you can reach me at&nbsp;
+            <a href="tel:+19293462591" className="text-terracota hover:text-terracota-light">+1 929-346-2591</a>
+            &nbsp;or&nbsp;
+            <a href="tel:+19293462591" className="text-terracota hover:text-terracota-light">micksdev@gmail.com</a>.
             {/* Currently, I'm working on a building a Shopify-based ecommerce website that sells a wide variety of wood products */}
             </p>
         </div>
