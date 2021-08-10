@@ -13,7 +13,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const SkillsList = () => {
   return (
-    <div className="my-8">
+    <div className="my-8 md:max-w-screen-md md:mx-auto">
       <h1 className="font-display font-semibold text-4xl md:text-7xl">Skills</h1>
       <div className="h-1 bg-terracota w-16 my-4 ml-1"/>
       <div className="my-8">
@@ -23,21 +23,30 @@ const SkillsList = () => {
               <LocalPhoneRoundedIcon />
               <ArtTrackRoundedIcon />
             </div>
-            <h2>Research</h2>
+            <h2 className="font-display font-semibold text-2xl md:text-4xl">Research</h2>
             <div>
-              <div>
-                <h3>Zoom</h3>
-                <p>Pretty reliable and a lot of users have it installed in their computers so there's no need for installation/on-boarding. It produces space-efficient video recordings, too, which is a plus.</p>
+              <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center">
+                <StaticImage alt="zoom" src="../../images/zoom-logo.png" className="w-40 my-8 mx-auto md:col-span-1" />
+                <div className="md:col-start-2 md:col-end-4">
+                  <h3 className="font-body font-normal text-lg my-2">Zoom</h3>
+                  <p>Pretty reliable and a lot of users have it installed in their computers so there's no need for installation/on-boarding. It produces space-efficient video recordings, too, which is a plus.</p>
+                </div>
               </div>
 
-              <div>
-                <h3>Otter.ai</h3>
-                <p>I really love Otter for its simplicity. it starts transcribing with a click of a button. Although the transcription needs editing to make it truly accurate, it still does a remarkable job capturing every word in an interview. Having it turned on with Zoom is a boon for any UX designer.</p>
+              <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center">
+                <StaticImage alt="zoom" src="../../images/otter-logo.png" className="w-40 my-8 mx-auto md:col-span-1" />
+                <div className="md:col-start-2 md:col-end-4">
+                  <h3 className="font-body font-normal text-lg my-2">Otter.ai</h3>
+                  <p>I really love Otter for its simplicity. it starts transcribing with a click of a button. Although the transcription needs editing to make it truly accurate, it still does a remarkable job capturing every word in an interview. Having it turned on with Zoom is a boon for any UX designer.</p>
+                </div>
               </div>
 
-              <div>
-                <h3>Google Forms</h3>
-                <p>Google Forms is my survey builder of choice simply because it lives within Google's ecosystem. Using it just makes my workflow more streamlined.</p>
+              <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center">
+                <StaticImage alt="zoom" src="../../images/google-forms-logo.png" className="w-40 my-8 mx-auto md:col-span-1" />
+                <div className="md:col-start-2 md:col-end-4">
+                  <h3 className="font-body font-normal text-lg my-2">Google Forms</h3>
+                  <p>Google Forms is my survey builder of choice simply because it lives within Google's ecosystem. Using it just makes my workflow more streamlined.</p>
+                </div>
               </div>
             </div>
 
