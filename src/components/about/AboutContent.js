@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import ParticleCanvas from '../home/particleCanvas'
 
 const AboutContent = () => (
-  <div className="bg-transparent h-screen">
+  <div className="bg-transparent">
     <ParticleCanvas />
     <div className="p-4 bg-transparent md:flex md:flex-row xl:max-w-screen-xl mx-auto md:my-48">
         <div className="flex justify-center p-2 mt-8">
