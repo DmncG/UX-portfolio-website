@@ -311,7 +311,7 @@ const ProjectList = () => {
           >
             Redesigning <strong>MoreArt</strong>, an organization that supports collaboration between artists and communities to create public art
           </motion.h3>
-          <Link to="/" className="font-body text-lg text-terracota-dark hover:text-terracota my-1">
+          <Link to="/projects/more-art" className="font-body text-lg text-terracota-dark hover:text-terracota my-1">
             View this project
           </Link>
           <motion.div
@@ -364,7 +364,7 @@ const ProjectList = () => {
           >
             <strong>Department of Labor</strong> website redesign
           </motion.h3>
-          <Link to="/" className="font-body text-lg text-terracota-dark hover:text-terracota my-1">
+          <Link to="/projects/department-of-labor" className="font-body text-lg text-terracota-dark hover:text-terracota my-1">
             View this project
           </Link>
           <motion.div
@@ -432,7 +432,7 @@ const ProjectList = () => {
           >
             Development and implementation of the e-commerce platform of <strong>Strand Book Store</strong>, an independent bookstore based in New York City
           </motion.h3>
-          <Link to="/" className="font-body text-lg text-terracota-dark hover:text-terracota">
+          <Link to="/projects/strand-bookstore" className="font-body text-lg text-terracota-dark hover:text-terracota">
             View this project
           </Link>
           <motion.div
