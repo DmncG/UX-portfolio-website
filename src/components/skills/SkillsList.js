@@ -9,6 +9,7 @@ import TabletRoundedIcon from '@material-ui/icons/TabletRounded'
 import WbIncandescentRoundedIcon from '@material-ui/icons/WbIncandescentRounded'
 import BuildRoundedIcon from '@material-ui/icons/BuildRounded'
 import ArtTrackRoundedIcon from '@material-ui/icons/ArtTrackRounded'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const SkillsList = () => {
   return (
