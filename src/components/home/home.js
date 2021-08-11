@@ -68,7 +68,7 @@ const Home = () => {
     <div className="md:grid md:grid-cols-2 md:relative scroll-behavior-smooth bg-rice">
       <section className="md:sticky md:top-0 xs:h-screen relative">
         
-          <StaticImage className="w-12 absolute left-2 top-0 my-2" src="../../images/portfolio-logo-revised-gunpowder.png" alt="drg logo" />
+          <StaticImage placeholder="blurred" className="w-12 absolute left-2 top-0 my-2" src="../../images/portfolio-logo-revised-gunpowder.png" alt="drg logo" />
 
         <div className="flex flex-col justify-center relative top-0 md:top-32 xl:top-1/4 xl:max-w-screen-md xl:m-auto">
           <motion.h1 variants={sentence} initial="hidden" animate="visible" className="font-display font-normal text-4xl text-center mx-4 my-2">
@@ -96,10 +96,10 @@ const Home = () => {
 
           <div className="flex flex-row justify-center p-1 m-1">
             <a href="https://github.com/DmncG/" target="_blank" rel="noreferrer nofollow">
-              <StaticImage className="w-12 m-4" src="../../images/GitHub-Mark-64px.png" alt="github logo" />
+              <StaticImage placeholder="blurred" className="w-12 m-4" src="../../images/GitHub-Mark-64px.png" alt="github logo" />
             </a>
             <a href="https://www.linkedin.com/in/dominic-rb-garcia/" target="_blank" rel="nofollow noreferrer">
-              <StaticImage className="w-12 m-4" src="../../images/linkedin-logo.png" alt="linkedin logo" />
+              <StaticImage placeholder="blurred" className="w-12 m-4" src="../../images/linkedin-logo.png" alt="linkedin logo" />
             </a>
           </div>
 
@@ -160,8 +160,8 @@ const Home = () => {
 
       <section id="projects">
         <div className="relative w-full h-96 md:h-screen bg-gunPowder overflow-hidden">
-          <StaticImage className="p-1 m-8 relative 2xl:top-28 2xl:left-72" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
-          <StaticImage className="p-1 m-4 relative -top-28 lg:-top-36 xl:-top-60 left-20 lg:left-36 xl:left-60 2xl:left-96" src="../../images/Clay Dark.png" alt="mobile mockup" />
+          <StaticImage placeholder="blurred" className="p-1 m-8 relative 2xl:top-28 2xl:left-72" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
+          <StaticImage placeholder="blurred" className="p-1 m-4 relative -top-28 lg:-top-36 xl:-top-60 left-20 lg:left-36 xl:left-60 2xl:left-96" src="../../images/Clay Dark.png" alt="mobile mockup" />
           <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8 z-10">
             <Button
               label="Projects."

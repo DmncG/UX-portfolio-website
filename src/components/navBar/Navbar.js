@@ -205,7 +205,7 @@ const Navbar = (props) => {
                 </div>
                 <div>
                   <Link to="/">
-                    <StaticImage className="w-12 m-2" src="../../images/portfolio_logo_revised.png" alt="drg logo" />
+                    <StaticImage placeholder="blurred" className="w-12 m-2" src="../../images/portfolio_logo_revised.png" alt="drg logo" />
                   </Link>
                 </div>
               </Toolbar>
@@ -226,7 +226,7 @@ const Navbar = (props) => {
 
                 <motion.div variants={itemVariants} className="flex justify-center">
                   <Link to="/">
-                    <StaticImage className="w-16 block mx-auto" src="../../images/portfolio_logo_revised.png" alt="drg logo" />
+                    <StaticImage placeholder="blurred" className="w-16 block mx-auto" src="../../images/portfolio_logo_revised.png" alt="drg logo" />
                   </Link>
                 </motion.div>
 
@@ -275,7 +275,7 @@ const Navbar = (props) => {
                   <div className="w-2 h2 bg-gunPowder p-1"/>
                   <div>
                     <Link to="/">
-                      <StaticImage className="w-12 m-2" src="../../images/portfolio_logo_revised.png" alt="drg logo" />
+                      <StaticImage placeholder="blurred"className="w-12 m-2" src="../../images/portfolio_logo_revised.png" alt="drg logo" />
                     </Link>
                   </div>
                 </Toolbar>
