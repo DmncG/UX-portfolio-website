@@ -137,6 +137,10 @@ module.exports = {
         'line-extend': 'line-extend 1s ease',
         'fade': 'fade 4s ease',
       },
+      width: {
+        '120': '28rem',
+        '136': '32rem',
+      },
     },
   },
   variants: {

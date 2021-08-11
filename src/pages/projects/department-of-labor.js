@@ -1,11 +1,16 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Layout from '../../components/layout'
-import DOL from '../../components/projects/DOL'
+import Dol from '../../components/projects/Dol'
 
-const DepartmentOfLabor = () => (
-  <Layout>
-    <DOL />
+const DepartmentOfLaborPage = ({ location }) => (
+  <Layout location={ location } >
+    <Dol location={ location }/>
   </Layout>
 )
 
-export default DepartmentOfLabor
+DepartmentOfLaborPage.propTypes = {
+  location: PropTypes.objectOf(PropTypes.any).isRequired,
+}
+
+export default DepartmentOfLaborPage

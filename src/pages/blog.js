@@ -12,9 +12,9 @@ export const GET_POSTS = graphql`
   }
 `
 
-const BlogPage = ({ data }) => {
+const BlogPage = ({ data, location }) => {
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="My Blog Posts" location={ location }>
       <p>My cool posts will go in here</p>
       <ul>
       {
