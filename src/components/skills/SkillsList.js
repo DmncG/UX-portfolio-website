@@ -64,7 +64,7 @@ const SkillsList = () => {
                 <StaticImage alt="zoom" src="../../images/miro-logo.png" className="w-40 my-8 mx-auto md:col-span-1" />
                 <div className="md:col-start-2 md:col-end-4">
                   <h3 className="font-body font-normal text-lg my-2">Miro</h3>
-                  <p className="font-body font-normal text-base">I haven't found a better collaboration tool than Miro. It feels so satisfying to see your team buzzing around, placing post-its in an infinite board. It's also great for generating user personas, graphs, and frameworks. Overall, Miro is just an excellent tool.</p>
+                  <p className="font-body font-normal text-base">I haven't found a better collaboration tool than Miro. It feels so satisfying to see your team buzzing around, placing post-it notes in an infinite board. It's also great for generating user personas, graphs, and frameworks.</p>
                 </div>
               </div>
 
@@ -92,7 +92,7 @@ const SkillsList = () => {
                 <StaticImage alt="zoom" src="../../images/figma-logo.svg" className="w-40 my-8 mx-auto md:col-span-1" />
                 <div className="md:col-start-2 md:col-end-4">
                   <h3 className="font-body font-normal text-lg my-2">Figma</h3>
-                  <p className="font-body font-normal text-base">I find it so easy to create mockups and do fast prototyping with Figma. The ability to use wirekits and plugins created by a passionate community of designers, Figma's just hard to beat. I love using this tool.</p>
+                  <p className="font-body font-normal text-base">I find it so easy to create mockups and do fast prototyping with Figma. With the ability to use wirekits and plugins created by a passionate community of designers, Figma's just hard to beat. I love using this tool.</p>
                 </div>
               </div>
 
@@ -100,7 +100,7 @@ const SkillsList = () => {
                 <StaticImage alt="zoom" src="../../images/adobe-xd-logo.png" className="w-40 my-8 mx-auto md:col-span-1" />
                 <div className="md:col-start-2 md:col-end-4">
                   <h3 className="font-body font-normal text-lg my-2">Adobe XD</h3>
-                  <p className="font-body font-normal text-base">Fell in love with its smart animate feature. Although I mainly use Figma, AdobeXD also does its job very well. Prototyping is very intuitive when using this app.</p>
+                  <p className="font-body font-normal text-base">Fell in love with its smart animate feature. Although I mainly use Figma, AdobeXD also does its job very well. Prototyping is very intuitive when using this tool.</p>
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@ const SkillsList = () => {
                 <StaticImage alt="zoom" src="../../images/material-ui-logo.png" className="w-40 my-8 mx-auto md:col-span-1" />
                 <div className="md:col-start-2 md:col-end-4">
                   <h3 className="font-body font-normal text-lg my-2">Material UI</h3>
-                  <p className="font-body font-normal text-base">I've been using this since the beginning. Back then, you had to add inline style properties paired with the 'important' rule to apply your own styles. A lot has changed since then and I'll choose Material UI over Bootstrap any day. Bonus: your components automatically follow material design guidelines</p>
+                  <p className="font-body font-normal text-base">I've been using this since the beginning. Back then, you had to add inline style properties paired with the 'important' rule to apply your own styles. A lot has changed since then and I'll choose Material UI over Bootstrap any day. Bonus: your components automatically follow material design guidelines.</p>
                 </div>
               </div>
 
@@ -135,7 +135,7 @@ const SkillsList = () => {
                 <StaticImage alt="zoom" src="../../images/apollo-logo.png" className="w-40 my-8 mx-auto md:col-span-1" />
                 <div className="md:col-start-2 md:col-end-4">
                   <h3 className="font-body font-normal text-lg my-2">GraphQL + Apollo</h3>
-                  <p className="font-body font-normal text-base">Being able to just call the data that you need is one of the hallmark features of GraphQL. </p>
+                  <p className="font-body font-normal text-base">Being able to just call the data that you need is one of the hallmark features of GraphQL. It's fast, easy to incorporate into components, and the documentation is excellent.</p>
                 </div>
               </div>
 
@@ -159,7 +159,7 @@ const SkillsList = () => {
                 <StaticImage alt="zoom" src="../../images/tailwind-logo.png" className="w-40 my-8 mx-auto md:col-span-1" />
                 <div className="md:col-start-2 md:col-end-4">
                   <h3 className="font-body font-normal text-lg my-2">Tailwind CSS</h3>
-                  <p className="font-body font-normal text-base">Another one of those "I wish I learned this sooner" type of frameworks. Some people would say it's jsut Bootstrap but what separates it from the rest is its utility-first approach. There is a learning curve to use TailwindCSS but it feels so good once I got accustomed to its concepts. It makes my styles reusable, development is faster, AND it allows me to have little to no CSS files in my projects.</p>
+                  <p className="font-body font-normal text-base">Another one of those "I wish I learned this sooner" type of frameworks. Some people would say it's just Bootstrap but what separates it from the rest is its utility-first approach. There is a learning curve to use TailwindCSS but it feels so good once I got accustomed to its concepts. It makes my styles reusable, development is faster, AND it allows me to have little to no CSS files in my projects.</p>
                 </div>
               </div>
   
@@ -167,7 +167,7 @@ const SkillsList = () => {
                 <StaticImage alt="zoom" src="../../images/analytics-logo.png" className="w-40 my-8 mx-auto md:col-span-1" />
                 <div className="md:col-start-2 md:col-end-4">
                   <h3 className="font-body font-normal text-lg my-2">Google Analytics</h3>
-                  <p className="font-body font-normal text-base">Qualitative metrics is important in creating a complete picture of a product. Google Analytics jsut makes it easier to capture KPIs for a product.</p>
+                  <p className="font-body font-normal text-base">Quantitative metrics alongside qualitative data is essential in creating a complete picture of a product. Google Analytics just makes it easier to capture KPIs and present numbers to stakeholders.</p>
                 </div>
               </div>
 
