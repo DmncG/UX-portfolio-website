@@ -4,6 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const Hero = ({ location }) => {
   const projectName = location.pathname.slice(10, -1)
+  console.log(projectName)
 
   if (projectName === 'more-art') {
     return (
