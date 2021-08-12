@@ -53,12 +53,17 @@ const divVariant = {
 const navLinkVariant = {
   hidden: {
     opacity: 0,
+    left: '-8px',
+    transition: {
+      duration: 0.5,
+    },
   },
   visible: {
     opacity: 1,
+    left: 'initial',
     transition: {
       duration: 0.5,
-    }
+    },
   },
 }
 
@@ -108,11 +113,11 @@ const Home = () => {
               variants={divVariant}
               initial="hidden"
               whileHover="visible"
-              className="relative"
+              className="relative flex flex-cols justify-center items-center"
             >
               <Link className="hover:text-terracota" to="/projects">Projects</Link>
               <motion.div
-                className="h-1 w-8 bg-terracota absolute inset-x-1/4"
+                className="h-1 w-8 bg-terracota absolute top-6"
                 variants={navLinkVariant}
               />
             </motion.div>
@@ -121,11 +126,11 @@ const Home = () => {
               variants={divVariant}
               initial="hidden"
               whileHover="visible"
-              className="relative"
+              className="relative  flex flex-cols justify-center items-center"
             >
               <Link className="hover:text-terracota" to="/skills">Skills</Link>
               <motion.div
-                className="h-1 w-8 bg-terracota absolute inset-x-1/4"
+                className="h-1 w-8 bg-terracota absolute top-6"
                 variants={navLinkVariant}
               />
             </motion.div>
@@ -134,11 +139,11 @@ const Home = () => {
               variants={divVariant}
               initial="hidden"
               whileHover="visible"
-              className="relative"
+              className="relative flex flex-cols justify-center items-center"
             >
               <Link className="hover:text-terracota" to="/about">About</Link>
               <motion.div
-                className="h-1 w-8 bg-terracota absolute inset-x-1/4"
+                className="h-1 w-8 bg-terracota absolute top-6"
                 variants={navLinkVariant}
               />
             </motion.div>
