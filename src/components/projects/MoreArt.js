@@ -1,16 +1,10 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
-import useMediaQuery from '@material-ui/core/useMediaQuery'
 import Header from '../header/Header'
-import ProgressBar from '../progressBar/ProgressBar'
 
 const MoreArt = () => {
-
-  const match767 = useMediaQuery('(min-width: 767px)')
-
   return (
     <>
-      { match767 && <ProgressBar /> }
       <div className="max-w-screen-md xl:max-w-screen-lg md:mx-auto py-16">
         <div className="mt-16 mb-16">
           <div className="relative flex flex-col justify-center items-center max-w-sm sm:mx-auto">
