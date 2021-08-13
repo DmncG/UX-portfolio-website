@@ -189,23 +189,11 @@ const MoreArt = () => {
                   </div>
                   <div className="my-8 flex flex-col">
                     <p className="font-body text-base leading-relaxed">After performing a heuristic evaluation on MoreArt's current website, it was evident that there was a need to <strong>make the designs between pages feel more consistent</strong>. There were also a number of broken links throughout the site. Despite all this, the website does have help available in every page and there are a limited number of buttons and links.</p>
-                    <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-3">
+                    <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-1">
                       <StaticImage
                         src="../../images/moreart-heuristic-1.png"
                         alt="Heuristic 1"
-                        className="my-8 self-center"
-                        placeholder="blurred"
-                      />
-                      <StaticImage
-                        src="../../images/moreart-heuristic-2.png"
-                        alt="Heuristic 2"
-                        className="my-8 self-center"
-                        placeholder="blurred"
-                      />
-                      <StaticImage
-                        src="../../images/moreart-heuristic-3.png"
-                        alt="Heuristic 3"
-                        className="my-8 self-center"
+                        className="my-8 col-span-2"
                         placeholder="blurred"
                       />
                     </div>
