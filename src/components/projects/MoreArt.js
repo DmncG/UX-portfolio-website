@@ -5,7 +5,7 @@ import Header from '../header/Header'
 const MoreArt = () => {
   return (
     <>
-      <div className="max-w-screen-md xl:max-w-screen-lg md:mx-auto py-16">
+      <div className="md:max-w-screen-md xl:max-w-screen-lg md:mx-auto py-16">
         <div className="mt-16 mb-16">
           <div className="relative flex flex-col justify-center items-center max-w-sm sm:mx-auto">
             <StaticImage
@@ -248,49 +248,49 @@ const MoreArt = () => {
 
           <section>
             <Header level={1}>Definition & Ideation</Header>
-
-            <div className="my-4">
-              <div>
-                <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Affinity Diagram</h2>
-                <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+            <div className="py-2 px-4 my-4">
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Affinity Diagram</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <p className="font-body text-base leading-relaxed">We gathered all our findings from the research interviews and organized them into an affinity diagram. <strong>Concerns about transparency and trust</strong> naturally came up as we grouped the data.</p>
+                  <StaticImage
+                    src="../../images/moreart-affinity.jpg"
+                    alt="Affinity Diagram"
+                    className="my-8 self-center"
+                    placeholder="blurred"
+                  />
+                </div>
               </div>
-              <div className="my-8 flex flex-col">
-                <p className="font-body text-base leading-relaxed">We gathered all our findings from the research interviews and organized them into an affinity diagram. <strong>Concerns about transparency and trust</strong> naturally came up as we grouped the data.</p>
-                <StaticImage
-                  src="../../images/moreart-affinity.jpg"
-                  alt="Affinity Diagram"
-                  className="my-8 self-center"
-                  placeholder="blurred"
-                />
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">User Insight</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8">
+                  <p className="font-body text-base leading-relaxed">We decided to focus on the themes surrounding transparecy and trust as this seemed to be the most important factor for our users.</p>
+                  <p className="font-display font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-16">People who donate online need to have a simple,  reassuring, and accountable giving experience because <span className="text-terracota">trust and transparency are key into motivating users to donate</span>.</p>
+                </div>
+              </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">User Persona</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <StaticImage
+                    src="../../images/moreart-user-persona.png"
+                    alt="User Persona"
+                    className="my-8 self-center"
+                    placeholder="blurred"
+                  />
+                </div>
               </div>
             </div>
-
-            <div className="my-4">
-              <div>
-                <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">User Insight</h2>
-                <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-              </div>
-              <div className="my-8">
-                <p className="font-body text-base leading-relaxed">We decided to focus on the themes surrounding transparecy and trust as this seemed to be the most important factor for our users.</p>
-                <p className="font-display font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-16">People who donate online need to have a simple,  reassuring, and accountable giving experience because <span className="text-terracota">trust and transparency are key into motivating users to donate</span>.</p>
-              </div>
-            </div>
-
-            <div className="my-4">
-              <div>
-                <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">User Persona</h2>
-                <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-              </div>
-              <div className="my-8 flex flex-col">
-                <StaticImage
-                  src="../../images/moreart-user-persona.png"
-                  alt="User Persona"
-                  className="my-8 self-center"
-                  placeholder="blurred"
-                />
-              </div>
-            </div>
-            
           </section>
 
           <section>
