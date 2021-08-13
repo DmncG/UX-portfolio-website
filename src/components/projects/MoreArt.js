@@ -85,13 +85,29 @@ const MoreArt = () => (
                 </div>
                 <p className="font-body text-base leading-relaxed">We began the process by conducting 4 research interviews to <strong>figure out the habits and painpoints of users when they donate online</strong>. Moreover, we wanted to know the general needs of people who are interested in social initiatives, and get a sense of how they perceive non-profit organizations as a whole.</p>
                 <div className="grid grid-cols-2 justify-center my-16 lg:max-w-screen-md mx-auto">
-                  <StaticImage src="../../images/moreart-interview-1.png" alt="research interview 1" />
+                  <StaticImage
+                    src="../../images/moreart-interview-1.png"
+                    alt="research interview 1"
+                    placeholder="blurred"
+                  />
 
-                  <StaticImage src="../../images/moreart-interview-2.png" alt="research interview 2" />
+                  <StaticImage
+                    src="../../images/moreart-interview-2.png"
+                    alt="research interview 2"
+                    placeholder="blurred"
+                  />
 
-                  <StaticImage src="../../images/moreart-interview-3.png" alt="research interview 3" />
+                  <StaticImage
+                    src="../../images/moreart-interview-3.png"
+                    alt="research interview 3"
+                    placeholder="blurred"
+                  />
 
-                  <StaticImage src="../../images/moreart-interview-4.png" alt="research interview 4" />
+                  <StaticImage
+                    src="../../images/moreart-interview-4.png"
+                    alt="research interview 4"
+                    placeholder="blurred"
+                  />
                 </div>
               </div>
 
@@ -160,6 +176,7 @@ const MoreArt = () => (
                     src="../../images/moreart-proto-persona.jpg"
                     alt="proto persona"
                     className="my-8 self-center"
+                    placeholder="blurred"
                   />
                 </div>
               </div>
@@ -176,16 +193,19 @@ const MoreArt = () => (
                       src="../../images/moreart-heuristic-1.png"
                       alt="Heuristic 1"
                       className="my-8 self-center"
+                      placeholder="blurred"
                     />
                     <StaticImage
                       src="../../images/moreart-heuristic-2.png"
                       alt="Heuristic 2"
                       className="my-8 self-center"
+                      placeholder="blurred"
                     />
                     <StaticImage
                       src="../../images/moreart-heuristic-3.png"
                       alt="Heuristic 3"
                       className="my-8 self-center"
+                      placeholder="blurred"
                     />
                   </div>
                 </div>
@@ -203,16 +223,19 @@ const MoreArt = () => (
                       src="../../images/moreart-anno-1.png"
                       alt="Annotations 1"
                       className="my-8 self-center"
+                      placeholder="blurred"
                     />
                     <StaticImage
                       src="../../images/moreart-anno-2.png"
                       alt="Annotations 2"
                       className="my-8 self-center"
+                      placeholder="blurred"
                     />
                     <StaticImage
                       src="../../images/moreart-anno-3.png"
                       alt="Annotations 3"
                       className="my-8 self-center"
+                      placeholder="blurred"
                     />
                   </div>
                 </div>
