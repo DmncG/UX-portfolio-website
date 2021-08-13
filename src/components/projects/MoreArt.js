@@ -278,11 +278,100 @@ const MoreArt = () => {
                   />
                 </div>
               </div>
+
+              {/* <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Competitor Analysis</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+
+                <div className="my-8 flex flex-col">
+                  <p className="font-body text-base leading-relaxed">We conducted a competitor analysis to see what the giving space looks like online.</p>
+                  <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-3">
+                    <StaticImage
+                      src="../../images/moreart-anno-1.png"
+                      alt="Annotations 1"
+                      className="my-8 self-center"
+                      placeholder="blurred"
+                    />
+                    <StaticImage
+                      src="../../images/moreart-anno-2.png"
+                      alt="Annotations 2"
+                      className="my-8 self-center"
+                      placeholder="blurred"
+                    />
+                    <StaticImage
+                      src="../../images/moreart-anno-3.png"
+                      alt="Annotations 3"
+                      className="my-8 self-center"
+                      placeholder="blurred"
+                    />
+                  </div>
+                </div>
+              </div> */}
+
             </div>
           </section>
 
           <section>
             <Header level={1}>Prototyping & Testing</Header>
+            <div className="py-2 px-4 my-4">
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">I Like, I Wish, What If...</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <p className="font-body text-base leading-relaxed">We knew that we wanted the donation workflow to be simpler with a clean and modern design. Users should also be able to donate to specific projects.</p>
+                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1">
+                    <StaticImage
+                      src="../../images/moreart-i-like-i-wish-what-if.jpeg"
+                      alt="I Like I Wish What If"
+                      className="my-8 col-span-2"
+                      placeholder="blurred"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Mood Board</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <p className="font-body text-base leading-relaxed">Quicksand, a sans serif font, was used as it conveyed approachability. We also looked at museums and architecture that had a modern and contemporary feel to develop the website's aesthetics.</p>
+                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1">
+                    <StaticImage
+                      src="../../images/moreart-moodboard.png"
+                      alt="Mood Board"
+                      className="my-8 col-span-2"
+                      placeholder="blurred"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Style Guide</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <p className="font-body text-base leading-relaxed">We used the striking Persian Blue that goes very well with the black background. Colors weere kept to a minimum to enhance the site's simplicity.</p>
+                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1">
+                    <StaticImage
+                      src="../../images/moreart-style-guide.png"
+                      alt="Style Guide"
+                      className="my-8 col-span-2"
+                      placeholder="blurred"
+                    />
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </section>
 
           <section>
