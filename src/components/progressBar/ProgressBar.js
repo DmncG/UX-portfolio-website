@@ -17,7 +17,7 @@ const ProgressBar = () => {
 
   return (
     <>
-      <svg className="fixed top-3 left-3 w-24 h-24" viewBox="0 0 60 60">
+      <svg className="fixed top-24 left-3 w-24 h-24" viewBox="0 0 60 60">
         <motion.path
           fill="none"
           strokeWidth="5"
