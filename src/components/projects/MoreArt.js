@@ -546,14 +546,12 @@ const MoreArt = () => {
                 </div>
               </div>
 
-
-
             </div>
           </section>
 
           <section>
             <Header level={1}>Next Steps</Header>
-            <div className="my-8 flex flex-col">
+            <div className="py-2 px-4 my-4">
               <p className="font-body text-base leading-relaxed">There were a lot of low-hanging fruits that our team addressed to vastly improve the overall experience on the website. Exhibitions are now more navigable better highlights MoreArt's previous and current endeavors. Checkout is more contemporary and intuitive. Lastly, the home page has clear value propositions, with the donation page more streamlined and reassuring.</p>
               <br />
               <p className="font-body text-base leading-relaxed">Despite all these improvements, there is still more work left to be done.</p>
