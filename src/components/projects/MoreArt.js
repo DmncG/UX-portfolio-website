@@ -2,10 +2,12 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Header from '../header/Header'
 import { RoundedButton } from '../button/Button'
+import Fab from '../fab/Fab'
 
 const MoreArt = () => {
   return (
     <>
+      <Fab />
       <div className="md:max-w-screen-md xl:max-w-screen-lg md:mx-auto py-16">
         <div className="mt-16 mb-16">
           <div className="relative flex flex-col justify-center items-center max-w-sm sm:mx-auto">
