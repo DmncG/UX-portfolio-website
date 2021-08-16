@@ -1,6 +1,7 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Header from '../header/Header'
+import { RoundedButton } from '../button/Button'
 
 const MoreArt = () => {
   return (
@@ -228,6 +229,12 @@ const MoreArt = () => {
                       />
                     </div>
                   </div>
+
+                  <RoundedButton
+                    label="View Annotations"
+                    color="terracota"
+                    link="https://www.figma.com/file/ewE6IUBmbbSkgmuKKL87nq/Non-Profit-Annotations?node-id=0%3A1"
+                  />
                 </div>
 
               </div>
@@ -446,6 +453,11 @@ const MoreArt = () => {
                     />
                   </div>
 
+                  <RoundedButton
+                    label="View Prototype"
+                    color="terracota"
+                    link="https://www.figma.com/proto/ewE6IUBmbbSkgmuKKL87nq/Non-Profit-Annotations?node-id=66%3A49&scaling=scale-down&page-id=62%3A3&starting-point-node-id=66%3A49&show-proto-sidebar=1"
+                  />
                 </div>
               </div>
 
@@ -494,6 +506,12 @@ const MoreArt = () => {
                     /> */}
                   </div>
                 </div>
+
+                  <RoundedButton
+                    label="View Prototype"
+                    link="https://www.figma.com/proto/ewE6IUBmbbSkgmuKKL87nq/Non-Profit-Annotations?node-id=115%3A3550&scaling=scale-down&page-id=85%3A117&starting-point-node-id=115%3A3550"
+                    color="terracota"
+                  />
               </div>
 
               <div className="my-4">
