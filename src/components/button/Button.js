@@ -35,29 +35,35 @@ const Button = ({ label, link, color }) => {
 export const RoundedButton = ({ label, link, color }) => {
   if (color === 'gunPowder') {
     return (
-      <Link to={link}>
-        <div className="shadow-md hover:shadow-xl rounded-md w-56 lg:w-72 mx-auto my-2 flex justify-center items-center bg-gunPowder hover:bg-gunPowder-light text-rice cursor-pointer">
-        <p className="py-3 text-lg lg:text-2xl font-semibold font-display text-rice">{label}</p>
-        </div>
-      </Link>
+      <div className="w-56 lg:w-72 mx-auto">
+        <Link to={link}>
+          <div className="shadow-md hover:shadow-xl rounded-md w-56 lg:w-72 mx-auto my-2 flex justify-center items-center bg-gunPowder hover:bg-gunPowder-light text-rice cursor-pointer">
+            <p className="py-3 text-lg lg:text-2xl font-semibold font-display text-rice">{label}</p>
+          </div>
+        </Link>
+      </div>
     )
   }
 
   if (color === 'padua') {
     return (
-      <Link to={link}>
-        <div className="shadow-md hover:shadow-xl rounded-md w-56 lg:w-72 mx-auto my-2 flex justify-center items-center bg-padua hover:bg-padua-light text-rice cursor-pointer">
-        <p className="py-3 text-lg lg:text-2xl font-semibold font-display text-rice">{label}</p>
-        </div>
-      </Link>
+      <div className="w-56 lg:w-72 mx-auto">
+        <Link to={link}>
+          <div className="shadow-md hover:shadow-xl rounded-md w-56 lg:w-72 mx-auto my-2 flex justify-center items-center bg-padua hover:bg-padua-light text-rice cursor-pointer">
+            <p className="py-3 text-lg lg:text-2xl font-semibold font-display text-rice">{label}</p>
+          </div>
+        </Link>
+      </div>
     )
   }
   return (
-    <Link to={link}>
+    <div className="w-56 lg:w-72 mx-auto">
+      <Link to={link}>
         <div className="shadow-md hover:shadow-xl rounded-md w-56 lg:w-72 mx-auto my-2 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
-        <p className="py-3 text-lg lg:text-2xl font-semibold font-display text-rice">{label}</p>
+          <p className="py-3 text-lg lg:text-2xl font-semibold font-display text-rice">{label}</p>
         </div>
-    </Link>
+      </Link>
+    </div>
   )
 }
 
