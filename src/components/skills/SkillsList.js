@@ -1,14 +1,4 @@
 import React from 'react'
-import ExpandLessRoundedIcon from '@material-ui/icons/ExpandLessRounded'
-import ExpandMoreRoundedIcon from '@material-ui/icons/ExpandMoreRounded'
-import LaptopRoundedIcon from '@material-ui/icons/LaptopRounded'
-import LocalPhoneRoundedIcon from '@material-ui/icons/LocalPhoneRounded'
-import PhoneIphoneRoundedIcon from '@material-ui/icons/PhoneIphoneRounded'
-import SettingsRoundedIcon from '@material-ui/icons/SettingsRounded'
-import TabletRoundedIcon from '@material-ui/icons/TabletRounded'
-import WbIncandescentRoundedIcon from '@material-ui/icons/WbIncandescentRounded'
-import BuildRoundedIcon from '@material-ui/icons/BuildRounded'
-import ArtTrackRoundedIcon from '@material-ui/icons/ArtTrackRounded'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const SkillsList = () => {
