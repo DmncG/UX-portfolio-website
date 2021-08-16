@@ -16,13 +16,9 @@ const SkillsList = () => {
     <div className="my-8 md:max-w-screen-md md:mx-auto">
       <h1 className="font-display font-semibold text-4xl md:text-7xl">Skills</h1>
       <div className="h-1 bg-terracota w-16 my-4 ml-1"/>
-      <div className="my-8">
+      <div className="my-12">
         <section>
-          <div>
-            <div className="text-9xl text-gunPowder-light my-8">
-              <LocalPhoneRoundedIcon fontSize="inherit"/>
-              <ArtTrackRoundedIcon fontSize="inherit"/>
-            </div>
+          <div className="mb-12">
             <h2 className="font-display font-semibold text-2xl md:text-4xl">Research</h2>
             <div>
               <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center">
@@ -54,10 +50,7 @@ const SkillsList = () => {
         </section>
 
         <section>
-          <div>
-            <div className="text-9xl text-peachOrange my-8">
-              <WbIncandescentRoundedIcon fontSize="inherit"/>
-            </div>
+          <div className="mb-12">
             <h2 className="font-display font-semibold text-2xl md:text-4xl">Ideation</h2>
             <div>
               <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center">
@@ -80,13 +73,8 @@ const SkillsList = () => {
         </section>
 
         <section>
-          <div>
-            <div className="text-9xl text-gunPowder my-8">
-              <LaptopRoundedIcon fontSize="inherit"/>
-              <PhoneIphoneRoundedIcon fontSize="inherit"/>
-              <TabletRoundedIcon fontSize="inherit"/>
-            </div>
-            <h2 className="font-display font-semibold text-2xl md:text-4xl">Mockups & Prototyping</h2>
+          <div className="mb-12">
+            <h2 className="font-display font-semibold text-2xl md:text-4xl">Mockups &amp; Prototyping</h2>
             <div>
               <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center">
                 <StaticImage placeholder="blurred" alt="zoom" src="../../images/figma-logo.svg" className="w-40 my-8 mx-auto md:col-span-1" />
@@ -108,11 +96,7 @@ const SkillsList = () => {
         </section>
 
         <section>
-          <div>
-            <div className="text-9xl text-padua my-8">
-              <SettingsRoundedIcon fontSize="inherit"/>
-              <BuildRoundedIcon fontSize="inherit"/>
-            </div>
+          <div className="mb-12">
             <h2 className="font-display font-semibold text-2xl md:text-4xl">Development</h2>
             <div>
               <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center">
