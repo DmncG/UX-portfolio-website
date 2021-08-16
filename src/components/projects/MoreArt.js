@@ -371,6 +371,86 @@ const MoreArt = () => {
                 </div>
               </div>
 
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">User Flows</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <p className="font-body text-base leading-relaxed">We focused on the three main user flows of the website: donations, exhibitions, and the shopping experience</p>
+                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3">
+                    <StaticImage
+                      src="../../images/moreart-userflow-donations.jpg"
+                      alt="Donations"
+                      className="my-8"
+                      placeholder="blurred"
+                    />
+                    <StaticImage
+                      src="../../images/moreart-userflow-exhibits.jpg"
+                      alt="Exhibitions"
+                      className="my-8"
+                      placeholder="blurred"
+                    />
+                    <StaticImage
+                      src="../../images/moreart-userflow-shop.jpg"
+                      alt="Shop"
+                      className="my-8"
+                      placeholder="blurred"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Lo-fi Prototypes</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3">
+                    <StaticImage
+                      src="../../images/moreart-lofi-home-desktop.png"
+                      alt="Home Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                    />
+                    <StaticImage
+                      src="../../images/moreart-lofi-rsvp-desktop.png"
+                      alt="RSVP Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                    />
+                    <StaticImage
+                      src="../../images/moreart-lofi-shop-desktop.png"
+                      alt="Shop Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                    />
+                    <StaticImage
+                      src="../../images/moreart-lofi-home-mobile.png"
+                      alt="Home Mobile"
+                      className="my-8"
+                      placeholder="blurred"
+                    />
+                    <StaticImage
+                      src="../../images/moreart-lofi-rsvp-mobile.jpg"
+                      alt="RSVP Mobile"
+                      className="my-8"
+                      placeholder="blurred"
+                    />
+                    <StaticImage
+                      src="../../images/moreart-lofi-shop-mobile.png"
+                      alt="Shop Mobile"
+                      className="my-8"
+                      placeholder="blurred"
+                    />
+                  </div>
+
+                </div>
+              </div>
+
+
+
             </div>
           </section>
 
