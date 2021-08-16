@@ -429,19 +429,19 @@ const MoreArt = () => {
                     <StaticImage
                       src="../../images/moreart-lofi-home-mobile.png"
                       alt="Home Mobile"
-                      className="my-8"
+                      className="my-8 mx-2"
                       placeholder="blurred"
                     />
                     <StaticImage
                       src="../../images/moreart-lofi-rsvp-mobile.jpg"
                       alt="RSVP Mobile"
-                      className="my-8"
+                      className="my-8 mx-2"
                       placeholder="blurred"
                     />
                     <StaticImage
                       src="../../images/moreart-lofi-shop-mobile.png"
                       alt="Shop Mobile"
-                      className="my-8"
+                      className="my-8 mx-2"
                       placeholder="blurred"
                     />
                   </div>
