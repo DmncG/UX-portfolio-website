@@ -449,6 +449,80 @@ const MoreArt = () => {
                 </div>
               </div>
 
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Hi-fi Prototypes</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-2">
+                    <StaticImage
+                      src="../../images/moreart-final-desktop-1.png"
+                      alt="Home Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                    />
+                    <StaticImage
+                      src="../../images/moreart-final-desktop-2.png"
+                      alt="RSVP Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                    />
+                    {/* <StaticImage
+                      src="../../images/moreart-final-desktop-3.png"
+                      alt="Shop Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                    /> */}
+                    <StaticImage
+                      src="../../images/moreart-final-mobile-1.png"
+                      alt="Home Mobile"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                    />
+                    <StaticImage
+                      src="../../images/moreart-final-mobile-2.png"
+                      alt="RSVP Mobile"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                    />
+                    {/* <StaticImage
+                      src="../../images/moreart-final-mobile-3.png"
+                      alt="Shop Mobile"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                    /> */}
+                  </div>
+                </div>
+              </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">User Tests</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <p className="font-body text-base leading-relaxed">We conducted 3 user tests on our hi-fi prototype to validate (or invalidate) our designs. We ask our users to RSVP on a project, make a $25 donation, add an item to their cart, and check out. Some of the feedback we received are the ff:</p>
+                  <ul className="list-disc pl-8">
+                    <li className="font-body text-base my-4">
+                      RSVP cta was confusing
+                    </li>
+                    <li className="font-body text-base my-4">
+                      Waited for a pop up to ask the user to check out; clicking the cart wasn't intuitive
+                    </li>
+                    <li className="font-body text-base my-4">
+                      Kept seeing the value proposition on the donations page and thought something was broken
+                    </li>
+                    <li className="font-body text-base my-4">
+                      Struggled to return home from the donations page; navbar missing on the page
+                    </li>
+                    <li className="font-body text-base my-4">
+                      Checkout experience was intuitive
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
 
 
             </div>
@@ -456,6 +530,22 @@ const MoreArt = () => {
 
           <section>
             <Header level={1}>Next Steps</Header>
+            <div className="my-8 flex flex-col">
+              <p className="font-body text-base leading-relaxed">There were a lot of low-hanging fruits that our team addressed to vastly improve the overall experience on the website. Exhibitions are now more navigable better highlights MoreArt's previous and current endeavors. Checkout is more contemporary and intuitive. Lastly, the home page has clear value propositions, with the donation page more streamlined and reassuring.</p>
+              <br />
+              <p className="font-body text-base leading-relaxed">Despite all these improvements, there is still more work left to be done.</p>
+              <ul className="list-disc pl-8">
+                <li className="font-body text-base my-4">
+                  Redesign the artist's page.
+                </li>
+                <li className="font-body text-base my-4">
+                  Include more ways to reassure customers during the giving experience (certifications, awards, display no. of donations).
+                </li>
+                <li className="font-body text-base my-4">
+                  Follow-up with testers to see if the iterations worked.
+                </li>
+              </ul>
+            </div>
           </section>
         </div>
       </div>
