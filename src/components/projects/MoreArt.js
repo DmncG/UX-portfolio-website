@@ -418,42 +418,48 @@ const MoreArt = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3">
+                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-center">
                     <StaticImage
                       src="../../images/moreart-lofi-home-desktop.png"
                       alt="Home Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
                       src="../../images/moreart-lofi-rsvp-desktop.png"
                       alt="RSVP Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
                       src="../../images/moreart-lofi-shop-desktop.png"
                       alt="Shop Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
                       src="../../images/moreart-lofi-home-mobile.png"
                       alt="Home Mobile"
                       className="my-8 mx-2"
                       placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
                       src="../../images/moreart-lofi-rsvp-mobile.jpg"
                       alt="RSVP Mobile"
                       className="my-8 mx-2"
                       placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
                       src="../../images/moreart-lofi-shop-mobile.png"
                       alt="Shop Mobile"
                       className="my-8 mx-2"
                       placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
                     />
                   </div>
 
@@ -473,51 +479,50 @@ const MoreArt = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-2">
+                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-center">
                     <StaticImage
                       src="../../images/moreart-final-desktop-1.png"
                       alt="Home Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
                       src="../../images/moreart-final-desktop-2.png"
                       alt="RSVP Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
                     />
-                    {/* <StaticImage
+                    <StaticImage
                       src="../../images/moreart-final-desktop-3.png"
                       alt="Shop Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
-                    /> */}
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
                     <StaticImage
                       src="../../images/moreart-final-mobile-1.png"
                       alt="Home Mobile"
                       className="my-8 mx-2"
                       placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
                       src="../../images/moreart-final-mobile-2.png"
                       alt="RSVP Mobile"
                       className="my-8 mx-2"
                       placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
                     />
-                    {/* <StaticImage
+                    <StaticImage
                       src="../../images/moreart-final-mobile-3.png"
                       alt="Shop Mobile"
                       className="my-8 mx-2"
                       placeholder="blurred"
-                    /> */}
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
                   </div>
-                </div>
-                <div className="my-4">
-                  <RoundedButton
-                    label="View Prototype"
-                    link="https://www.figma.com/proto/ewE6IUBmbbSkgmuKKL87nq/Non-Profit-Annotations?node-id=115%3A3550&scaling=scale-down&page-id=85%3A117&starting-point-node-id=115%3A3550"
-                    color="terracota"
-                  />
                 </div>
               </div>
 
@@ -545,6 +550,90 @@ const MoreArt = () => {
                       Checkout experience was intuitive
                     </li>
                   </ul>
+                </div>
+              </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Iterated Hi-fi Prototypes</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <div className="lg:max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 justify-center items-center">
+                    <StaticImage
+                      src="../../images/moreart-final-home.png"
+                      alt="Home Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/moreart-final-donations.png"
+                      alt="RSVP Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/moreart-final-exhibitions.png"
+                      alt="Shop Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/moreart-final-public-water.png"
+                      alt="public water"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/moreart-final-shop.png"
+                      alt="Home Mobile"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/moreart-final-checkout.png"
+                      alt="RSVP Mobile"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                  </div>
+
+                  <div className="lg:max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-center">
+                    <StaticImage
+                      src="../../images/moreart-home-mobile.png"
+                      alt="Home Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/moreart-final-exhibitions-mobile.jpg"
+                      alt="RSVP Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/moreart-final-shop-mobile.png"
+                      alt="Shop Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                  </div>
+                </div>
+                <div className="my-4">
+                  <RoundedButton
+                    label="View Prototype"
+                    link="https://www.figma.com/proto/ewE6IUBmbbSkgmuKKL87nq/Non-Profit-Annotations?node-id=115%3A3550&scaling=scale-down&page-id=85%3A117&starting-point-node-id=115%3A3550"
+                    color="terracota"
+                  />
                 </div>
               </div>
 
