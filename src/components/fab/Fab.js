@@ -10,7 +10,7 @@ const Fab = () => {
 
   return (
     <button
-      className="fixed rounded-full w-24 h-24 bg-terracota hover:bg-terracota-light bottom-24 right-8 text-rice z-50"
+      className="fixed rounded-full w-16 h-16 bg-terracota hover:bg-terracota-light bottom-24 right-8 text-rice z-50"
       aria-label="Return to Top"
       type="button"
       onClick={handleScrollTop}
