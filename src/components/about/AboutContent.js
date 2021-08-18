@@ -3,18 +3,18 @@ import { StaticImage } from 'gatsby-plugin-image'
 import ParticleCanvas from '../home/particleCanvas'
 
 const AboutContent = () => (
-  <div className="bg-transparent lg:h-screen">
+  <div className="bg-transparent">
     <ParticleCanvas />
-    <div className="p-4 bg-transparent md:flex md:flex-row xl:max-w-screen-xl mx-auto md:my-48">
+    <div className="p-4 bg-transparent md:flex md:flex-row xl:max-w-screen-xl mx-auto md:my-32">
         <div className="flex justify-center p-2 mt-8">
         <StaticImage placeholder="blurred" imgStyle={{ borderRadius: '50%' }} className="overflow-hidden rounded-full w-60 md:w-72 lg:w-96 h-60 md:h-72 lg:h-96 border-4 border-terracota" src="../../images/profile.jpg" alt="profile" />
         </div>
         
-        <div className="m-2">
+        <div className="m-2 xl:max-w-2xl">
         <h1 className="font-display text-4xl my-4 font-semibold text-rice">About</h1>
         <div>
         
-        <div className="m-2">
+        <div>
         <h2 className="font-display text-2xl my-4 font-semibold text-rice">Hi. My name is Dom.</h2>
         </div>
             <p className="font-body font-normal text-md text-rice">

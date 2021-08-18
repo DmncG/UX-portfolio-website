@@ -31,7 +31,7 @@ const SkillsList = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center">
-                  <StaticImage placeholder="blurred" alt="zoom" src="../../images/google-forms-logo.png" className="w-40 my-8 mx-auto md:col-span-1" />
+                  <StaticImage placeholder="blurred" alt="zoom" src="../../images/google-forms-logo.png" className="w-32 my-8 mx-auto md:col-span-1" />
                   <div className="md:col-start-2 md:col-end-4">
                     <h3 className="font-body font-normal text-lg my-2">Google Forms</h3>
                     <p className="font-body font-normal text-base">Google Forms is my survey builder of choice simply because it lives within Google's ecosystem. Using it just makes my workflow more streamlined.</p>
@@ -55,7 +55,7 @@ const SkillsList = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center">
-                  <StaticImage placeholder="blurred" alt="zoom" src="../../images/invision-logo.png" className="w-40 my-8 mx-auto md:col-span-1" />
+                  <StaticImage placeholder="blurred" alt="zoom" src="../../images/invision-logo.png" className="w-32 my-8 mx-auto md:col-span-1" />
                   <div className="md:col-start-2 md:col-end-4">
                     <h3 className="font-body font-normal text-lg my-2">InVision</h3>
                     <p className="font-body font-normal text-base">I like creating moodboards with InVision but I hardly use it for anything else. Still a decent tool for organizing your ideas.</p>
@@ -70,7 +70,7 @@ const SkillsList = () => {
               <h2 className="font-display font-semibold text-2xl md:text-4xl">Mockups &amp; Prototyping</h2>
               <div>
                 <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center">
-                  <StaticImage placeholder="blurred" alt="zoom" src="../../images/figma-logo.svg" className="w-40 my-8 mx-auto md:col-span-1" />
+                  <StaticImage placeholder="blurred" alt="zoom" src="../../images/figma-logo.svg" className="w-32 my-8 mx-auto md:col-span-1" />
                   <div className="md:col-start-2 md:col-end-4">
                     <h3 className="font-body font-normal text-lg my-2">Figma</h3>
                     <p className="font-body font-normal text-base">I find it so easy to create mockups and do fast prototyping with Figma. With the ability to use wirekits and plugins created by a passionate community of designers, Figma's just hard to beat. I love using this tool.</p>
@@ -78,7 +78,7 @@ const SkillsList = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center">
-                  <StaticImage placeholder="blurred" alt="zoom" src="../../images/adobe-xd-logo.png" className="w-40 my-8 mx-auto md:col-span-1" />
+                  <StaticImage placeholder="blurred" alt="zoom" src="../../images/adobe-xd-logo.png" className="w-32 my-8 mx-auto md:col-span-1" />
                   <div className="md:col-start-2 md:col-end-4">
                     <h3 className="font-body font-normal text-lg my-2">Adobe XD</h3>
                     <p className="font-body font-normal text-base">Fell in love with its smart animate feature. Although I mainly use Figma, AdobeXD also does its job very well. Prototyping is very intuitive when using this tool.</p>
