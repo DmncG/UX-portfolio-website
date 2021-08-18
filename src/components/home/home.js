@@ -75,7 +75,7 @@ const Home = () => {
         
           <StaticImage placeholder="blurred" className="w-12 absolute left-2 top-0 my-2" src="../../images/portfolio-logo-revised-gunpowder.png" alt="drg logo" />
 
-        <div className="flex flex-col justify-center relative top-0 md:top-32 xl:top-1/4 xl:max-w-screen-md xl:m-auto">
+        <div className="flex flex-col justify-center relative top-0 md:top-32 xl:top-40 xl:max-w-screen-md xl:m-auto">
           <motion.h1 variants={sentence} initial="hidden" animate="visible" className="font-display font-normal text-4xl text-center mx-4 my-2">
             {
               line1.split('').map((char, i) => (
@@ -91,7 +91,7 @@ const Home = () => {
           </motion.h1>
 
           <motion.h2
-            className="font-body font-light text-lg m-4 text-center leading-relaxed"
+            className="font-body font-light text-lg text-center leading-relaxed max-w-md mx-auto my-4"
             variants={h2Variant}
             initial="hidden"
             animate="visible"
@@ -176,7 +176,6 @@ const Home = () => {
               color="terracota"
             />
           </div>
-          <p className="opacity-0 md:opacity-100 absolute text-9xl font-bold text-rice bottom-36 lg:bottom-44 xl:bottom-56 2xl:bottom-24 left-8 2xl:left-auto 2xl:right-8 z-0 mix-blend-soft-light">Projects</p>
         </div>
 
         <div className="relative w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden">
@@ -190,7 +189,6 @@ const Home = () => {
               color="padua"
             />
           </div>
-          <p className="opacity-0 md:opacity-100 absolute text-9xl font-bold text-rice bottom-36 lg:bottom-44 xl:bottom-56 2xl:bottom-24 left-8 2xl:left-32 z-0 mix-blend-soft-light">Skills</p>
         </div>
 
         <div className="relative w-full h-96 md:h-screen bg-home-about bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden">
@@ -204,7 +202,6 @@ const Home = () => {
               color="gunPowder"
             />
           </div>
-          <p className="opacity-0 md:opacity-100 absolute text-9xl font-bold text-rice bottom-36 lg:bottom-44 xl:bottom-56 2xl:bottom-24 left-8 2xl:left-auto 2xl:right-8 z-0 mix-blend-soft-light">About</p>
         </div>
       </section>
     </div>
