@@ -164,7 +164,7 @@ const Home = () => {
       </section>
 
       <section id="projects">
-        <div className="relative w-full h-96 md:h-screen bg-home-projects bg-cover bg-no-repeat bg-blend-soft-light overflow-hidden">
+        <div className="relative w-full h-96 md:h-screen bg-home-projects bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden">
           <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8 z-10">
             <Button
               label="Projects."
