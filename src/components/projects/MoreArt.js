@@ -2,6 +2,7 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Header from '../header/Header'
 import { RoundedButton } from '../button/Button'
+import SectionBreak from '../sectionBreak/SectionBreak'
 import Fab from '../fab/Fab'
 
 const MoreArt = () => {
@@ -30,9 +31,11 @@ const MoreArt = () => {
         </div> 
         <Header level={1}>MoreArt</Header>
         <Header level={2}>Redesigning <strong>MoreArt</strong>, an organization that supports collaboration between artists and communities to create public art</Header>
-
+        
+        <SectionBreak />
+        
         <div>
-          <section className="bg-rice-light">
+          <section>
             <Header level={1}>Overview</Header>
             <div className="md:grid md:grid-cols-2 md:justify-center md:items-start">
               <div className="py-2 px-4 my-2">
@@ -76,6 +79,8 @@ const MoreArt = () => {
               </div>
             </div>
           </section>
+
+          <SectionBreak />
 
           <section>
             <Header level={1}>Research</Header>
@@ -156,7 +161,7 @@ const MoreArt = () => {
                 <div className="my-4">
                   <h2 className="font-display font-semibold text-2xl text-gunPowder my-2 relative">What makes it difficult to donate?</h2>
 
-                  <div className="my-16 flex flex-col">
+                  <div className="my-16 mx-auto flex flex-col overflow-x-hidden">
                     <p className="font-body font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-2">
                       "Not knowing where the donation will end up"
                     </p>
@@ -245,6 +250,8 @@ const MoreArt = () => {
             </div>
           </section>
 
+          <SectionBreak />
+
           <section>
             <Header level={1}>Definition & Ideation</Header>
             <div className="py-2 px-4 my-4">
@@ -324,6 +331,8 @@ const MoreArt = () => {
             </div>
           </section>
 
+          <SectionBreak />
+
           <section>
             <Header level={1}>Prototyping & Testing</Header>
             <div className="py-2 px-4 my-4">
@@ -371,11 +380,11 @@ const MoreArt = () => {
                 </div>
                 <div className="my-8 flex flex-col">
                   <p className="font-body text-base leading-relaxed">We used the striking Persian Blue that goes very well with the black background. Colors weere kept to a minimum to enhance the site's simplicity.</p>
-                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1">
+                  <div className="my-8 lg:max-w-screen-md mx-auto">
                     <StaticImage
-                      src="../../images/moreart-style-guide.png"
+                      src="../../images/moreart-style-guide-2.png"
                       alt="Style Guide"
-                      className="my-8 col-span-2"
+                      className="my-8"
                       placeholder="blurred"
                     />
                   </div>
@@ -639,6 +648,8 @@ const MoreArt = () => {
 
             </div>
           </section>
+
+          <SectionBreak />
 
           <section>
             <Header level={1}>Next Steps</Header>
