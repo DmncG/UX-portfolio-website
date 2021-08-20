@@ -122,6 +122,7 @@ module.exports = {
       backgroundImage: theme => ({
         'home-experience': "linear-gradient(to right bottom, rgba(242, 204, 143, 1), rgba(242, 204, 143, 1)), url('../../src/images/buyout_strandexterior3.jpg')",
         'home-about': "linear-gradient(to right bottom, rgba(224, 122, 95, 1), rgba(224, 122, 95, 1)), url('../../src/images/profile.jpg')",
+        'home-projects': "linear-gradient(to right bottom, rgba(61, 64, 91, 1), rgba(61, 64, 91, 1)), url('../../src/images/phone_mockups_bg.png')"
       }),
       keyframes: {
         'line-extend': {

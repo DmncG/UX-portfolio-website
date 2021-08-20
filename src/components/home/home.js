@@ -164,9 +164,7 @@ const Home = () => {
       </section>
 
       <section id="projects">
-        <div className="relative w-full h-96 md:h-screen bg-gunPowder overflow-hidden">
-          <StaticImage placeholder="blurred" className="p-1 m-8 relative 2xl:top-28 2xl:left-72" src="../../images/Device - Macbook Pro.png" alt="macbook mockup" />
-          <StaticImage placeholder="blurred" className="p-1 m-4 relative -top-28 lg:-top-36 xl:-top-60 left-20 lg:left-36 xl:left-60 2xl:left-96" src="../../images/Clay Dark.png" alt="mobile mockup" />
+        <div className="relative w-full h-96 md:h-screen bg-home-projects bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden">
           <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8 z-10">
             <Button
               label="Projects."
