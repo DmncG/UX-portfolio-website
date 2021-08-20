@@ -161,7 +161,7 @@ const MoreArt = () => {
                 <div className="my-4">
                   <h2 className="font-display font-semibold text-2xl text-gunPowder my-2 relative">What makes it difficult to donate?</h2>
 
-                  <div className="my-16 mx-auto flex flex-col overflow-x-hidden">
+                  <div className="my-16 mx-auto flex flex-col overflow-hidden">
                     <p className="font-body font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-2">
                       "Not knowing where the donation will end up"
                     </p>
@@ -427,7 +427,7 @@ const MoreArt = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-center">
+                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-start">
                     <StaticImage
                       src="../../images/moreart-lofi-home-desktop.png"
                       alt="Home Desktop"
@@ -488,7 +488,7 @@ const MoreArt = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-center">
+                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-start">
                     <StaticImage
                       src="../../images/moreart-final-desktop-1.png"
                       alt="Home Desktop"
@@ -568,7 +568,7 @@ const MoreArt = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <div className="lg:max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 justify-center items-center">
+                  <div className="lg:max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 justify-center items-start">
                     <StaticImage
                       src="../../images/moreart-final-home.png"
                       alt="Home Desktop"
@@ -613,17 +613,10 @@ const MoreArt = () => {
                     />
                   </div>
 
-                  <div className="lg:max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-center">
+                  <div className="lg:max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-start">
                     <StaticImage
                       src="../../images/moreart-home-mobile.png"
                       alt="Home Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-exhibitions-mobile.jpg"
-                      alt="RSVP Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
@@ -635,7 +628,15 @@ const MoreArt = () => {
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
+                    <StaticImage
+                      src="../../images/moreart-final-exhibitions-mobile.jpg"
+                      alt="RSVP Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
                   </div>
+
                 </div>
                 <div className="my-4">
                   <RoundedButton
