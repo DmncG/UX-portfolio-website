@@ -297,36 +297,84 @@ const MoreArt = () => {
                 </div>
               </div>
 
-              {/* <div className="my-4">
+              <div className="my-4">
                 <div>
                   <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Competitor Analysis</h2>
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
 
                 <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We conducted a competitor analysis to see what the giving space looks like online.</p>
-                  <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-3">
-                    <StaticImage
-                      src="../../images/moreart-anno-1.png"
-                      alt="Annotations 1"
-                      className="my-8 self-center"
-                      placeholder="blurred"
-                    />
-                    <StaticImage
-                      src="../../images/moreart-anno-2.png"
-                      alt="Annotations 2"
-                      className="my-8 self-center"
-                      placeholder="blurred"
-                    />
-                    <StaticImage
-                      src="../../images/moreart-anno-3.png"
-                      alt="Annotations 3"
-                      className="my-8 self-center"
-                      placeholder="blurred"
-                    />
+                  <p className="font-body text-base leading-relaxed">We conducted a competitor analysis to evaluate the strengths and weaknesses of organizations within the same space.</p>
+                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1 justify-center">
+                    <div className="flex justify-start items-center">
+                      <StaticImage
+                        src="../../images/moreart-artstart_logo.png"
+                        alt="ArtStart"
+                        className="my-8 w-48"
+                        placeholder="blurred"
+                      />
+                      <div>
+                        <ul className="list-disc pl-8">
+                          <li className="font-body text-base my-4">
+                            Donate page is easy to scan
+                          </li>
+                          <li className="font-body text-base my-4">
+                            Website is beautifully designed
+                          </li>
+                          <li className="font-body text-base my-4">
+                            No breakdown of how the money is being used
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className="flex justify-start items-center">
+                      <StaticImage
+                        src="../../images/moreart-free-arts-nyx-logo.png"
+                        alt="Free Arts NYC"
+                        className="my-8 w-48"
+                        placeholder="blurred"
+                      />
+                      <div>
+                        <ul className="list-disc pl-8">
+                          <li className="font-body text-base my-4">
+                            There is an entire page dedicated to the financial breakdown of donations
+                          </li>
+                          <li className="font-body text-base my-4">
+                            Lots of donation options
+                          </li>
+                          <li className="font-body text-base my-4">
+                            Aesthetics need improvement
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className="flex justify-start items-center">
+                      <StaticImage
+                        src="../../images/moreart-ASPCA-logo.png"
+                        alt="ASPCA"
+                        className="my-8 w-48"
+                        placeholder="blurred"
+                      />
+                      <div>
+                        <ul className="list-disc pl-8">
+                          <li className="font-body text-base my-4">
+                            Prominent donation button
+                          </li>
+                          <li className="font-body text-base my-4">
+                            Allows one-time as well as monthly donations
+                          </li>
+                          <li className="font-body text-base my-4">
+                            Homepage is a little busy
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
-              </div> */}
+              </div>
 
             </div>
           </section>
