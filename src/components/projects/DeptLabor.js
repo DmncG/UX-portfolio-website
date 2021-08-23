@@ -89,63 +89,43 @@ const MoreArt = () => {
 
                 <div className="my-4">
                   <div>
-                    <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Research Interviews</h2>
+                    <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">User Persona</h2>
                     <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                   </div>
-                  <p className="font-body text-base leading-relaxed">We began the process by conducting 4 research interviews to <strong>figure out the habits and painpoints of users when they donate online</strong>. Moreover, we wanted to know the general needs of people who are interested in social initiatives, and get a sense of how they perceive non-profit organizations as a whole.</p>
-                  <div className="grid grid-cols-2 justify-center my-16 lg:max-w-screen-md mx-auto">
+                  <p className="font-body text-base leading-relaxed">I created a user persona based on the assumptions of who uses the government website.</p>
+                  <div className="my-16 flex justify-center lg:max-w-screen-md mx-auto">
                     <StaticImage
-                      src="../../images/moreart-interview-1.png"
-                      alt="research interview 1"
+                      src="../../images/dol-user-persona.jpeg"
+                      alt="user persona"
                       placeholder="blurred"
-                    />
-
-                    <StaticImage
-                      src="../../images/moreart-interview-2.png"
-                      alt="research interview 2"
-                      placeholder="blurred"
-                    />
-
-                    <StaticImage
-                      src="../../images/moreart-interview-3.png"
-                      alt="research interview 3"
-                      placeholder="blurred"
-                    />
-
-                    <StaticImage
-                      src="../../images/moreart-interview-4.png"
-                      alt="research interview 4"
-                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
                     />
                   </div>
                 </div>
 
                 <div className="my-4">
                   <div>
-                    <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Research Findings</h2>
+                    <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Usability Tests</h2>
                     <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                    <p className="font-body text-base leading-relaxed">Then, I conducted usability tests on the current website to identify key pain points users face when looking for unemployment insurance and getting more information. We asked 5 people to perform three tasks:</p>
                   </div>
                   <ul className="list-disc pl-8">
                     <li className="font-body text-base my-4">
-                      There is a desire to see people genuinely help others
+                      Find the unemployment insurance page
                     </li>
                     <li className="font-body text-base my-4">
-                      There is a general agreement that it's important to support social causes
+                      Find information related to the Coronavirus in the FAQ page
                     </li>
                     <li className="font-body text-base my-4">
-                      They discover non-profit organizations and social causes via social media
+                      Find the DOL online contact form
                     </li>
                   </ul>
-                  <div className="my-16">
-                    <p className="font-body font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-2">
-                      “In an age where everything is driven by profit, non-profit organizations believe in a cause and I want to help”
-                    </p>
-                  </div>
+                  <p className="font-body text-base leading-relaxed">Target Users: Anyone between the ages of 18 - 62.</p>
                 </div>
 
                 <div className="my-4">
                   <div>
-                    <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Survey</h2>
+                    <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Usability Tests Findings</h2>
                     <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                   </div>
                   <div className="grid grid-cols-2 items-center my-8 lg:my-12 mx-auto max-w-screen-sm lg:max-w-screen-md">
