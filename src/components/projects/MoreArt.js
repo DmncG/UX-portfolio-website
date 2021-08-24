@@ -305,13 +305,18 @@ const MoreArt = () => {
 
                 <div className="my-8 flex flex-col">
                   <p className="font-body text-base leading-relaxed">We conducted a competitor analysis to evaluate the strengths and weaknesses of organizations within the same space.</p>
-                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1 justify-center">
-                    <div className="flex justify-start items-center">
+                  <div className="my-8 lg:max-w-screen-md mx-auto">
+                    <div className="flex flex-col md:flex-row justify-start items-center">
                       <StaticImage
                         src="../../images/moreart-artstart_logo.png"
                         alt="ArtStart"
-                        className="my-8 w-48"
+                        className="my-2 w-48"
                         placeholder="blurred"
+                        imgStyle={{
+                          width: "150px",
+                          margin: 'auto',
+                          objectFit: 'contain',
+                        }}
                       />
                       <div>
                         <ul className="list-disc pl-8">
@@ -328,17 +333,22 @@ const MoreArt = () => {
                       </div>
                     </div>
 
-                    <div className="flex justify-start items-center">
+                    <div className="flex flex-col md:flex-row justify-start items-center">
                       <StaticImage
                         src="../../images/moreart-free-arts-nyx-logo.png"
                         alt="Free Arts NYC"
-                        className="my-8 w-48"
+                        className="my-2 w-48"
                         placeholder="blurred"
+                        imgStyle={{
+                          width: "150px",
+                          margin: 'auto',
+                          objectFit: 'contain',
+                        }}
                       />
                       <div>
                         <ul className="list-disc pl-8">
                           <li className="font-body text-base my-4">
-                            There is an entire page dedicated to the financial breakdown of donations
+                            There is a page dedicated to the financial breakdown of donations
                           </li>
                           <li className="font-body text-base my-4">
                             Lots of donation options
@@ -350,12 +360,17 @@ const MoreArt = () => {
                       </div>
                     </div>
 
-                    <div className="flex justify-start items-center">
+                    <div className="flex flex-col md:flex-row justify-start items-center">
                       <StaticImage
                         src="../../images/moreart-ASPCA-logo.png"
                         alt="ASPCA"
-                        className="my-8 w-48"
+                        className="my-12 md:my-2 w-48"
                         placeholder="blurred"
+                        imgStyle={{
+                          width: "150px",
+                          margin: 'auto',
+                          objectFit: 'contain',
+                        }}
                       />
                       <div>
                         <ul className="list-disc pl-8">
