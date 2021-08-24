@@ -347,7 +347,7 @@ const ProjectList = () => {
         >
           <div className="relative">
             <motion.h2
-              className="font-display font-semibold text-2xl md:text-4xl my-2"
+              className="font-display font-semibold text-2xl md:text-4xl my-2 relative z-10"
               variants={sentenceVariant}
               // initial="hidden"
               // animate="visible"
@@ -404,7 +404,7 @@ const ProjectList = () => {
         >
           <div className="relative">
             <motion.h2
-              className="font-display font-semibold text-2xl md:text-4xl my-2"
+              className="font-display font-semibold text-2xl md:text-4xl my-2 relative z-10"
               variants={sentenceVariant}
             >
               {
