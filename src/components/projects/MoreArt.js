@@ -3,6 +3,14 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Header from '../header/Header'
 import { RoundedButton } from '../button/Button'
 import SectionBreak from '../sectionBreak/SectionBreak'
+import Mobile from '../mockups/Mobile'
+import lofiMobile1 from '../../images/moreart-lofi-home-mobile.png'
+import lofiMobile2 from '../../images/moreart-lofi-rsvp-mobile.jpg'
+import lofiMobile3 from '../../images/moreart-lofi-shop-mobile.png'
+import hifiMobile1 from '../../images/moreart-home-mobile.png'
+import hifiMobile2 from '../../images/moreart-final-shop-mobile.png'
+import hifiMobile3 from '../../images/moreart-final-exhibitions-mobile.jpg'
+
 import Fab from '../fab/Fab'
 
 const MoreArt = () => {
@@ -512,27 +520,9 @@ const MoreArt = () => {
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
-                    <StaticImage
-                      src="../../images/moreart-lofi-home-mobile.png"
-                      alt="Home Mobile"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-lofi-rsvp-mobile.jpg"
-                      alt="RSVP Mobile"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-lofi-shop-mobile.png"
-                      alt="Shop Mobile"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
+                    <Mobile mobileImage={{imgSrc: lofiMobile1, imgAlt: 'lofi home'}} />
+                    <Mobile mobileImage={{imgSrc: lofiMobile2, imgAlt: 'lofi rsvp'}} />
+                    <Mobile mobileImage={{imgSrc: lofiMobile3, imgAlt: 'lofi shop'}} />
                   </div>
 
                   <div className="my-4">
@@ -641,14 +631,14 @@ const MoreArt = () => {
                     />
                     <StaticImage
                       src="../../images/moreart-final-donations.png"
-                      alt="RSVP Desktop"
+                      alt="Donations Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
                       src="../../images/moreart-final-exhibitions.png"
-                      alt="Shop Desktop"
+                      alt="Exhibitions Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
@@ -662,14 +652,14 @@ const MoreArt = () => {
                     />
                     <StaticImage
                       src="../../images/moreart-final-shop.png"
-                      alt="Home Mobile"
+                      alt="Shop Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
                       src="../../images/moreart-final-checkout.png"
-                      alt="RSVP Mobile"
+                      alt="Checkout Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
@@ -677,27 +667,9 @@ const MoreArt = () => {
                   </div>
 
                   <div className="lg:max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-start">
-                    <StaticImage
-                      src="../../images/moreart-home-mobile.png"
-                      alt="Home Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-shop-mobile.png"
-                      alt="Shop Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-exhibitions-mobile.jpg"
-                      alt="RSVP Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
+                    <Mobile mobileImage={{imgSrc: hifiMobile1, imgAlt: 'hifi home'}} />
+                    <Mobile mobileImage={{imgSrc: hifiMobile2, imgAlt: 'hifi shop'}} />
+                    <Mobile mobileImage={{imgSrc: hifiMobile3, imgAlt: 'hifi exhibits'}} />
                   </div>
 
                 </div>

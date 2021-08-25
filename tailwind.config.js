@@ -123,7 +123,8 @@ module.exports = {
         'home-experience': "linear-gradient(to right bottom, rgba(242, 204, 143, 1), rgba(242, 204, 143, 1)), url('../../src/images/buyout_strandexterior3.jpg')",
         'home-about': "linear-gradient(to right bottom, rgba(224, 122, 95, 1), rgba(224, 122, 95, 1)), url('../../src/images/profile.jpg')",
         'home-projects': "linear-gradient(to right bottom, rgba(61, 64, 91, 1), rgba(61, 64, 91, 1)), url('../../src/images/phone_mockups_bg.png')",
-        'home-projects-alt': "linear-gradient(to right bottom, rgba(244, 241, 222, 1), rgba(244, 241, 222, 1)), url('../../src/images/phone_mockups_bg.png')"
+        'home-projects-alt': "linear-gradient(to right bottom, rgba(244, 241, 222, 1), rgba(244, 241, 222, 1)), url('../../src/images/phone_mockups_bg.png')",
+        'mockup-mobile': "url('../../src/images/iphone-x-mockup.png')",
       }),
       keyframes: {
         'line-extend': {
@@ -142,6 +143,15 @@ module.exports = {
       width: {
         '120': '28rem',
         '136': '32rem',
+      },
+      height: {
+        '120': '28rem',
+        '136': '32rem',
+        '727': '727px',
+        '490': '490px',
+        '524': '524px',
+        '680': '680px',
+        '812': '812px',
       },
     },
   },
