@@ -222,7 +222,7 @@ const MoreArt = () => {
                     <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                   </div>
                   <div className="my-8 flex flex-col">
-                    <p className="font-body text-base leading-relaxed">After performing a heuristic evaluation on MoreArt's current website, it was evident that there was a need to <strong>make the designs between pages feel more consistent</strong>. There were also a number of broken links throughout the site. Despite all this, the website does have help available in every page and there are a limited number of buttons and links.</p>
+                    <p className="font-body text-base leading-relaxed">We annotated MoreArt's website as well to identify notable elements and key areas of improvement</p>
                     <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-3">
                       <StaticImage
                         src="../../images/moreart-anno-1.png"
