@@ -59,7 +59,7 @@ const MoreArt = () => {
                   <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">My Role</h2>
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
-                <p className="font-body text-base leading-relaxed">UX Designer, team of 2</p>
+                <p className="font-body text-base leading-relaxed">UX Designer</p>
               </div>
 
               <div className="py-2 px-4 my-2">
@@ -121,6 +121,18 @@ const MoreArt = () => {
                     </li>
                   </ul>
                   <p className="font-body text-base leading-relaxed">Target Users: Anyone between the ages of 18 - 62.</p>
+                  <p className="font-body text-base leading-relaxed"><strong>Note:</strong> We knew beforehand that users would fail to find any coronavirus related information on the FAQ page. We wanted to get feedback from the users' experience and find out where else they would find this information on the website.</p>
+                  <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-1">
+                      <StaticImage
+                        src="../../images/dol-heuristic-eval.png"
+                        alt="Heuristic"
+                        className="my-8 col-span-2"
+                        placeholder="blurred"
+                        imgStyle={{
+                          objectFit: 'contain'
+                        }}
+                      />
+                    </div>
                 </div>
 
                 <div className="my-4">
@@ -129,44 +141,25 @@ const MoreArt = () => {
                     <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                   </div>
                   <div className="grid grid-cols-2 items-center my-8 lg:my-12 mx-auto max-w-screen-sm lg:max-w-screen-md">
-                    <p className="font-display text-center text-4xl md:text-7xl lg:text-8xl text-padua">86.4%</p>
+                    <p className="font-display text-center text-4xl md:text-7xl lg:text-8xl text-red-800">30%</p>
                     <div>
                       <p className="font-body text-base leading-relaxed lg:text-xl">
-                        We also conducted a survey to get some quantitative data regarding this subject. Out of 22 responses, 86.4% wanted to know where their donations went.
+                        Only 30% found the online contact form
                       </p>
                     </div>
                   </div>
-                </div>
-
-                <div className="my-4">
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2 relative">What makes it difficult to donate?</h2>
-
-                  <div className="my-16 mx-auto flex flex-col overflow-hidden">
-                    <p className="font-body font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-2">
-                      "Not knowing where the donation will end up"
-                    </p>
-                    <p className="font-body text-xl md:text-2xl leading-relaxed my-2 md:my-8 self-end relative right-2 md:right-40">
-                      "It's not convenient"
-                    </p>
-                    <p className="font-body font-bold text-xl md:text-5xl leading-relaxed my-2 relative left-6">
-                      "Lack of trust"
-                    </p>
-                  </div>
-                </div>
-
-                <div className="my-4">
                   <div>
-                    <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Proto Persona</h2>
-                    <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-                  </div>
-                  <div className="my-8 flex flex-col">
-                    <p className="font-body text-base leading-relaxed">We created a proto persona to represent our assumptions of MoreArt's ideal user</p>
-                    <StaticImage
-                      src="../../images/moreart-proto-persona.jpg"
-                      alt="proto persona"
-                      className="my-8 self-center"
-                      placeholder="blurred"
-                    />
+                    <p className="font-body text-base leading-relaxed lg:text-xl">
+                      Other notable user feedback were the ff:
+                    </p>
+                    <ul className="list-disc pl-8">
+                      <li className="font-body text-base my-4">
+                        There were too many links in the menu, making it near impossible to navigate
+                      </li>
+                      <li className="font-body text-base my-4">
+                        Search in FAQ page didn't pull up any relevant results
+                      </li>
+                    </ul>
                   </div>
                 </div>
 
@@ -175,14 +168,17 @@ const MoreArt = () => {
                     <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Heuristic Evaluation</h2>
                     <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                   </div>
-                  <div className="my-8 flex flex-col">
-                    <p className="font-body text-base leading-relaxed">After performing a heuristic evaluation on MoreArt's current website, it was evident that there was a need to <strong>make the designs between pages feel more consistent</strong>. There were also a number of broken links throughout the site. Despite all this, the website does have help available in every page and there are a limited number of buttons and links.</p>
+                  <div className="my-8">
+                    <p className="font-body text-base leading-relaxed">The Department of Labor's website did an adequate job with its design. The images used were appropriate and the goal of the website is clear. However, there are just too many links presented in any given page. The information can also be presented in a better way.</p>
                     <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-1">
                       <StaticImage
-                        src="../../images/moreart-heuristic-1.png"
-                        alt="Heuristic 1"
+                        src="../../images/dol-heuristic-eval-2.png"
+                        alt="Heuristic"
                         className="my-8 col-span-2"
                         placeholder="blurred"
+                        imgStyle={{
+                          objectFit: 'contain'
+                        }}
                       />
                     </div>
                   </div>
@@ -197,21 +193,21 @@ const MoreArt = () => {
                     <p className="font-body text-base leading-relaxed">After performing a heuristic evaluation on MoreArt's current website, it was evident that there was a need to <strong>make the designs between pages feel more consistent</strong>. There were also a number of broken links throughout the site. Despite all this, the website does have help available in every page and there are a limited number of buttons and links.</p>
                     <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-3">
                       <StaticImage
-                        src="../../images/moreart-anno-1.png"
+                        src="../../images/dol-annotation-1.png"
                         alt="Annotations 1"
-                        className="my-8 self-center"
+                        className="my-8 mx-2 self-center"
                         placeholder="blurred"
                       />
                       <StaticImage
-                        src="../../images/moreart-anno-2.png"
+                        src="../../images/dol-annotation-2.png"
                         alt="Annotations 2"
-                        className="my-8 self-center"
+                        className="my-8 mx-2 self-center"
                         placeholder="blurred"
                       />
                       <StaticImage
-                        src="../../images/moreart-anno-3.png"
+                        src="../../images/dol-annotation-3.png"
                         alt="Annotations 3"
-                        className="my-8 self-center"
+                        className="my-8 mx-2 self-center"
                         placeholder="blurred"
                       />
                     </div>
