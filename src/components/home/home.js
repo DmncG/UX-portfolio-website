@@ -5,6 +5,7 @@ import ArrowDropDownCircleOutlinedIcon from '@material-ui/icons/ArrowDropDownCir
 import { motion } from 'framer-motion'
 import Button from '../button/Button'
 import pdfCV from '../../downloads/CV_Dominic_Garcia_4_05_2021.pdf'
+import ParticlePreset from '../particles/ParticlePreset'
 
 const sentence = {
   hidden: { opacity: 1 },
@@ -71,7 +72,7 @@ const navLinkVariant = {
 const Home = () => {
   return (
     <div className="md:grid md:grid-cols-2 md:relative scroll-behavior-smooth bg-rice">
-      <section className="md:sticky md:top-0 xs:h-screen relative">
+      <section className="md:sticky md:top-0 xs:h-screen relative z-10 bg-rice">
       <StaticImage placeholder="blurred" className="w-20 absolute left-2 top-0 my-2" src="../../images/dom_logo_2_black.png" alt="drg logo" />
         <div className="flex flex-col justify-center relative top-0 md:top-32 xl:top-36 xl:max-w-screen-md xl:m-auto">
           <motion.h1 variants={sentence} initial="hidden" animate="visible" className="font-display font-normal text-4xl text-center mx-4 my-2">
@@ -162,19 +163,20 @@ const Home = () => {
       </section>
 
       <section id="projects">
-        <div className="relative w-full h-96 md:h-screen bg-home-projects bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden">
+        <div className="relative w-full h-96 md:h-screen bg-home-projects-alt bg-cover bg-no-repeat bg-blend-soft-light overflow-hidden z-10">
           <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8 z-10">
             <Button
               label="Projects."
               link="/projects"
               type="link"
               size="lg"
-              color="terracota"
+              color="padua"
             />
           </div>
         </div>
 
-        <div className="relative w-full h-96 md:h-screen bg-home-experience bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden">
+        <div className="relative w-full h-96 md:h-screen bg-cover bg-no-repeat bg-terracota bg-blend-hard-light overflow-hidden">
+          <ParticlePreset />
           <div className="absolute bottom-3 md:bottom-8 right-3 md:right-8 z-10">
             <Button
               label="Skills."
@@ -182,12 +184,12 @@ const Home = () => {
               type="link"
               size="lg"
               shape="circle"
-              color="padua"
+              color="terracota"
             />
           </div>
         </div>
 
-        <div className="relative w-full h-96 md:h-screen bg-home-about bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden">
+        <div className="relative w-full h-96 md:h-screen bg-home-about bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden z-10">
           <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8 z-10">
             <Button
               label="About."
