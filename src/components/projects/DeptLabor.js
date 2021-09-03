@@ -4,8 +4,12 @@ import Header from '../header/Header'
 import { RoundedButton } from '../button/Button'
 import SectionBreak from '../sectionBreak/SectionBreak'
 import Fab from '../fab/Fab'
+import Mobile from '../mockups/Mobile'
+import lofiHomeMobile from '../../images/dol-lofi-home-mobile.png'
+import hifiHomeMobile from '../../images/dol-hifi-home-mobile.png'
+import hifiUIMobile from '../../images/dol-hifi-ui-mobile.png'
 
-const MoreArt = () => {
+const DeptLabor = () => {
   return (
     <>
       <Fab />
@@ -121,11 +125,11 @@ const MoreArt = () => {
                     </li>
                   </ul>
                   <p className="font-body text-base leading-relaxed">Target Users: Anyone between the ages of 18 - 62.</p>
-                  <p className="font-body text-base leading-relaxed"><strong>Note:</strong> We knew beforehand that users would fail to find any coronavirus related information on the FAQ page. We wanted to get feedback from the users' experience and find out where else they would find this information on the website.</p>
-                  <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-1">
+                  <p className="font-body text-base leading-relaxed my-4"><strong>Note:</strong> We knew beforehand that users would fail to find any coronavirus related information on the FAQ page. We wanted to get feedback from the users' experience and find out where else they would find this information on the website.</p>
+                  <div className="my-16 lg:max-w-screen-lg mx-auto grid grid-cols-1">
                       <StaticImage
-                        src="../../images/dol-heuristic-eval.png"
-                        alt="Heuristic"
+                        src="../../images/dol-user-test.png"
+                        alt="usability test"
                         className="my-8 col-span-2"
                         placeholder="blurred"
                         imgStyle={{
@@ -152,7 +156,7 @@ const MoreArt = () => {
                     <p className="font-body text-base leading-relaxed lg:text-xl">
                       Other notable user feedback were the ff:
                     </p>
-                    <ul className="list-disc pl-8">
+                    <ul className="list-disc pl-8 mb-8">
                       <li className="font-body text-base my-4">
                         There were too many links in the menu, making it near impossible to navigate
                       </li>
@@ -172,9 +176,9 @@ const MoreArt = () => {
                     <p className="font-body text-base leading-relaxed">The Department of Labor's website did an adequate job with its design. The images used were appropriate and the goal of the website is clear. However, there are just too many links presented in any given page. The information can also be presented in a better way.</p>
                     <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-1">
                       <StaticImage
-                        src="../../images/dol-heuristic-eval-2.png"
+                        src="../../images/dol-heuristic.png"
                         alt="Heuristic"
-                        className="my-8 col-span-2"
+                        className="my-8"
                         placeholder="blurred"
                         imgStyle={{
                           objectFit: 'contain'
@@ -190,8 +194,19 @@ const MoreArt = () => {
                     <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                   </div>
                   <div className="my-8 flex flex-col">
-                    <p className="font-body text-base leading-relaxed">After performing a heuristic evaluation on MoreArt's current website, it was evident that there was a need to <strong>make the designs between pages feel more consistent</strong>. There were also a number of broken links throughout the site. Despite all this, the website does have help available in every page and there are a limited number of buttons and links.</p>
-                    <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-3">
+                    <p className="font-body text-base leading-relaxed">I annotated the pages I wanted to redesign to identify opportunities and improve upon upon the user journey for key tasks we identified. There were a lot of glaring issues between pages. Some of which are the ff:</p>
+                    <ul className="list-disc pl-8 mb-8">
+                      <li className="font-body text-base my-4">
+                        Global navigation isn't consitent across pages
+                      </li>
+                      <li className="font-body text-base my-4">
+                        Topics submenu contain too much information
+                      </li>
+                      <li className="font-body text-base my-4">
+                        Contact Us page seem like an entirely different website; colors and even the logo are different from the home page
+                      </li>
+                    </ul>
+                    <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-2">
                       <StaticImage
                         src="../../images/dol-annotation-1.png"
                         alt="Annotations 1"
@@ -207,7 +222,7 @@ const MoreArt = () => {
                       <StaticImage
                         src="../../images/dol-annotation-3.png"
                         alt="Annotations 3"
-                        className="my-8 mx-2 self-center"
+                        className="my-8 mx-2 self-center col-span-2"
                         placeholder="blurred"
                       />
                     </div>
@@ -217,8 +232,50 @@ const MoreArt = () => {
                     <RoundedButton
                       label="View Annotations"
                       color="terracota"
-                      link="https://www.figma.com/file/ewE6IUBmbbSkgmuKKL87nq/Non-Profit-Annotations?node-id=0%3A1"
+                      link="https://www.figma.com/file/GatWAXpPlwYP9iFhbGy9hJ/DOL---Annotations-and-Redlining?node-id=2%3A2"
                     />
+                  </div>
+                </div>
+
+                <div className="my-4">
+                  <div>
+                    <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Card Sorting</h2>
+                    <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                  </div>
+                  <div className="my-8">
+                    <p className="font-body text-base leading-relaxed">I conducted a hybrid card sort with six participants to give us an idea of how to chunk the vast amount of topic links of the website.</p>
+                    <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-1">
+                      <StaticImage
+                        src="../../images/dol-cardsort.png"
+                        alt="Card Sort"
+                        className="my-8"
+                        placeholder="blurred"
+                        imgStyle={{
+                          objectFit: 'contain'
+                        }}
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="my-4">
+                  <div>
+                    <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Site Map</h2>
+                    <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                  </div>
+                  <div className="my-8">
+                    <p className="font-body text-base leading-relaxed">After evaluating the card sorting results, I was able to visualize the site structure and come up with a site map</p>
+                    <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-1">
+                      <StaticImage
+                        src="../../images/dol-sitemap.png"
+                        alt="Site Map"
+                        className="my-8"
+                        placeholder="blurred"
+                        imgStyle={{
+                          objectFit: 'contain'
+                        }}
+                      />
+                    </div>
                   </div>
                 </div>
 
@@ -229,107 +286,8 @@ const MoreArt = () => {
           <SectionBreak />
 
           <section>
-            <Header level={1}>Definition & Ideation</Header>
+            <Header level={1}>Prototyping &amp; Testing</Header>
             <div className="py-2 px-4 my-4">
-              <div className="my-4">
-                <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Affinity Diagram</h2>
-                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-                </div>
-                <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We gathered all our findings from the research interviews and organized them into an affinity diagram. <strong>Concerns about transparency and trust</strong> naturally came up as we grouped the data.</p>
-                  <StaticImage
-                    src="../../images/moreart-affinity.jpg"
-                    alt="Affinity Diagram"
-                    className="my-8 self-center"
-                    placeholder="blurred"
-                  />
-                </div>
-              </div>
-
-              <div className="my-4">
-                <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">User Insight</h2>
-                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-                </div>
-                <div className="my-8">
-                  <p className="font-body text-base leading-relaxed">We decided to focus on the themes surrounding transparecy and trust as this seemed to be the most important factor for our users.</p>
-                  <p className="font-display font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-16">People who donate online need to have a simple,  reassuring, and accountable giving experience because <span className="text-terracota">trust and transparency are key into motivating users to donate</span>.</p>
-                </div>
-              </div>
-
-              <div className="my-4">
-                <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">User Persona</h2>
-                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-                </div>
-                <div className="my-8 flex flex-col">
-                  <StaticImage
-                    src="../../images/moreart-user-persona.png"
-                    alt="User Persona"
-                    className="my-8 self-center"
-                    placeholder="blurred"
-                  />
-                </div>
-              </div>
-
-              {/* <div className="my-4">
-                <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Competitor Analysis</h2>
-                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-                </div>
-
-                <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We conducted a competitor analysis to see what the giving space looks like online.</p>
-                  <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-3">
-                    <StaticImage
-                      src="../../images/moreart-anno-1.png"
-                      alt="Annotations 1"
-                      className="my-8 self-center"
-                      placeholder="blurred"
-                    />
-                    <StaticImage
-                      src="../../images/moreart-anno-2.png"
-                      alt="Annotations 2"
-                      className="my-8 self-center"
-                      placeholder="blurred"
-                    />
-                    <StaticImage
-                      src="../../images/moreart-anno-3.png"
-                      alt="Annotations 3"
-                      className="my-8 self-center"
-                      placeholder="blurred"
-                    />
-                  </div>
-                </div>
-              </div> */}
-
-            </div>
-          </section>
-
-          <SectionBreak />
-
-          <section>
-            <Header level={1}>Prototyping & Testing</Header>
-            <div className="py-2 px-4 my-4">
-
-              <div className="my-4">
-                <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">I Like, I Wish, What If...</h2>
-                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-                </div>
-                <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We knew that we wanted the donation workflow to be simpler with a clean and modern design. Users should also be able to donate to specific projects.</p>
-                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1">
-                    <StaticImage
-                      src="../../images/moreart-i-like-i-wish-what-if.jpeg"
-                      alt="I Like I Wish What If"
-                      className="my-8 col-span-2"
-                      placeholder="blurred"
-                    />
-                  </div>
-                </div>
-              </div>
 
               <div className="my-4">
                 <div>
@@ -337,13 +295,34 @@ const MoreArt = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">Quicksand, a sans serif font, was used as it conveyed approachability. We also looked at museums and architecture that had a modern and contemporary feel to develop the website's aesthetics.</p>
+                  <p className="font-body text-base leading-relaxed">I drew inspiration from various government agencies that demonstrated a clean and professional aesthetic. I was immediately drawn to sans-serif fonts, monochrome palettes, and flowing elements to reinforce an easy-to-use atmosphere. The website needs to achieve a balance between authority and approachability. Users should feel they are in good hands when they visit the website and believe they would find the information they are looking for. </p>
                   <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1">
                     <StaticImage
-                      src="../../images/moreart-moodboard.png"
-                      alt="Mood Board"
+                      src="../../images/dol-moodboard-inspo.png"
+                      alt="Mood Board Inspo"
                       className="my-8 col-span-2"
                       placeholder="blurred"
+                      imgStyle={{
+                        objectFit: 'contain',
+                      }}
+                    />
+                    <StaticImage
+                      src="../../images/dol-moodboard-ux.png"
+                      alt="Mood Board UX"
+                      className="my-8 col-span-2"
+                      placeholder="blurred"
+                      imgStyle={{
+                        objectFit: 'contain',
+                      }}
+                    />
+                    <StaticImage
+                      src="../../images/dol-moodboard-gov.png"
+                      alt="Mood Board Gov"
+                      className="my-8 col-span-2"
+                      placeholder="blurred"
+                      imgStyle={{
+                        objectFit: 'contain',
+                      }}
                     />
                   </div>
                 </div>
@@ -355,10 +334,10 @@ const MoreArt = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We used the striking Persian Blue that goes very well with the black background. Colors weere kept to a minimum to enhance the site's simplicity.</p>
+                  <p className="font-body text-base leading-relaxed">I used a monochrome blue palette with red for error messaging. Header and body font families use Oxygen and Open Sans respectively to maximize legibility and to minimize harsh edges. Buttons are fully rounded and section breaks are curved and flowing.</p>
                   <div className="my-8 lg:max-w-screen-md mx-auto">
                     <StaticImage
-                      src="../../images/moreart-style-guide-2.png"
+                      src="../../images/dol-style-guide.png"
                       alt="Style Guide"
                       className="my-8"
                       placeholder="blurred"
@@ -369,29 +348,20 @@ const MoreArt = () => {
 
               <div className="my-4">
                 <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">User Flows</h2>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Wireflows</h2>
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We focused on the three main user flows of the website: donations, exhibitions, and the shopping experience</p>
-                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3">
+                  <p className="font-body text-base leading-relaxed">I made wireflows for the three tasks I focused on to map out the user journey.</p>
+                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1">
                     <StaticImage
-                      src="../../images/moreart-userflow-donations.jpg"
-                      alt="Donations"
+                      src="../../images/dol-wireflow.png"
+                      alt="Wireflows"
                       className="my-8"
                       placeholder="blurred"
-                    />
-                    <StaticImage
-                      src="../../images/moreart-userflow-exhibits.jpg"
-                      alt="Exhibitions"
-                      className="my-8"
-                      placeholder="blurred"
-                    />
-                    <StaticImage
-                      src="../../images/moreart-userflow-shop.jpg"
-                      alt="Shop"
-                      className="my-8"
-                      placeholder="blurred"
+                      imgStyle={{
+                        objectFit: 'contain',
+                      }}
                     />
                   </div>
                 </div>
@@ -399,49 +369,29 @@ const MoreArt = () => {
 
               <div className="my-4">
                 <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Lo-fi Prototypes</h2>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Lo-Fi Prototypes</h2>
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-start">
+                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-2 justify-center items-start">
                     <StaticImage
-                      src="../../images/moreart-lofi-home-desktop.png"
-                      alt="Home Desktop"
+                      src="../../images/dol-lofi-home-desktop.png"
+                      alt="Lofi Desktop Home"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
-                      src="../../images/moreart-lofi-rsvp-desktop.png"
-                      alt="RSVP Desktop"
+                      src="../../images/dol-lofi-home-menu-desktop.png"
+                      alt="Lofi Desktop Menu"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
+                    <Mobile mobileImage={{imgSrc: lofiHomeMobile, imgAlt: 'lofi home mobile'}} />
                     <StaticImage
-                      src="../../images/moreart-lofi-shop-desktop.png"
-                      alt="Shop Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-lofi-home-mobile.png"
-                      alt="Home Mobile"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-lofi-rsvp-mobile.jpg"
-                      alt="RSVP Mobile"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-lofi-shop-mobile.png"
-                      alt="Shop Mobile"
+                      src="../../images/dol-lofi-menu-mobile.png"
+                      alt="Lofi Menu Mobile"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
@@ -452,7 +402,7 @@ const MoreArt = () => {
                     <RoundedButton
                       label="View Prototype"
                       color="terracota"
-                      link="https://www.figma.com/proto/ewE6IUBmbbSkgmuKKL87nq/Non-Profit-Annotations?node-id=66%3A49&scaling=scale-down&page-id=62%3A3&starting-point-node-id=66%3A49&show-proto-sidebar=1"
+                      link="https://www.figma.com/file/EaB4hcuBkxYQhoxWwTcyTH/DOL-Wireframes?node-id=25%3A90"
                     />
                   </div>
                 </div>
@@ -460,79 +410,20 @@ const MoreArt = () => {
 
               <div className="my-4">
                 <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Hi-fi Prototypes</h2>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Lo-Fi User Tests</h2>
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-start">
-                    <StaticImage
-                      src="../../images/moreart-final-desktop-1.png"
-                      alt="Home Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-desktop-2.png"
-                      alt="RSVP Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-desktop-3.png"
-                      alt="Shop Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-mobile-1.png"
-                      alt="Home Mobile"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-mobile-2.png"
-                      alt="RSVP Mobile"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-mobile-3.png"
-                      alt="Shop Mobile"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="my-4">
-                <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">User Tests</h2>
-                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-                </div>
-                <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We conducted 3 user tests on our hi-fi prototype to validate (or invalidate) our designs. We ask our users to RSVP on a project, make a $25 donation, add an item to their cart, and check out. Some of the feedback we received are the ff:</p>
+                  <p className="font-body text-base leading-relaxed">I conducted 3 user tests on my lo-fi prototypes to test the redesign and identify areas of improvement. Some of the feedback I received are the ff:</p>
                   <ul className="list-disc pl-8">
                     <li className="font-body text-base my-4">
-                      RSVP cta was confusing
+                      "Contact Us" button was almost always missed
                     </li>
                     <li className="font-body text-base my-4">
-                      Waited for a pop up to ask the user to check out; clicking the cart wasn't intuitive
+                      Vertical and horizontal alignment on the mobile menu and desktop footer needs work
                     </li>
                     <li className="font-body text-base my-4">
-                      Kept seeing the value proposition on the donations page and thought something was broken
-                    </li>
-                    <li className="font-body text-base my-4">
-                      Struggled to return home from the donations page; navbar missing on the page
-                    </li>
-                    <li className="font-body text-base my-4">
-                      Checkout experience was intuitive
+                      Desktop version needs some visual indication that the primarhy link is in a hover state
                     </li>
                   </ul>
                 </div>
@@ -540,86 +431,97 @@ const MoreArt = () => {
 
               <div className="my-4">
                 <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Iterated Hi-fi Prototypes</h2>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Hi-Fi Prototypes</h2>
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <div className="lg:max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 justify-center items-start">
+                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-2 justify-center items-start">
                     <StaticImage
-                      src="../../images/moreart-final-home.png"
+                      src="../../images/dol-hifi-home-desktop.png"
                       alt="Home Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
-                      src="../../images/moreart-final-donations.png"
-                      alt="RSVP Desktop"
+                      src="../../images/dol-hifi-ui-desktop.png"
+                      alt="UI Desktop"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <Mobile mobileImage={{imgSrc: hifiHomeMobile, imgAlt: 'hifi home mobile'}} />
+                    <Mobile mobileImage={{imgSrc: hifiUIMobile, imgAlt: 'hifi ui mobile'}} />
+                  </div>
+                </div>
+
+                <div className="my-4">
+                  <RoundedButton
+                    label="View Prototype"
+                    link="https://www.figma.com/file/EaB4hcuBkxYQhoxWwTcyTH/DOL-Wireframes?node-id=138%3A465"
+                    color="terracota"
+                  />
+                </div>
+              </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Hi-Fi User Tests</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <p className="font-body text-base leading-relaxed">I did a second round of user testing for my hi-fi prototypes. I took out the “Others” primary link as it caused confusion for some users and added it inside "Resources" instead. Although users didn't have any trouble finding the contact link, there were other areas that still had room for improvement:</p>
+                  <ul className="list-disc pl-8">
+                    <li className="font-body text-base my-4">
+                      Increase spacing between primary nav links on the mobile menu
+                    </li>
+                    <li className="font-body text-base my-4">
+                      CTA buttons, search box, and mobile footer font size can be smaller
+                    </li>
+                    <li className="font-body text-base my-4">
+                      Padding between sections in the unemployment insurance page can be increased and be more consistent
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Hi-Fi Mockups</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <div className="lg:max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 justify-center items-start">
+                    <StaticImage
+                      src="../../images/dol-mockup-home-desktop.png"
+                      alt="Home Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
-                      src="../../images/moreart-final-exhibitions.png"
-                      alt="Shop Desktop"
+                      src="../../images/dol-mockup-ui-desktop.png"
+                      alt="UI Desktop"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
-                      src="../../images/moreart-final-public-water.png"
-                      alt="public water"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-shop.png"
+                      src="../../images/dol-mockup-home-mobile.png"
                       alt="Home Mobile"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
-                      src="../../images/moreart-final-checkout.png"
-                      alt="RSVP Mobile"
+                      src="../../images/dol-mockup-menu-mobile.png"
+                      alt="Menu Mobile"
                       className="my-8 mx-2"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
                   </div>
 
-                  <div className="lg:max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-start">
-                    <StaticImage
-                      src="../../images/moreart-home-mobile.png"
-                      alt="Home Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-shop-mobile.png"
-                      alt="Shop Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-exhibitions-mobile.jpg"
-                      alt="RSVP Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                  </div>
-
-                </div>
-                <div className="my-4">
-                  <RoundedButton
-                    label="View Prototype"
-                    link="https://www.figma.com/proto/ewE6IUBmbbSkgmuKKL87nq/Non-Profit-Annotations?node-id=115%3A3550&scaling=scale-down&page-id=85%3A117&starting-point-node-id=115%3A3550"
-                    color="terracota"
-                  />
                 </div>
               </div>
 
@@ -631,18 +533,17 @@ const MoreArt = () => {
           <section>
             <Header level={1}>Next Steps</Header>
             <div className="py-2 px-4 my-4">
-              <p className="font-body text-base leading-relaxed">There were a lot of low-hanging fruits that our team addressed to vastly improve the overall experience on the website. Exhibitions are now more navigable better highlights MoreArt's previous and current endeavors. Checkout is more contemporary and intuitive. Lastly, the home page has clear value propositions, with the donation page more streamlined and reassuring.</p>
+              <p className="font-body text-base leading-relaxed">The contemporary design on the two pages is a great start in transforming the Department of Labor's website into something more professional and trustworthy. Users can now easily find the contact page and the information architecture on the navigation is more palatable. However, given the enormous amount of services the Department of Labor has to accommodate on their website, there would always be something else to work on:</p>
               <br />
-              <p className="font-body text-base leading-relaxed">Despite all these improvements, there is still more work left to be done.</p>
               <ul className="list-disc pl-8">
                 <li className="font-body text-base my-4">
-                  Redesign the artist's page.
+                  Redesign the FAQ and Contact page
                 </li>
                 <li className="font-body text-base my-4">
-                  Include more ways to reassure customers during the giving experience (certifications, awards, display no. of donations).
+                  Figure out how to improve the Forms page and seamlessly incorporate it to the design
                 </li>
                 <li className="font-body text-base my-4">
-                  Follow-up with testers to see if the iterations worked.
+                  Improve desktop footer layout
                 </li>
               </ul>
             </div>
@@ -654,4 +555,4 @@ const MoreArt = () => {
   
 }
 
-export default MoreArt
+export default DeptLabor
