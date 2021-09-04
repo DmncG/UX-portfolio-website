@@ -129,6 +129,20 @@ const MoreArt = () => {
                       placeholder="blurred"
                     />
                   </div>
+
+                  <div className="my-4">
+                  <div className="my-16 mx-auto flex flex-col overflow-hidden">
+                    <p className="font-body font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-2">
+                      "I like using Spotify but it doesn't connect the social aspect of music"
+                    </p>
+                    <p className="font-body text-xl md:text-2xl leading-relaxed my-2 md:my-8 self-end relative right-2 md:right-8">
+                      "I have my own music preferences but I am open to discovering new music"
+                    </p>
+                    <p className="font-body font-bold text-xl md:text-5xl leading-relaxed my-2 relative left-6">
+                      "Playlist radios on Spotify often seems to be wrong"
+                    </p>
+                  </div>
+                </div>
                 </div>
 
                 <div className="my-4">
