@@ -10,7 +10,7 @@ import lofiMobile3 from '../../images/moreart-lofi-shop-mobile.png'
 import hifiMobile1 from '../../images/moreart-home-mobile.png'
 import hifiMobile2 from '../../images/moreart-final-shop-mobile.png'
 import hifiMobile3 from '../../images/moreart-final-exhibitions-mobile.jpg'
-import interviewNicole from '../../images/muse-interview-nicole.gif'
+import interviewNicole from '../../images/muse-nicole-interview.gif'
 import affinityDiagram from '../../images/muse-affinity-diagram.gif'
 import featPrioritizationMatrix from '../../images/muse-feat-prioritization-matrix.gif'
 
@@ -156,7 +156,7 @@ const Muse = () => {
                     <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                   </div>
                   <div className="my-8 flex flex-col">
-                    <p className="font-body text-base leading-relaxed">We created a proto persona to represent our assumptions of our app's ideal user</p>
+                    <p className="font-body text-base leading-relaxed">We created a proto persona to represent our assumptions of our app's ideal user.</p>
                     <StaticImage
                       src="../../images/muse-proto-persona.jpg"
                       alt="proto persona"
