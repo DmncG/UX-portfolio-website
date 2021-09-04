@@ -268,7 +268,7 @@ const ProjectList = () => {
         <div className="h-1 bg-terracota w-16 my-4 ml-1"/>
       </div>
 
-      {/* <motion.section
+      <motion.section
         className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 mb-32 relative"
         variants={sectionVariant}
         initial={match1024 ? 'hidden' : 'hiddenMobile'}
@@ -316,7 +316,7 @@ const ProjectList = () => {
           >
            <strong>Muse</strong> is a social music app that aims to add a human element in discovering new music
           </motion.h3>
-          <Link to="/projects/more-art" className="font-body text-lg text-terracota-dark hover:text-terracota my-1">
+          <Link to="/projects/muse" className="font-body text-lg text-terracota-dark hover:text-terracota my-1">
             View this project
           </Link>
           <motion.div
@@ -324,7 +324,7 @@ const ProjectList = () => {
             variants={navLinkVariant}
           />
         </motion.div>
-      </motion.section> */}
+      </motion.section>
       
       <motion.section
         className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 mb-8 relative"
