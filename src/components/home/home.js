@@ -163,7 +163,7 @@ const Home = () => {
       </section>
 
       <section id="projects">
-        <div className="relative w-full h-96 md:h-screen bg-home-projects-alt bg-cover bg-no-repeat bg-blend-soft-light overflow-hidden z-10">
+        <div className="relative w-full h-screen md:h-screen bg-home-projects-alt bg-cover bg-no-repeat bg-blend-soft-light overflow-hidden z-10">
           <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8 z-10">
             <Button
               label="Projects."
@@ -175,7 +175,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="relative w-full h-96 md:h-screen bg-cover bg-no-repeat bg-terracota bg-blend-hard-light overflow-hidden">
+        <div className="relative w-full h-screen md:h-screen bg-cover bg-no-repeat bg-terracota bg-blend-hard-light overflow-hidden">
           <ParticlePreset />
           <div className="absolute bottom-3 md:bottom-8 right-3 md:right-8 z-10">
             <Button
@@ -189,7 +189,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="relative w-full h-96 md:h-screen bg-home-about bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden z-10">
+        <div className="relative w-full h-screen md:h-screen bg-home-about bg-cover bg-no-repeat bg-blend-hard-light overflow-hidden z-10">
           <div className="absolute bottom-3 md:bottom-8 left-3 md:left-8 z-10">
             <Button
               label="About."

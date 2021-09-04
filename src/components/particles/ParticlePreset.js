@@ -39,7 +39,7 @@ const ParticlePreset = () => {
             "value": 1
           },
           "number": {
-            "value": 75,
+            "value": 50,
           },
         }
       }
