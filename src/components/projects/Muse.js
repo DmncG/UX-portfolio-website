@@ -10,33 +10,36 @@ import lofiMobile3 from '../../images/moreart-lofi-shop-mobile.png'
 import hifiMobile1 from '../../images/moreart-home-mobile.png'
 import hifiMobile2 from '../../images/moreart-final-shop-mobile.png'
 import hifiMobile3 from '../../images/moreart-final-exhibitions-mobile.jpg'
+import interviewNicole from '../../images/muse-interview-nicole.gif'
+import affinityDiagram from '../../images/muse-affinity-diagram.gif'
+import featPrioritizationMatrix from '../../images/muse-feat-prioritization-matrix.gif'
 
 import Fab from '../fab/Fab'
 
-const MoreArt = () => {
+const Muse = () => {
   return (
     <>
       <Fab />
       <div className="md:max-w-screen-md xl:max-w-screen-lg md:mx-auto py-16">
         <div className="mt-16 mb-16">
-          <div className="relative -left-16 grid grid-cols-3 justify-center items-center max-w-lg sm:mx-auto">
+          <div className="relative flex flex-row justify-center items-center max-w-lg mx-auto">
             <StaticImage
               src="../../images/muse-projects-artists.png"
               alt="Muse Artists"
               placeholder="blurred"
-              className="w-72"
+              className="w-28 md:w-full"
             />
             <StaticImage
               src="../../images/muse-projects-home.png"
               alt="Muse Home"
               placeholder="blurred"
-              className="w-72"
+              className="w-28 md:w-full"
             />
             <StaticImage
               src="../../images/muse-projects-friends.png"
               alt="Muse Friends"
               placeholder="blurred"
-              className="w-72 relative -top-2.5"
+              className="w-28 md:w-full"
             />
           </div>
         </div> 
@@ -103,30 +106,12 @@ const MoreArt = () => {
                     <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Research Interviews</h2>
                     <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                   </div>
-                  <p className="font-body text-base leading-relaxed">We began the process by conducting 4 research interviews to <strong>figure out the habits and painpoints of users when they donate online</strong>. Moreover, we wanted to know the general needs of people who are interested in social initiatives, and get a sense of how they perceive non-profit organizations as a whole.</p>
-                  <div className="grid grid-cols-2 justify-center my-16 lg:max-w-screen-md mx-auto">
-                    <StaticImage
-                      src="../../images/moreart-interview-1.png"
-                      alt="research interview 1"
-                      placeholder="blurred"
-                    />
-
-                    <StaticImage
-                      src="../../images/moreart-interview-2.png"
-                      alt="research interview 2"
-                      placeholder="blurred"
-                    />
-
-                    <StaticImage
-                      src="../../images/moreart-interview-3.png"
-                      alt="research interview 3"
-                      placeholder="blurred"
-                    />
-
-                    <StaticImage
-                      src="../../images/moreart-interview-4.png"
-                      alt="research interview 4"
-                      placeholder="blurred"
+                  <p className="font-body text-base leading-relaxed">We began the process by conducting 5 research interviews to <strong>figure out user listening habits, music preferences, and how they consume music</strong>. We also wanted to know what compels users to share music and how important it is in their lives.</p>
+                  <div className="my-16 lg:max-w-screen-md mx-auto">
+                    <img
+                      src={interviewNicole}
+                      alt="research interview"
+                      className="p-2"
                     />
                   </div>
 
@@ -147,55 +132,21 @@ const MoreArt = () => {
 
                 <div className="my-4">
                   <div>
-                    <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Research Findings</h2>
-                    <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-                  </div>
-                  <ul className="list-disc pl-8">
-                    <li className="font-body text-base my-4">
-                      There is a desire to see people genuinely help others
-                    </li>
-                    <li className="font-body text-base my-4">
-                      There is a general agreement that it's important to support social causes
-                    </li>
-                    <li className="font-body text-base my-4">
-                      They discover non-profit organizations and social causes via social media
-                    </li>
-                  </ul>
-                  <div className="my-16">
-                    <p className="font-body font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-2">
-                      “In an age where everything is driven by profit, non-profit organizations believe in a cause and I want to help”
-                    </p>
-                  </div>
-                </div>
-
-                <div className="my-4">
-                  <div>
                     <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Survey</h2>
                     <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                    <p className="font-body text-base leading-relaxed">
+                      We also conducted a survey to get some quantitative data regarding this subject. From the 46 responses we've gathered, more than half rely on a music platform's algorithm to discover new music. However, <strong>80% says the music recommendations they receive are inaccurate</strong>.
+                    </p>
                   </div>
-                  <div className="grid grid-cols-2 items-center my-8 lg:my-12 mx-auto max-w-screen-sm lg:max-w-screen-md">
-                    <p className="font-display text-center text-4xl md:text-7xl lg:text-8xl text-padua">86.4%</p>
+                  <div className="my-8 mx-auto max-w-screen-md">
                     <div>
-                      <p className="font-body text-base leading-relaxed lg:text-xl">
-                        We also conducted a survey to get some quantitative data regarding this subject. Out of 22 responses, 86.4% wanted to know where their donations went.
-                      </p>
+                      <StaticImage
+                      src="../../images/muse-survey.png"
+                      alt="proto persona"
+                      className="my-8 self-center"
+                      placeholder="blurred"
+                    />
                     </div>
-                  </div>
-                </div>
-
-                <div className="my-4">
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2 relative">What makes it difficult to donate?</h2>
-
-                  <div className="my-16 mx-auto flex flex-col overflow-hidden">
-                    <p className="font-body font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-2">
-                      "Not knowing where the donation will end up"
-                    </p>
-                    <p className="font-body text-xl md:text-2xl leading-relaxed my-2 md:my-8 self-end relative right-2 md:right-40">
-                      "It's not convenient"
-                    </p>
-                    <p className="font-body font-bold text-xl md:text-5xl leading-relaxed my-2 relative left-6">
-                      "Lack of trust"
-                    </p>
                   </div>
                 </div>
 
@@ -205,68 +156,12 @@ const MoreArt = () => {
                     <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                   </div>
                   <div className="my-8 flex flex-col">
-                    <p className="font-body text-base leading-relaxed">We created a proto persona to represent our assumptions of MoreArt's ideal user</p>
+                    <p className="font-body text-base leading-relaxed">We created a proto persona to represent our assumptions of our app's ideal user</p>
                     <StaticImage
-                      src="../../images/moreart-proto-persona.jpg"
+                      src="../../images/muse-proto-persona.jpg"
                       alt="proto persona"
                       className="my-8 self-center"
                       placeholder="blurred"
-                    />
-                  </div>
-                </div>
-
-                <div className="my-4">
-                  <div>
-                    <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Heuristic Evaluation</h2>
-                    <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-                  </div>
-                  <div className="my-8 flex flex-col">
-                    <p className="font-body text-base leading-relaxed">After performing a heuristic evaluation on MoreArt's current website, it was evident that there was a need to <strong>make the designs between pages feel more consistent</strong>. There were also a number of broken links throughout the site. Despite all this, the website does have help available in every page and there are a limited number of buttons and links.</p>
-                    <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-1">
-                      <StaticImage
-                        src="../../images/moreart-heuristic-1.png"
-                        alt="Heuristic 1"
-                        className="my-8 col-span-2"
-                        placeholder="blurred"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="my-4">
-                  <div>
-                    <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Annotations</h2>
-                    <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-                  </div>
-                  <div className="my-8 flex flex-col">
-                    <p className="font-body text-base leading-relaxed">We annotated MoreArt's website as well to identify notable elements and key areas of improvement</p>
-                    <div className="my-16 lg:max-w-screen-md mx-auto grid grid-cols-3">
-                      <StaticImage
-                        src="../../images/moreart-anno-1.png"
-                        alt="Annotations 1"
-                        className="my-8 self-center"
-                        placeholder="blurred"
-                      />
-                      <StaticImage
-                        src="../../images/moreart-anno-2.png"
-                        alt="Annotations 2"
-                        className="my-8 self-center"
-                        placeholder="blurred"
-                      />
-                      <StaticImage
-                        src="../../images/moreart-anno-3.png"
-                        alt="Annotations 3"
-                        className="my-8 self-center"
-                        placeholder="blurred"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="my-4">
-                    <RoundedButton
-                      label="View Annotations"
-                      color="terracota"
-                      link="https://www.figma.com/file/ewE6IUBmbbSkgmuKKL87nq/Non-Profit-Annotations?node-id=0%3A1"
                     />
                   </div>
                 </div>
@@ -278,7 +173,7 @@ const MoreArt = () => {
           <SectionBreak />
 
           <section>
-            <Header level={1}>Definition & Ideation</Header>
+            <Header level={1}>Definition &amp; Ideation</Header>
             <div className="py-2 px-4 my-4">
               <div className="my-4">
                 <div>
@@ -286,13 +181,63 @@ const MoreArt = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We gathered all our findings from the research interviews and organized them into an affinity diagram. <strong>Concerns about transparency and trust</strong> naturally came up as we grouped the data.</p>
-                  <StaticImage
-                    src="../../images/moreart-affinity.jpg"
+                  <p className="font-body text-base leading-relaxed">We gathered all our findings from the research interviews and organized them into an affinity diagram.</p>
+                  <img
+                    src={affinityDiagram}
                     alt="Affinity Diagram"
-                    className="my-8 self-center"
+                    className="p-2 my-8"
+                  />
+                </div>
+              </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Affinity Diagram (Final)</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <p className="font-body text-base leading-relaxed">The results were telling. There is a need to integrate a social aspect in music platforms and users are open to discovering new music through friends. In other words, music connects people and there's no feature or service that allows them to do it easily.</p>
+                  <StaticImage
+                    src="../../images/muse-affinity-diagram-final.jpg"
+                    alt="Affinity Diagram Final"
+                    className="self-center my-4"
                     placeholder="blurred"
                   />
+                </div>
+              </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">I Like, I Wish, What If...</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <p className="font-body text-base leading-relaxed">We then identified the features that we like on existing music apps and social platforms, what we wished we had, and imagined out-of-the-box features that could bring the app to the next level. Through dot voting, we were able to narrow down the features we wanted to work on.</p>
+                  <div className="my-8 lg:max-w-screen-md mx-auto">
+                    <StaticImage
+                      src="../../images/muse-i-like-i-wish-what-if.png"
+                      alt="I Like I Wish What If"
+                      className="my-8 col-span-2"
+                      placeholder="blurred"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Feature Prioritization Matrix</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex flex-col">
+                  <p className="font-body text-base leading-relaxed">Afterward, we sorted the features we like based on impact and complexity.</p>
+                  <div className="my-8 lg:max-w-screen-md mx-auto">
+                    <img
+                        src={featPrioritizationMatrix}
+                        alt="Feature Prioritization Matrix"
+                        className="p-2 my-8"
+                    />
+                  </div>
                 </div>
               </div>
 
@@ -302,8 +247,7 @@ const MoreArt = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8">
-                  <p className="font-body text-base leading-relaxed">We decided to focus on the themes surrounding transparecy and trust as this seemed to be the most important factor for our users.</p>
-                  <p className="font-display font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-16">People who donate online need to have a simple,  reassuring, and accountable giving experience because <span className="text-terracota">trust and transparency are key into motivating users to donate</span>.</p>
+                  <p className="font-display font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-16">Users who enjoy discovering new music <span className="text-terracota">have a desire to share their music preferences and discover others’</span> to form meaningful connections and feel a sense of belonging with others.</p>
                 </div>
               </div>
 
@@ -314,7 +258,7 @@ const MoreArt = () => {
                 </div>
                 <div className="my-8 flex flex-col">
                   <StaticImage
-                    src="../../images/moreart-user-persona.png"
+                    src="../../images/muse-user-persona.jpg"
                     alt="User Persona"
                     className="my-8 self-center"
                     placeholder="blurred"
@@ -422,26 +366,8 @@ const MoreArt = () => {
           <SectionBreak />
 
           <section>
-            <Header level={1}>Prototyping & Testing</Header>
+            <Header level={1}>Prototyping &amp; Testing</Header>
             <div className="py-2 px-4 my-4">
-
-              <div className="my-4">
-                <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">I Like, I Wish, What If...</h2>
-                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-                </div>
-                <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We knew that we wanted the donation workflow to be simpler with a clean and modern design. Users should also be able to donate to specific projects.</p>
-                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1">
-                    <StaticImage
-                      src="../../images/moreart-i-like-i-wish-what-if.jpeg"
-                      alt="I Like I Wish What If"
-                      className="my-8 col-span-2"
-                      placeholder="blurred"
-                    />
-                  </div>
-                </div>
-              </div>
 
               <div className="my-4">
                 <div>
@@ -467,12 +393,11 @@ const MoreArt = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We used the striking Persian Blue that goes very well with the black background. Colors weere kept to a minimum to enhance the site's simplicity.</p>
+                  <p className="font-body text-base leading-relaxed">We opted to use a bright and punchy gradient and complemented it with a warm and vibrant palette. Signika SC and Poppins were used for the header and the body respectively. The colorful "Atlas" gradient shows on a button's hover state</p>
                   <div className="my-8 lg:max-w-screen-md mx-auto">
                     <StaticImage
-                      src="../../images/moreart-style-guide-2.png"
+                      src="../../images/muse-style-guide.png"
                       alt="Style Guide"
-                      className="my-8"
                       placeholder="blurred"
                     />
                   </div>
@@ -730,4 +655,4 @@ const MoreArt = () => {
   
 }
 
-export default MoreArt
+export default Muse

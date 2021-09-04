@@ -277,12 +277,12 @@ const ProjectList = () => {
         ref={refSection1}
       >
         <motion.div
-          className="flex flex-row justify-center items-center relative -top-5"
+          className="flex flex-row justify-center items-center relative -top-28 lg:-top-5"
           variants={projectImageVariants}
         >
           <StaticImage placeholder="blurred" className="p-1 relative mx-auto left-4" src="../../images/muse-projects-artists.png" alt="muse artists mockup" />
           <StaticImage placeholder="blurred" className="p-1 relative mx-auto" src="../../images/muse-projects-home.png" alt="muse home mockup" />
-          <StaticImage placeholder="blurred" className="p-1 relative mx-auto -top-1.5 right-4" src="../../images/muse-projects-friends.png" alt="muse friends mockup" />
+          <StaticImage placeholder="blurred" className="p-1 relative mx-auto right-4" src="../../images/muse-projects-friends.png" alt="muse friends mockup" />
         </motion.div>
 
         <motion.div
