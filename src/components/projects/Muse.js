@@ -247,7 +247,7 @@ const Muse = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8">
-                  <p className="font-display font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-16">Users who enjoy discovering new music <span className="text-terracota">have a desire to share their music preferences and discover others’</span> to form meaningful connections and feel a sense of belonging with others.</p>
+                  <p className="font-display font-semibold text-lg sm:text-xl md:text-3xl leading-relaxed my-8 md:my-16">Users who enjoy discovering new music <span className="text-terracota">have a desire to share their music preferences and discover others’</span> to form meaningful connections and feel a sense of belonging with others.</p>
                 </div>
               </div>
 
