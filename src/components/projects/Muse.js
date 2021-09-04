@@ -13,6 +13,7 @@ import hifiMobile3 from '../../images/moreart-final-exhibitions-mobile.jpg'
 import interviewNicole from '../../images/muse-nicole-interview.gif'
 import affinityDiagram from '../../images/muse-affinity-diagram.gif'
 import featPrioritizationMatrix from '../../images/muse-feat-prioritization-matrix.gif'
+import moodBoard from '../../images/muse-moodboard.gif'
 
 import Fab from '../fab/Fab'
 
@@ -377,11 +378,10 @@ const Muse = () => {
                 <div className="my-8 flex flex-col">
                   <p className="font-body text-base leading-relaxed">Quicksand, a sans serif font, was used as it conveyed approachability. We also looked at museums and architecture that had a modern and contemporary feel to develop the website's aesthetics.</p>
                   <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1">
-                    <StaticImage
-                      src="../../images/moreart-moodboard.png"
+                    <img
+                      src={moodBoard}
                       alt="Mood Board"
-                      className="my-8 col-span-2"
-                      placeholder="blurred"
+                      className="p-2 my-8"
                     />
                   </div>
                 </div>
