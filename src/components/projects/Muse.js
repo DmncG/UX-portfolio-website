@@ -14,6 +14,9 @@ import interviewNicole from '../../images/muse-nicole-interview.gif'
 import affinityDiagram from '../../images/muse-affinity-diagram.gif'
 import featPrioritizationMatrix from '../../images/muse-feat-prioritization-matrix.gif'
 import moodBoard from '../../images/muse-moodboard.gif'
+import hifiOnboarding from '../../images/muse-hifi-onboarding.gif'
+import hifiPosting from '../../images/muse-hifi-posting.gif'
+import hifiRequesting from '../../images/muse-hifi-requesting.gif'
 
 import Fab from '../fab/Fab'
 
@@ -673,6 +676,39 @@ const Muse = () => {
                     link="https://www.figma.com/file/GsTt72GNbjtFEYA2PM6SeX/UX-Design_Final-Project-Muse?node-id=177%3A5444"
                     color="terracota"
                   />
+                </div>
+              </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Mockups</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 grid grid-cols-1 md:grid-cols-3">
+                  <div className="my-8 lg:max-w-screen-md mx-auto">
+                    <img
+                      src={hifiOnboarding}
+                      alt="Hifi Onboarding"
+                      className="p-2 my-8"
+                    />
+                    <h3 className="font-display text-center font-semibold text-base text-gunPowder my-2 pl-4">Onboarding</h3>
+                  </div>
+                  <div className="my-8 lg:max-w-screen-md mx-auto">
+                    <img
+                      src={hifiPosting}
+                      alt="Hifi Posting"
+                      className="p-2 my-8"
+                    />
+                    <h3 className="font-display text-center font-semibold text-base text-gunPowder my-2 pl-4">Posting</h3>
+                  </div>
+                  <div className="my-8 lg:max-w-screen-md mx-auto">
+                    <img
+                      src={hifiRequesting}
+                      alt="Hifi Requesting"
+                      className="p-2 my-8"
+                    />
+                    <h3 className="font-display font-semibold text-center text-base text-gunPowder my-2 pl-4">Requesting</h3>
+                  </div>
                 </div>
               </div>
 
