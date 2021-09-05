@@ -274,12 +274,12 @@ const Muse = () => {
                 </div>
 
                 <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We conducted a competitor analysis to evaluate the strengths and weaknesses of organizations within the same space.</p>
+                  <p className="font-body text-base leading-relaxed">We conducted a competitor analysis to evaluate the strengths and weaknesses of apps within the music space.</p>
                   <div className="my-8 lg:max-w-screen-md mx-auto">
                     <div className="flex flex-col md:flex-row justify-start items-center">
                       <StaticImage
-                        src="../../images/moreart-artstart_logo.png"
-                        alt="ArtStart"
+                        src="../../images/muse-reddit-logo.png"
+                        alt="Reddit"
                         className="my-2 w-48"
                         placeholder="blurred"
                         imgStyle={{
@@ -289,15 +289,16 @@ const Muse = () => {
                         }}
                       />
                       <div>
+                        <h3 className="font-display font-semibold text-base text-gunPowder my-2 pl-4">Reddit</h3>
                         <ul className="list-disc pl-8">
                           <li className="font-body text-base my-4">
-                            Donate page is easy to scan
+                            Upvoting feature makes sure content is relevant and trusted
                           </li>
                           <li className="font-body text-base my-4">
-                            Website is beautifully designed
+                            Only subreddits are geared toward music
                           </li>
                           <li className="font-body text-base my-4">
-                            No breakdown of how the money is being used
+                            Can be overwhelming
                           </li>
                         </ul>
                       </div>
@@ -305,8 +306,8 @@ const Muse = () => {
 
                     <div className="flex flex-col md:flex-row justify-start items-center">
                       <StaticImage
-                        src="../../images/moreart-free-arts-nyx-logo.png"
-                        alt="Free Arts NYC"
+                        src="../../images/muse-spotify-logo.png"
+                        alt="Spotify"
                         className="my-2 w-48"
                         placeholder="blurred"
                         imgStyle={{
@@ -316,15 +317,13 @@ const Muse = () => {
                         }}
                       />
                       <div>
+                        <h3 className="font-display font-semibold text-base text-gunPowder my-2 pl-4">Spotify</h3>
                         <ul className="list-disc pl-8">
                           <li className="font-body text-base my-4">
-                            There is a page dedicated to the financial breakdown of donations
+                            Best algorithm for music recommendations
                           </li>
                           <li className="font-body text-base my-4">
-                            Lots of donation options
-                          </li>
-                          <li className="font-body text-base my-4">
-                            Aesthetics need improvement
+                            Limited social features
                           </li>
                         </ul>
                       </div>
@@ -332,8 +331,8 @@ const Muse = () => {
 
                     <div className="flex flex-col md:flex-row justify-start items-center">
                       <StaticImage
-                        src="../../images/moreart-ASPCA-logo.png"
-                        alt="ASPCA"
+                        src="../../images/muse-apple-music-logo.png"
+                        alt="Apple Music"
                         className="my-12 md:my-2 w-48"
                         placeholder="blurred"
                         imgStyle={{
@@ -343,15 +342,47 @@ const Muse = () => {
                         }}
                       />
                       <div>
+                        <h3 className="font-display font-semibold text-base text-gunPowder my-2 pl-4">Apple Music</h3>
                         <ul className="list-disc pl-8">
                           <li className="font-body text-base my-4">
-                            Prominent donation button
+                            Offers 60 million songs
                           </li>
                           <li className="font-body text-base my-4">
-                            Allows one-time as well as monthly donations
+                            Aesthetically clean and appealing
                           </li>
                           <li className="font-body text-base my-4">
-                            Homepage is a little busy
+                            There is no free version to listen to a particular song
+                          </li>
+                          <li className="font-body text-base my-4">
+                            Poor Android support
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col md:flex-row justify-start items-center">
+                      <StaticImage
+                        src="../../images/muse-soundcloud-logo.png"
+                        alt="Soundcloud"
+                        className="my-12 md:my-2 w-48"
+                        placeholder="blurred"
+                        imgStyle={{
+                          width: "150px",
+                          margin: 'auto',
+                          objectFit: 'contain',
+                        }}
+                      />
+                      <div>
+                        <h3 className="font-display font-semibold text-base text-gunPowder my-2 pl-4">Soundcloud</h3>
+                        <ul className="list-disc pl-8">
+                          <li className="font-body text-base my-4">
+                            Recommends music and artists in many different ways
+                          </li>
+                          <li className="font-body text-base my-4">
+                            UI is very cluttered
+                          </li>
+                          <li className="font-body text-base my-4">
+                            Music is inconsistently behind a paywall
                           </li>
                         </ul>
                       </div>
@@ -360,6 +391,26 @@ const Muse = () => {
                   </div>
                 </div>
               </div>
+
+              <div className="my-4">
+                <div>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Storyboard</h2>
+                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
+                </div>
+                <div className="my-8 flex justify-center">
+                  <div className="lg:max-w-screen-lg mx-auto">
+                    <StaticImage
+                      src="../../images/muse-storyboard.png"
+                      alt="Storyboard"
+                      placeholder="blurred"
+                      imgStyle={{
+                        objectFit: 'contain',
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              
 
             </div>
           </section>
@@ -376,7 +427,7 @@ const Muse = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">Quicksand, a sans serif font, was used as it conveyed approachability. We also looked at museums and architecture that had a modern and contemporary feel to develop the website's aesthetics.</p>
+                  <p className="font-body text-base leading-relaxed">We looked at various logos and UIs and considered adding recognizable music elements to our app. We also wanted to have a distinct look from existing music streaming platforms.</p>
                   <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1">
                     <img
                       src={moodBoard}
@@ -393,7 +444,7 @@ const Muse = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We opted to use a bright and punchy gradient and complemented it with a warm and vibrant palette. Signika SC and Poppins were used for the header and the body respectively. The colorful "Atlas" gradient shows on a button's hover state</p>
+                  <p className="font-body text-base leading-relaxed">We opted to use a vibrant gradient and complemented it with a warm palette. Signika SC and Poppins were used for the header and the body respectively. The colorful "Atlas" gradient shows on a button's hover state</p>
                   <div className="my-8 lg:max-w-screen-md mx-auto">
                     <StaticImage
                       src="../../images/muse-style-guide.png"
@@ -410,23 +461,23 @@ const Muse = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We focused on the three main user flows of the website: donations, exhibitions, and the shopping experience</p>
-                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3">
+                  <p className="font-body text-base leading-relaxed">We focused on the three main user flows of the app: onboarding, posting music, and requesting for music recommendations</p>
+                  <div className="my-8 lg:max-w-screen-md mx-auto grid grid-cols-1">
                     <StaticImage
-                      src="../../images/moreart-userflow-donations.jpg"
-                      alt="Donations"
+                      src="../../images/muse-workflow-onboarding.jpg"
+                      alt="Onboarding"
                       className="my-8"
                       placeholder="blurred"
                     />
                     <StaticImage
-                      src="../../images/moreart-userflow-exhibits.jpg"
-                      alt="Exhibitions"
+                      src="../../images/muse-workflow-posting.jpg"
+                      alt="Posting"
                       className="my-8"
                       placeholder="blurred"
                     />
                     <StaticImage
-                      src="../../images/moreart-userflow-shop.jpg"
-                      alt="Shop"
+                      src="../../images/muse-workflow-requesting.jpg"
+                      alt="Requesting"
                       className="my-8"
                       placeholder="blurred"
                     />
@@ -442,89 +493,75 @@ const Muse = () => {
                 <div className="my-8 flex flex-col">
                   <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-start">
                     <StaticImage
-                      src="../../images/moreart-lofi-home-desktop.png"
-                      alt="Home Desktop"
-                      className="my-8 mx-2"
+                      src="../../images/muse-lofi-onboard-1.png"
+                      alt="Lofi Onboard 1"
+                      className="my-8 mx-2 border-2 border-black"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
-                      src="../../images/moreart-lofi-rsvp-desktop.png"
-                      alt="RSVP Desktop"
-                      className="my-8 mx-2"
+                      src="../../images/muse-lofi-onboard-2.png"
+                      alt="Lofi Onboard 2"
+                      className="my-8 mx-2 border-2 border-black"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
                     <StaticImage
-                      src="../../images/moreart-lofi-shop-desktop.png"
-                      alt="Shop Desktop"
-                      className="my-8 mx-2"
+                      src="../../images/muse-lofi-onboard-3.png"
+                      alt="Lofi Onboard 3"
+                      className="my-8 mx-2 border-2 border-black"
                       placeholder="blurred"
                       imgStyle={{ objectFit: 'contain' }}
                     />
-                    <Mobile mobileImage={{imgSrc: lofiMobile1, imgAlt: 'lofi home'}} />
-                    <Mobile mobileImage={{imgSrc: lofiMobile2, imgAlt: 'lofi rsvp'}} />
-                    <Mobile mobileImage={{imgSrc: lofiMobile3, imgAlt: 'lofi shop'}} />
+                    <StaticImage
+                      src="../../images/muse-lofi-post-1.png"
+                      alt="Lofi Posting 1"
+                      className="my-8 mx-2 border-2 border-black"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-lofi-post-2.png"
+                      alt="Lofi Posting 2"
+                      className="my-8 mx-2 border-2 border-black"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-lofi-post-3.png"
+                      alt="Lofi Posting 3"
+                      className="my-8 mx-2 border-2 border-black"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-lofi-request-1.png"
+                      alt="Lofi Request 1"
+                      className="my-8 mx-2 border-2 border-black"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-lofi-request-2.png"
+                      alt="Lofi Request 2"
+                      className="my-8 mx-2 border-2 border-black"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-lofi-request-3.png"
+                      alt="Lofi Request 3"
+                      className="my-8 mx-2 border-2 border-black"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
                   </div>
 
                   <div className="my-4">
                     <RoundedButton
                       label="View Prototype"
                       color="terracota"
-                      link="https://www.figma.com/proto/ewE6IUBmbbSkgmuKKL87nq/Non-Profit-Annotations?node-id=66%3A49&scaling=scale-down&page-id=62%3A3&starting-point-node-id=66%3A49&show-proto-sidebar=1"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="my-4">
-                <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Hi-fi Prototypes</h2>
-                  <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
-                </div>
-                <div className="my-8 flex flex-col">
-                  <div className="lg:max-w-screen-md mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-start">
-                    <StaticImage
-                      src="../../images/moreart-final-desktop-1.png"
-                      alt="Home Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-desktop-2.png"
-                      alt="RSVP Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-desktop-3.png"
-                      alt="Shop Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-mobile-1.png"
-                      alt="Home Mobile"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-mobile-2.png"
-                      alt="RSVP Mobile"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-mobile-3.png"
-                      alt="Shop Mobile"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
+                      link="https://www.figma.com/file/GsTt72GNbjtFEYA2PM6SeX/UX-Design_Final-Project-Muse?node-id=70%3A1702"
                     />
                   </div>
                 </div>
@@ -536,22 +573,22 @@ const Muse = () => {
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <p className="font-body text-base leading-relaxed">We conducted 3 user tests on our hi-fi prototype to validate (or invalidate) our designs. We ask our users to RSVP on a project, make a $25 donation, add an item to their cart, and check out. Some of the feedback we received are the ff:</p>
+                  <p className="font-body text-base leading-relaxed">We conducted 5 user tests on our lo-fi prototype to see where we can still make improvements. Some of the feedback we received are the ff:</p>
                   <ul className="list-disc pl-8">
                     <li className="font-body text-base my-4">
-                      RSVP cta was confusing
+                      Pre-made prompts to request music were confusing and limiting
                     </li>
                     <li className="font-body text-base my-4">
-                      Waited for a pop up to ask the user to check out; clicking the cart wasn't intuitive
+                      Tutorial screen had no call-to-action buttons to prompt users it was finished
                     </li>
                     <li className="font-body text-base my-4">
-                      Kept seeing the value proposition on the donations page and thought something was broken
+                      Posting images with the song album could be more intuitive
                     </li>
                     <li className="font-body text-base my-4">
-                      Struggled to return home from the donations page; navbar missing on the page
+                      Alignment issues on some screens
                     </li>
                     <li className="font-body text-base my-4">
-                      Checkout experience was intuitive
+                      Similar treatment for posting and requesting music can be confusing
                     </li>
                   </ul>
                 </div>
@@ -559,66 +596,81 @@ const Muse = () => {
 
               <div className="my-4">
                 <div>
-                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Iterated Hi-fi Prototypes</h2>
+                  <h2 className="font-display font-semibold text-2xl text-gunPowder my-2">Hi-fi Prototypes</h2>
                   <div className="w-8 bg-terracota mt-2 mb-4 h-1" />
                 </div>
                 <div className="my-8 flex flex-col">
-                  <div className="lg:max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 justify-center items-start">
-                    <StaticImage
-                      src="../../images/moreart-final-home.png"
-                      alt="Home Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-donations.png"
-                      alt="Donations Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-exhibitions.png"
-                      alt="Exhibitions Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-public-water.png"
-                      alt="public water"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-shop.png"
-                      alt="Shop Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                    <StaticImage
-                      src="../../images/moreart-final-checkout.png"
-                      alt="Checkout Desktop"
-                      className="my-8 mx-2"
-                      placeholder="blurred"
-                      imgStyle={{ objectFit: 'contain' }}
-                    />
-                  </div>
-
                   <div className="lg:max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-3 justify-center items-start">
-                    <Mobile mobileImage={{imgSrc: hifiMobile1, imgAlt: 'hifi home'}} />
-                    <Mobile mobileImage={{imgSrc: hifiMobile2, imgAlt: 'hifi shop'}} />
-                    <Mobile mobileImage={{imgSrc: hifiMobile3, imgAlt: 'hifi exhibits'}} />
+                    <StaticImage
+                      src="../../images/muse-hifi-onboard-1.png"
+                      alt="Hifi Onboard 1"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-hifi-onboard-2.png"
+                      alt="Hifi Onboard 2"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-hifi-onboard-3.png"
+                      alt="Hifi Onboard 3"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-hifi-post-1.png"
+                      alt="Hifi Post 1"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-hifi-post-2.png"
+                      alt="Hifi Post 2"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-hifi-post-3.png"
+                      alt="Hifi Post 3"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-hifi-request-1.png"
+                      alt="Hifi Request 1"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-hifi-request-2.png"
+                      alt="Hifi Request 2"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
+                    <StaticImage
+                      src="../../images/muse-hifi-request-3.png"
+                      alt="Hifi Request 3"
+                      className="my-8 mx-2"
+                      placeholder="blurred"
+                      imgStyle={{ objectFit: 'contain' }}
+                    />
                   </div>
 
                 </div>
                 <div className="my-4">
                   <RoundedButton
                     label="View Prototype"
-                    link="https://www.figma.com/proto/ewE6IUBmbbSkgmuKKL87nq/Non-Profit-Annotations?node-id=115%3A3550&scaling=scale-down&page-id=85%3A117&starting-point-node-id=115%3A3550"
+                    link="https://www.figma.com/file/GsTt72GNbjtFEYA2PM6SeX/UX-Design_Final-Project-Muse?node-id=177%3A5444"
                     color="terracota"
                   />
                 </div>
@@ -632,18 +684,18 @@ const Muse = () => {
           <section>
             <Header level={1}>Next Steps</Header>
             <div className="py-2 px-4 my-4">
-              <p className="font-body text-base leading-relaxed">There were a lot of low-hanging fruits that our team addressed to vastly improve the overall experience on the website. Exhibitions are now more navigable better highlights MoreArt's previous and current endeavors. Checkout is more contemporary and intuitive. Lastly, the home page has clear value propositions, with the donation page more streamlined and reassuring.</p>
+              <p className="font-body text-base leading-relaxed">It was a lot of fun coming up with a mobile app that we can be passionate about. There seems to be a real need to put more focus on the social aspect of music and it is very enticing to start developing the app as soon as possible.</p>
               <br />
-              <p className="font-body text-base leading-relaxed">Despite all these improvements, there is still more work left to be done.</p>
+              <p className="font-body text-base leading-relaxed">Our team did a good job streamlining the main user flows we identified and iterating on them based on the feedback we gained from our tests. Some of the next steps are the ff:</p>
               <ul className="list-disc pl-8">
                 <li className="font-body text-base my-4">
-                  Redesign the artist's page.
+                  Do another round of user tests for our hi-fi prototype
                 </li>
                 <li className="font-body text-base my-4">
-                  Include more ways to reassure customers during the giving experience (certifications, awards, display no. of donations).
+                  Explore integrations with other music platforms and figure out the UX for those features
                 </li>
                 <li className="font-body text-base my-4">
-                  Follow-up with testers to see if the iterations worked.
+                  Begin coding the app(!)
                 </li>
               </ul>
             </div>
