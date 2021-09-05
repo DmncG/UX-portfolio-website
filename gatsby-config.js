@@ -3,7 +3,7 @@ module.exports = {
     title: "Dominic Ross Garcia",
     description: "UX Portfolio Website",
     url: "https://dominicrossgarcia.com",
-    image: "/images/phone_mockups_bg.png",
+    image: "/src/images/dom_logo_2_black.png",
   },
   plugins: [
     {
