@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: "Dominic Ross Garcia",
+    titleTemplate: "",
     description: "UX Portfolio Website",
     url: "https://dominicrossgarcia.com",
-    image: "/src/images/dom_logo_2_black.png",
+    image: "/src/images/dom_logo_2_white.png",
+    twitterUsername: "",
   },
   plugins: [
     {

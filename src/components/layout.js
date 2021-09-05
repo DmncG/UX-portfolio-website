@@ -5,34 +5,18 @@ import {
   graphql,
 } from 'gatsby'
 import { motion } from 'framer-motion'
-import Helmet from 'react-helmet'
 import Footer from './footer/Footer'
 import Navbar from './navBar/Navbar'
-import logoFavicon from '../images/favicon-logo-white.ico'
-
-const GET_TITLE = graphql`
-  query{
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;
+import SEO from './seo/Seo'
 
 const Layout = ({ pageTitle, children, location }) => {
-  // const data = useStaticQuery(GET_TITLE);
   return (
     <>
-      <Helmet>
-        <link rel="icon" href={logoFavicon} />
-      </Helmet>
+      <SEO />
       {
         location?.pathname !== '/'
           && <Navbar location={location} />
       }
-      {/* <title>{pageTitle} | {data?.site?.siteMetadata?.title}</title>
-      <p>{data?.site?.siteMetadata?.title}</p> */}
       <motion.main
           initial={{ opacity: 0, x: -200 }}
           animate={{ opacity: 1, x: 0 }}
