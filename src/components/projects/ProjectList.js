@@ -330,9 +330,9 @@ const ProjectList = () => {
         className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 mb-8 relative"
         variants={sectionVariant}
         initial={match1024 ? 'hidden' : 'hiddenMobile'}
-        animate={controlsSection1}
+        animate={controlsSection2}
         whileHover="scale"
-        ref={refSection1}
+        ref={refSection2}
       >
         <motion.div
           className="flex flex-col justify-center relative -top-5"
@@ -387,9 +387,9 @@ const ProjectList = () => {
         className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center p-4 m-1 mb-8 relative"
         variants={sectionVariant}
         initial={match1024 ? 'hidden' : 'hiddenMobile'}
-        animate={controlsSection2}
+        animate={controlsSection3}
         whileHover="scale"
-        ref={refSection2}
+        ref={refSection3}
       >
         <motion.div
           className="flex flex-col justify-center relative top-9"
