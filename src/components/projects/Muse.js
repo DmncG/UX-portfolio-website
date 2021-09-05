@@ -689,7 +689,7 @@ const Muse = () => {
                     <img
                       src={hifiOnboarding}
                       alt="Hifi Onboarding"
-                      className="p-2 my-8"
+                      className="p-2 my-8 rounded-3xl"
                     />
                     <h3 className="font-display text-center font-semibold text-base text-gunPowder my-2 pl-4">Onboarding</h3>
                   </div>
@@ -697,7 +697,7 @@ const Muse = () => {
                     <img
                       src={hifiPosting}
                       alt="Hifi Posting"
-                      className="p-2 my-8"
+                      className="p-2 my-8 rounded-3xl"
                     />
                     <h3 className="font-display text-center font-semibold text-base text-gunPowder my-2 pl-4">Posting</h3>
                   </div>
@@ -705,7 +705,7 @@ const Muse = () => {
                     <img
                       src={hifiRequesting}
                       alt="Hifi Requesting"
-                      className="p-2 my-8"
+                      className="p-2 my-8 rounded-3xl"
                     />
                     <h3 className="font-display font-semibold text-center text-base text-gunPowder my-2 pl-4">Requesting</h3>
                   </div>
