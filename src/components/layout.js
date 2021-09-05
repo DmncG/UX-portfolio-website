@@ -4,9 +4,11 @@ import {
   // useStaticQuery,
   graphql,
 } from 'gatsby'
+import { motion } from 'framer-motion'
+import Helmet from 'react-helmet'
 import Footer from './footer/Footer'
 import Navbar from './navBar/Navbar'
-import { motion } from 'framer-motion'
+import logoFavicon from '../images/favicon-logo-white.ico'
 
 const GET_TITLE = graphql`
   query{
@@ -22,6 +24,9 @@ const Layout = ({ pageTitle, children, location }) => {
   // const data = useStaticQuery(GET_TITLE);
   return (
     <>
+      <Helmet>
+        <link rel="icon" href={logoFavicon} />
+      </Helmet>
       {
         location?.pathname !== '/'
           && <Navbar location={location} />
