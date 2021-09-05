@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "UX-portfolio-website",
+    title: "Dominic Ross Garcia",
+    description: "UX Portfolio Website",
+    url: "https://dominicrossgarcia.com",
+    image: "/images/phone_mockups_bg.png",
   },
   plugins: [
     {
@@ -34,6 +37,7 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-plugin-postcss",
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-filesystem",
       options: {
