@@ -23,6 +23,7 @@ import Fab from '../fab/Fab'
 const Muse = () => {
   return (
     <>
+      <Fab fabType="email" />
       <Fab />
       <div className="md:max-w-screen-md xl:max-w-screen-lg md:mx-auto py-16">
         <div className="mt-16 mb-16">

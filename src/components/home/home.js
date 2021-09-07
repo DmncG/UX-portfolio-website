@@ -94,7 +94,10 @@ const Home = () => {
             variants={h2Variant}
             initial="hidden"
             animate="visible"
-          >
+          > 
+            UX Designer | Software Engineer
+            <br />
+            <br />
             I design user-centered experiences grounded in collaboration, communication, and simplicity.
           </motion.h2>   
 
