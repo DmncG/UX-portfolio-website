@@ -21,6 +21,15 @@ const AboutContent = () => (
             I'm a UX Designer/Fullstack Engineer based in New York City.
             <br />
             <br />
+            If you want to know more about the tools and frameworks I use, <a href="/skills" className="text-terracota hover:text-terracota-light">you can go to the skills page here</a>.
+            <br />
+            <br />
+            For inquiries, you can reach me at&nbsp;
+            <a href="tel:+19293462591" className="text-terracota hover:text-terracota-light">+1 929-346-2591</a>
+            &nbsp;or&nbsp;
+            <a href="tel:+19293462591" className="text-terracota hover:text-terracota-light">micksdev@gmail.com</a>.
+            <br />
+            <br />
             A few years ago, I fell in love with software engineering. It allowed me to express my logical and creative side, and I had a blast building apps and providing value to users.
             <br />
             <br />
@@ -40,11 +49,6 @@ const AboutContent = () => (
             <br />
             <br />
             When I'm not in front of my computer, you can find me writing stories or playing Beat Saber in my VR headset.
-            <br /><br />
-            For inquiries, you can reach me at&nbsp;
-            <a href="tel:+19293462591" className="text-terracota hover:text-terracota-light">+1 929-346-2591</a>
-            &nbsp;or&nbsp;
-            <a href="tel:+19293462591" className="text-terracota hover:text-terracota-light">micksdev@gmail.com</a>.
             {/* Currently, I'm working on a building a Shopify-based ecommerce website that sells a wide variety of wood products */}
             </p>
         </div>
