@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import ArrowDropDownCircleOutlinedIcon from '@material-ui/icons/ArrowDropDownCircleOutlined';
 import { motion } from 'framer-motion'
 import Button from '../button/Button'
-import pdfCV from '../../downloads/CV_Dominic_Garcia_12_01_2021.pdf'
+import pdfCV from '../../downloads/CV_Cali_Dominic_Garcia_01_17_2022.pdf'
 import ParticlePreset from '../particles/ParticlePreset'
 
 const sentence = {
