@@ -11,6 +11,7 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Backdrop from '@material-ui/core/Backdrop'
 import IconButton from '@material-ui/core/IconButton'
 import { useDimensions } from '../../hooks/useDimensions'
+import pdfCV from '../../downloads/CV_Cali_Dominic_Garcia_01_17_2022.pdf'
 
 const useStyles = makeStyles({
   rootAppBar: {
@@ -201,8 +202,15 @@ const Navbar = (props) => {
                       variants={navLinkVariant}
                     />
                   </motion.div>
+
+                  <div className="shadow-md hover:shadow-xl rounded-md w-40 mx-4 my-2 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
+                    <a className="py-2 text-sm lg:text-md font-semibold font-display" download="CV_Dominic_Ross_Garcia.pdf" href={pdfCV}>
+                      Download Resume
+                    </a>
+                  </div>
                   
                 </div>
+
                 <div>
                   <Link to="/">
                     <StaticImage placeholder="blurred" className="w-16 m-2" src="../../images/dom_logo_2_white.png" alt="drg logo" />
@@ -222,7 +230,7 @@ const Navbar = (props) => {
               >
                 <motion.div className={ isOpen ? "fixed top-0 left-0 bottom-0 w-60 bg-gunPowder-dark z-1300" : "fixed top-0 left-0 bottom-0 w-60 bg-gunPowder z-1300"} variants={sidebar} />
                 <Backdrop className={classes.rootBackdrop} open={isOpen} onClick={handleToggle} />
-                <motion.div className={ isOpen ? 'fixed z-1400 top-32 left-20' : 'absolute z-1400 -top-full'} variants={linksVariants}>
+                <motion.div className={ isOpen ? 'fixed z-1400 top-32 left-10' : 'absolute z-1400 -top-full'} variants={linksVariants}>
 
                 <motion.div variants={itemVariants} className="flex justify-center">
                   <Link to="/">
@@ -243,6 +251,12 @@ const Navbar = (props) => {
                     <p>About</p>
                   </Link>
                 </motion.div>
+
+                <div className="shadow-md hover:shadow-xl rounded-md w-40 mx-auto my-4 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
+                  <a className="py-2 text-sm lg:text-md font-semibold font-display" download="CV_Dominic_Ross_Garcia.pdf" href={pdfCV}>
+                    Download Resume
+                  </a>
+                </div>
 
                 </motion.div>
                 <IconButton onClick={handleToggle} aria-label="menu" classes={{ root: classes.rootIconButton }}>
