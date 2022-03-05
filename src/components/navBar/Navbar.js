@@ -203,7 +203,7 @@ const Navbar = (props) => {
                     />
                   </motion.div>
 
-                  <div className="shadow-md hover:shadow-xl rounded-md w-40 mx-4 my-2 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
+                  <div className="shadow-md hover:shadow-xl rounded-md w-40 mx-8 my-2 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
                     <a className="py-2 text-sm lg:text-md font-semibold font-display" download="CV_Dominic_Ross_Garcia.pdf" href={pdfCV}>
                       Download Resume
                     </a>
