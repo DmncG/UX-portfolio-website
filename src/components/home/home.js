@@ -153,7 +153,7 @@ const Home = () => {
 
           <div className="shadow-md hover:shadow-xl rounded-md w-56 lg:w-72 mx-auto my-2 flex justify-center items-center bg-terracota hover:bg-terracota-light text-rice cursor-pointer">
             <a className="py-3 text-lg lg:text-2xl font-semibold font-display" download="CV_Dominic_Ross_Garcia.pdf" href={pdfCV}>
-              Download CV
+              Download Resume
             </a>
           </div>
           <div className="md:hidden my-8 text-terracota-dark opacity-1/2 flex justify-center items-center animate-bounce">
