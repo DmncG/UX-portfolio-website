@@ -11,7 +11,7 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Backdrop from '@material-ui/core/Backdrop'
 import IconButton from '@material-ui/core/IconButton'
 import { useDimensions } from '../../hooks/useDimensions'
-import pdfCV from '../../downloads/CV_Cali_Dominic_Garcia_01_17_2022.pdf'
+import pdfCV from '../../downloads/CV_Dominic_Garcia_9-14-23.pdf'
 
 const useStyles = makeStyles({
   rootAppBar: {
